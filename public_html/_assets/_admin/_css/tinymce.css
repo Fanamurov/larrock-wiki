@@ -1,0 +1,20 @@
+body{
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+table{
+  width: 100%;
+}
+
+.mce-widget button {
+  font-size: inherit;
+  line-height: inherit;
+  color: black !important;
+  background: blanchedalmond !important;
+}
+
+.mce-btn.mce-active, .mce-btn.mce-active:hover, .mce-btn.mce-active:focus, .mce-btn.mce-active:active{
+  background: #555c66 !important;
+}

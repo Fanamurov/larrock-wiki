@@ -1,0 +1,54 @@
+footer{
+  margin-top: 55px;
+  @media (max-width: 768px) {
+    margin-top: 25px;
+  }
+
+  > .uk-container-center{
+    background: #f7f7f7;
+    color: black;
+    min-height: 304px;
+  }
+  .footer-text{
+    padding-top: 15px;
+  }
+
+  a{
+    color: $color_link;
+  }
+
+  .uk-h2{
+    color: black;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .footer-copyright{
+    padding-top: 30px;
+    margin-bottom: 25px;
+    position: relative;
+
+    > div{
+      position: absolute;
+      bottom: -5px;
+      right: 170px;
+      @media (max-width: 881px) {
+        right: 0;
+      }
+    }
+
+    a{
+      font-size: 14px;
+      font-weight: 300;
+      color: black;
+      line-height: 21px;
+      display: inline-block;
+    }
+  }
+  .larrock-block-tekst_v_podvale{
+    line-height: 35px;
+    @media (min-width: 1024px) {
+      margin-left: 84px;
+    }
+  }
+}
