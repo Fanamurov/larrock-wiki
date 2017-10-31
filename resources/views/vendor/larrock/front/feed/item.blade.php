@@ -29,7 +29,7 @@
 
 @section('contentBottom')
     <div class="uk-text-right">
-        <a class="uk-button" href="{{ $data->get_category->full_url }}">Назад к разделу</a>
+        <a class="uk-button" href="{{ $data->get_category->full_url }}">Назад к "{{ $data->get_category->title }}"</a>
     </div>
     <div class="uk-clearfix"></div>
 @endsection
