@@ -615,16 +615,16 @@
         },
         {
             "name": "fanamurov/larrock-blocks",
-            "version": "v0.3.3",
+            "version": "v0.3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-blocks.git",
-                "reference": "c5ebe99a77e20b4f8a14bca5c8027722f9eb1f41"
+                "reference": "d2acf601c0814ade82779ba4bb86e33faa573838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/c5ebe99a77e20b4f8a14bca5c8027722f9eb1f41",
-                "reference": "c5ebe99a77e20b4f8a14bca5c8027722f9eb1f41",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/d2acf601c0814ade82779ba4bb86e33faa573838",
+                "reference": "d2acf601c0814ade82779ba4bb86e33faa573838",
                 "shasum": ""
             },
             "require": {
@@ -658,7 +658,7 @@
                 }
             ],
             "description": "Template blocks component for larrockCMS",
-            "time": "2017-10-31T05:06:22+00:00"
+            "time": "2017-10-31T08:01:35+00:00"
         },
         {
             "name": "fanamurov/larrock-category",
@@ -881,16 +881,16 @@
         },
         {
             "name": "fanamurov/larrock-menu",
-            "version": "v0.3.2",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-menu.git",
-                "reference": "dad366f2f96e63cca981783cd1893b90085490e7"
+                "reference": "ab43b4c55df5c9f0022b9bbf2d28c7f866b0847b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/dad366f2f96e63cca981783cd1893b90085490e7",
-                "reference": "dad366f2f96e63cca981783cd1893b90085490e7",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/ab43b4c55df5c9f0022b9bbf2d28c7f866b0847b",
+                "reference": "ab43b4c55df5c9f0022b9bbf2d28c7f866b0847b",
                 "shasum": ""
             },
             "require": {
@@ -924,20 +924,20 @@
                 }
             ],
             "description": "Menu component for larrockCMS",
-            "time": "2017-10-31T05:02:16+00:00"
+            "time": "2017-10-31T07:58:55+00:00"
         },
         {
             "name": "fanamurov/larrock-pages",
-            "version": "v0.3.5",
+            "version": "v0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-pages.git",
-                "reference": "59f15692e988ebdd6a77ecc8bf7a960442785518"
+                "reference": "4ed9bf218137c67415ea352fd420507c29dc269d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/59f15692e988ebdd6a77ecc8bf7a960442785518",
-                "reference": "59f15692e988ebdd6a77ecc8bf7a960442785518",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/4ed9bf218137c67415ea352fd420507c29dc269d",
+                "reference": "4ed9bf218137c67415ea352fd420507c29dc269d",
                 "shasum": ""
             },
             "require": {
@@ -971,7 +971,7 @@
                 }
             ],
             "description": "Static pages component for larrockCMS",
-            "time": "2017-10-31T05:12:38+00:00"
+            "time": "2017-10-31T07:52:56+00:00"
         },
         {
             "name": "fanamurov/larrock-search",

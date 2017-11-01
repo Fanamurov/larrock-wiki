@@ -17,6 +17,9 @@ $main_color_red: #f30;
 	  &:last-of-type {
 		padding-bottom: 0;
 	  }
+      li{
+        left: auto;
+      }
 	}
 	> ul{
 	  padding-left: 25px;

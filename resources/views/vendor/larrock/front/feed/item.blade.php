@@ -18,7 +18,6 @@
             <div class="col-xs-24">
                 {!! Breadcrumbs::render('feed.item', $data) !!}
             </div>
-            <div class="uk-clearfix"></div>
             @if($data->short_render)
                 <div class="page_short">{!! $data->short_render !!}</div>
             @endif

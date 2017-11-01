@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-    <div class="page-{{ $data->url }} uk-position-relative">
+    <div class="page-{{ $data->url }} LarrockPage uk-position-relative">
         @role('Админ|Модератор')
             <a class="admin_edit" href="/admin/page/{{ $data->id }}/edit">Редактировать</a>
         @endrole

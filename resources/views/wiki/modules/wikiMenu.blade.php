@@ -7,7 +7,7 @@
                     @if(count($child->get_childActive) > 0)
                         <ul class="uk-nav-sub">
                             @foreach($child->get_childActive as $child2)
-                                <li>
+                                <li @if(URL::current() === env('APP_URL').$child2->full_url) class="active" @endif>
                                     <a href="{{ $child2->full_url }}">{{ $child2->title }}</a>
                                 </li>
                             @endforeach
@@ -16,7 +16,7 @@
                     @if(count($child->get_feedActive) > 0)
                         <ul class="uk-nav-sub">
                             @foreach($child->get_feedActive as $feed)
-                                <li><a href="{{ $feed->full_url }}">{{ $feed->title }}</a></li>
+                                <li @if(URL::current() === env('APP_URL').$feed->full_url) class="active" @endif><a href="{{ $feed->full_url }}">{{ $feed->title }}</a></li>
                             @endforeach
                         </ul>
                     @endif

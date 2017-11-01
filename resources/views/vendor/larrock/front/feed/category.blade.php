@@ -18,7 +18,7 @@
         @if($data->description)
             <div class="description">{!! $data->description_render !!}</div>
         @endif
-        <div class="clearfix"></div><br/>
+        <div class="clearfix"></div>
 
         @foreach($data->get_child as $item)
             <div class="pageFeedCategory-item uk-grid">
@@ -51,12 +51,12 @@
             <p class="uk-h2">Материалы по теме:</p>
         @endif
         @foreach($data->get_feedActive as $item)
-            <div class="pageFeedCategory-item uk-grid">
-                <div class="uk-width-1-1 uk-position-relative">
+            <div class="pageFeedCategory-item">
+                <div class="uk-position-relative">
                     @role('Админ|Модератор')
                     <a class="admin_edit" href="/admin/feed/{{ $item->id }}/edit">Редактировать</a>
                     @endrole
-                    <h3 class="uk-margin-top-remove"><a href="{{ $item->full_url }}">{{ $item->title }}</a></h3>
+                    <h3><a href="{{ $item->full_url }}">{{ $item->title }}</a></h3>
                     <div class="pageFeedCategory-item_short">{!! $item->short !!}</div>
                 </div>
             </div>
