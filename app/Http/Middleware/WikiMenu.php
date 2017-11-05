@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use Cache;
 use Closure;
 
 class WikiMenu
@@ -15,11 +16,18 @@ class WikiMenu
      */
     public function handle($request, Closure $next)
     {
-        $categoriesTech = \LarrockCategory::getModel()->whereId(1)->with([
-            'get_childActive.get_childActive.get_childActive',
-            'get_childActive.get_feedActive',
-        ])->get();
-        $categoriesUsers = \LarrockCategory::getModel()->whereId(2)->with(['get_childActive.get_childActive.get_childActive'])->get();
+        $categoriesTech = Cache::remember('categoriesTech', 1440, function() {
+            return \LarrockCategory::getModel()->whereId(1)->with([
+                'get_childActive.get_childActive.get_childActive',
+                'get_childActive.get_feedActive',
+            ])->get();
+        });
+        $categoriesUsers = Cache::remember('categoriesUsers', 1440, function() {
+            return \LarrockCategory::getModel()->whereId(2)
+                ->with(['get_childActive.get_childActive.get_childActive'])
+                ->get();
+        });
+
         \View::share('wikiMenuTech', view('wiki.modules.wikiMenu', ['data' => $categoriesTech])->render());
         \View::share('wikiMenuUsers', view('wiki.modules.wikiMenu', ['data' => $categoriesUsers])->render());
         return $next($request);
