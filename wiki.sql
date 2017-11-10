@@ -626,4 +626,4 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `creat
 (1,	'Admin',	'admin@larrock-cms.ru',	'$2y$10$qlIjdkRQXPBuQR5F0Lzs.uv42BGTVOHhPPI.YaDTgUfHTnpsRyHeu',	NULL,	'2017-10-23 19:33:56',	'2017-10-23 19:33:56',	'Admin',	'Khabarovsk',	'Admin Khabarovsk',	'',	'',	''),
 (2,	'Admin',	'test@admin.ru',	'$2y$10$jeqIc3VWR1De8KcuuEP4quYT4Z9yjMYXyKQ3jjjLiVJKManNbFn4K',	NULL,	'2017-11-06 18:07:27',	'2017-11-06 18:07:27',	'Admin',	'Larrock',	'Admin Larrock',	'',	'',	'');
 
--- 2017-11-10 03:14:49
+-- 2017-11-10 07:24:17
