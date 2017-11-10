@@ -20,7 +20,7 @@
         @endif
         <div class="clearfix"></div>
 
-        @foreach($data->get_child as $item)
+        @foreach($data->get_childActive as $item)
             <div class="pageFeedCategory-item uk-grid">
                 <div class="uk-width-1-1 uk-position-relative uk-margin-bottom">
                     @role('Админ|Модератор')

@@ -27,8 +27,24 @@
 @endsection
 
 @section('contentBottom')
+    @if(LarrockFeed::getModel()->whereCategory($data->get_category->id)->where('id', '!=', $data->id)->count('id') > 0)
+        <div class="additional_materials uk-margin-large-bottom">
+            <p class="uk-h2">Другие материалы по теме:</p>
+            @foreach(LarrockFeed::getModel()->whereCategory($data->get_category->id)->where('id', '!=', $data->id)->get() as $item)
+                <div class="pageFeedCategory-item">
+                    <div class="uk-position-relative">
+                        @role('Админ|Модератор')
+                        <a class="admin_edit" href="/admin/feed/{{ $item->id }}/edit">Редактировать</a>
+                        @endrole
+                        <h3><a href="{{ $item->full_url }}">{{ $item->title }}</a></h3>
+                        <div class="pageFeedCategory-item_short">{!! $item->short !!}</div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    @endif
     <div class="uk-text-right">
-        <a class="uk-button" href="{{ $data->get_category->full_url }}">Назад к "{{ $data->get_category->title }}"</a>
+        <a class="uk-button" href="{{ $data->get_category->full_url }}">Назад к «{{ $data->get_category->title }}»</a>
     </div>
     <div class="uk-clearfix"></div>
 @endsection

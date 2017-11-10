@@ -29,7 +29,11 @@
                             <div class="modules-list">
                                 @yield('front.modules.list.catalog')
                                 {!! $searchSite !!}
-                                {!! $wikiMenuTech !!}
+                                @if(strpos(URL::current(), 'tekhnicheskaya-dokumentatsiya'))
+                                    {!! $wikiMenuTech !!}
+                                @else
+                                    {!! $wikiMenuUsers !!}
+                                @endif
                                 @if(isset($FeedAnons))
                                     @include('larrock::front.modules.list.news', ['data' => $FeedAnons])
                                 @endif

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "16735438b8aa63740ac431af6f6cc407",
+    "content-hash": "dbf96b9c9df0e8550cd3906877044c52",
     "packages": [
         {
             "name": "albertcht/invisible-recaptcha",
@@ -64,6 +64,62 @@
                 "recaptcha"
             ],
             "time": "2017-09-30T07:27:34+00:00"
+        },
+        {
+            "name": "artem328/laravel-yandex-kassa",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artem328/laravel-yandex-kassa.git",
+                "reference": "6e6360e2db9838232356b6a3e395ccc6725780ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artem328/laravel-yandex-kassa/zipball/6e6360e2db9838232356b6a3e395ccc6725780ce",
+                "reference": "6e6360e2db9838232356b6a3e395ccc6725780ce",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": "~5.5|~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Artem328\\LaravelYandexKassa\\": "src/LaravelYandexKassa"
+                },
+                "files": [
+                    "src/LaravelYandexKassa/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Artem Vozhzhov",
+                    "email": "vojjov.artem@ya.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yandex Kassa integration with Laravel framework",
+            "homepage": "https://github.com/artem328/laravel-yandex-kassa",
+            "keywords": [
+                "kassa",
+                "laravel",
+                "money",
+                "yandex",
+                "деньги",
+                "касса",
+                "яндекс"
+            ],
+            "time": "2016-05-30T10:05:11+00:00"
         },
         {
             "name": "barryvdh/laravel-debugbar",
@@ -569,16 +625,16 @@
         },
         {
             "name": "fanamurov/larrock-admin-seo",
-            "version": "v0.3.1",
+            "version": "v0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-admin-seo.git",
-                "reference": "f61b9be8915d00037224021e6a9471b81b0971c2"
+                "reference": "189800eb73677b4852eac21381884773748e2e02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-admin-seo/zipball/f61b9be8915d00037224021e6a9471b81b0971c2",
-                "reference": "f61b9be8915d00037224021e6a9471b81b0971c2",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-admin-seo/zipball/189800eb73677b4852eac21381884773748e2e02",
+                "reference": "189800eb73677b4852eac21381884773748e2e02",
                 "shasum": ""
             },
             "require": {
@@ -611,20 +667,20 @@
                 }
             ],
             "description": "SEO component for larrockCMS",
-            "time": "2017-10-31T05:00:50+00:00"
+            "time": "2017-11-09T05:15:40+00:00"
         },
         {
             "name": "fanamurov/larrock-blocks",
-            "version": "v0.3.3.3",
+            "version": "v0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-blocks.git",
-                "reference": "c856a634fa4c86d2c69337de00727d8b563d52ca"
+                "reference": "ea211286930865276e247728f16f2a9099074497"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/c856a634fa4c86d2c69337de00727d8b563d52ca",
-                "reference": "c856a634fa4c86d2c69337de00727d8b563d52ca",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/ea211286930865276e247728f16f2a9099074497",
+                "reference": "ea211286930865276e247728f16f2a9099074497",
                 "shasum": ""
             },
             "require": {
@@ -658,20 +714,121 @@
                 }
             ],
             "description": "Template blocks component for larrockCMS",
-            "time": "2017-11-03T07:14:21+00:00"
+            "time": "2017-11-09T02:38:03+00:00"
         },
         {
-            "name": "fanamurov/larrock-category",
-            "version": "v0.3.5.2",
+            "name": "fanamurov/larrock-cart",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Fanamurov/larrock-category.git",
-                "reference": "48ecaf0efab09523171d56634b540773faf9ce52"
+                "url": "https://github.com/Fanamurov/larrock-cart.git",
+                "reference": "65653ab94e94f027b976de57ecb00f2bd06bedfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/48ecaf0efab09523171d56634b540773faf9ce52",
-                "reference": "48ecaf0efab09523171d56634b540773faf9ce52",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/65653ab94e94f027b976de57ecb00f2bd06bedfb",
+                "reference": "65653ab94e94f027b976de57ecb00f2bd06bedfb",
+                "shasum": ""
+            },
+            "require": {
+                "artem328/laravel-yandex-kassa": "^1.0",
+                "fanamurov/larrock-catalog": "^0.3",
+                "fanamurov/larrock-category": "^0.3",
+                "fanamurov/larrock-core": "^0.3",
+                "fanamurov/larrock-users": "^0.3",
+                "gloudemans/shoppingcart": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
+                    ],
+                    "aliases": {
+                        "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larrock\\ComponentCart\\": "src",
+                    "Larrock\\ComponentCart\\Models\\": "src/Models",
+                    "Larrock\\ComponentCart\\Requests\\": "src/Requests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Fanamurov",
+                    "email": "fanamurov@ya.ru"
+                }
+            ],
+            "description": "Cart to catalog component for larrockCMS",
+            "time": "2017-11-09T05:17:20+00:00"
+        },
+        {
+            "name": "fanamurov/larrock-catalog",
+            "version": "v0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fanamurov/larrock-catalog.git",
+                "reference": "30f1099e38cbf61f047fb0ce9f47fa6aca28d1bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/30f1099e38cbf61f047fb0ce9f47fa6aca28d1bf",
+                "reference": "30f1099e38cbf61f047fb0ce9f47fa6aca28d1bf",
+                "shasum": ""
+            },
+            "require": {
+                "fanamurov/larrock-category": "^0.3",
+                "fanamurov/larrock-core": "^0.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Larrock\\ComponentCatalog\\LarrockComponentCatalogServiceProvider"
+                    ],
+                    "aliases": {
+                        "LarrockCatalog": "Larrock\\ComponentCatalog\\Facades\\LarrockCatalog"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larrock\\ComponentCatalog\\": "src",
+                    "Larrock\\ComponentCatalog\\Models\\": "src/Models"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Fanamurov",
+                    "email": "fanamurov@ya.ru"
+                }
+            ],
+            "description": "Catalog component for larrockCMS",
+            "time": "2017-11-09T05:17:46+00:00"
+        },
+        {
+            "name": "fanamurov/larrock-category",
+            "version": "v0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fanamurov/larrock-category.git",
+                "reference": "4e51e89557f98cb8b89c1151c547904c1e8d350f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/4e51e89557f98cb8b89c1151c547904c1e8d350f",
+                "reference": "4e51e89557f98cb8b89c1151c547904c1e8d350f",
                 "shasum": ""
             },
             "require": {
@@ -705,20 +862,20 @@
                 }
             ],
             "description": "Category component for larrockCMS",
-            "time": "2017-11-03T07:15:10+00:00"
+            "time": "2017-11-09T05:18:48+00:00"
         },
         {
             "name": "fanamurov/larrock-contact",
-            "version": "v0.3.6.4",
+            "version": "v0.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-contact.git",
-                "reference": "5c9f560e3bd10018ef516df59b11776f1a57cb9a"
+                "reference": "4c165168a0349d47df7bb171625274a15a5b796c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/5c9f560e3bd10018ef516df59b11776f1a57cb9a",
-                "reference": "5c9f560e3bd10018ef516df59b11776f1a57cb9a",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/4c165168a0349d47df7bb171625274a15a5b796c",
+                "reference": "4c165168a0349d47df7bb171625274a15a5b796c",
                 "shasum": ""
             },
             "require": {
@@ -750,20 +907,20 @@
                 }
             ],
             "description": "Send forms component for larrockCMS",
-            "time": "2017-11-03T07:13:31+00:00"
+            "time": "2017-11-09T05:16:53+00:00"
         },
         {
             "name": "fanamurov/larrock-core",
-            "version": "v0.3.9.6",
+            "version": "v0.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-core.git",
-                "reference": "08458ab826ecddb96118fe85a74f243b80fc2227"
+                "reference": "edb5a7c41d233577e30d815122f862141549be0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/08458ab826ecddb96118fe85a74f243b80fc2227",
-                "reference": "08458ab826ecddb96118fe85a74f243b80fc2227",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/edb5a7c41d233577e30d815122f862141549be0a",
+                "reference": "edb5a7c41d233577e30d815122f862141549be0a",
                 "shasum": ""
             },
             "require": {
@@ -829,20 +986,69 @@
                 "larrock-users",
                 "larrockCMS"
             ],
-            "time": "2017-11-05T13:30:10+00:00"
+            "time": "2017-11-09T05:13:21+00:00"
         },
         {
-            "name": "fanamurov/larrock-feed",
-            "version": "v0.3.7.3",
+            "name": "fanamurov/larrock-discount",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Fanamurov/larrock-feed.git",
-                "reference": "d43921b6813b15f00c15439f3dd6161b590c9756"
+                "url": "https://github.com/Fanamurov/larrock-discount.git",
+                "reference": "cf7aaa87796387d92daad64f62a1df9838913597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/d43921b6813b15f00c15439f3dd6161b590c9756",
-                "reference": "d43921b6813b15f00c15439f3dd6161b590c9756",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/cf7aaa87796387d92daad64f62a1df9838913597",
+                "reference": "cf7aaa87796387d92daad64f62a1df9838913597",
+                "shasum": ""
+            },
+            "require": {
+                "fanamurov/larrock-catalog": "^0.3",
+                "fanamurov/larrock-category": "^0.3",
+                "fanamurov/larrock-core": "^0.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Larrock\\ComponentDiscount\\LarrockComponentDiscountServiceProvider"
+                    ],
+                    "aliases": {
+                        "LarrockDiscount": "Larrock\\ComponentDiscount\\Facades\\LarrockDiscount"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larrock\\ComponentDiscount\\": "src",
+                    "Larrock\\ComponentDiscount\\Models\\": "src/Models"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Fanamurov",
+                    "email": "fanamurov@ya.ru"
+                }
+            ],
+            "description": "Discounts in catalog component for larrockCMS",
+            "time": "2017-11-09T05:14:19+00:00"
+        },
+        {
+            "name": "fanamurov/larrock-feed",
+            "version": "v0.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fanamurov/larrock-feed.git",
+                "reference": "ec23f965bb04f4075eba4d8e571178e95cb05a68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/ec23f965bb04f4075eba4d8e571178e95cb05a68",
+                "reference": "ec23f965bb04f4075eba4d8e571178e95cb05a68",
                 "shasum": ""
             },
             "require": {
@@ -877,7 +1083,7 @@
                 }
             ],
             "description": "Feeds items component for larrockCMS",
-            "time": "2017-11-05T13:44:59+00:00"
+            "time": "2017-11-09T05:18:21+00:00"
         },
         {
             "name": "fanamurov/larrock-menu",
@@ -885,12 +1091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-menu.git",
-                "reference": "ab43b4c55df5c9f0022b9bbf2d28c7f866b0847b"
+                "reference": "7b88c5f1d9b740031a18ee6be6c9dda6d287c5a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/ab43b4c55df5c9f0022b9bbf2d28c7f866b0847b",
-                "reference": "ab43b4c55df5c9f0022b9bbf2d28c7f866b0847b",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/7b88c5f1d9b740031a18ee6be6c9dda6d287c5a5",
+                "reference": "7b88c5f1d9b740031a18ee6be6c9dda6d287c5a5",
                 "shasum": ""
             },
             "require": {
@@ -924,20 +1130,20 @@
                 }
             ],
             "description": "Menu component for larrockCMS",
-            "time": "2017-10-31T07:58:55+00:00"
+            "time": "2017-11-09T05:16:04+00:00"
         },
         {
             "name": "fanamurov/larrock-pages",
-            "version": "v0.3.6.3",
+            "version": "v0.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-pages.git",
-                "reference": "15acd1d954027d0de9dc68c7ad713e6e004dfeb1"
+                "reference": "5ab126fab995c76b52143acc723708e7ee29ad0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/15acd1d954027d0de9dc68c7ad713e6e004dfeb1",
-                "reference": "15acd1d954027d0de9dc68c7ad713e6e004dfeb1",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/5ab126fab995c76b52143acc723708e7ee29ad0a",
+                "reference": "5ab126fab995c76b52143acc723708e7ee29ad0a",
                 "shasum": ""
             },
             "require": {
@@ -971,20 +1177,69 @@
                 }
             ],
             "description": "Static pages component for larrockCMS",
-            "time": "2017-11-05T13:41:23+00:00"
+            "time": "2017-11-09T02:38:54+00:00"
         },
         {
-            "name": "fanamurov/larrock-search",
-            "version": "v0.3.1",
+            "name": "fanamurov/larrock-reviews",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Fanamurov/larrock-search.git",
-                "reference": "b7c4b59080ede919847228fedf64fa7ddbd1584b"
+                "url": "https://github.com/Fanamurov/larrock-reviews.git",
+                "reference": "a60162eac2c97a5a6b1313d42499d4380ed5cda0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-search/zipball/b7c4b59080ede919847228fedf64fa7ddbd1584b",
-                "reference": "b7c4b59080ede919847228fedf64fa7ddbd1584b",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/a60162eac2c97a5a6b1313d42499d4380ed5cda0",
+                "reference": "a60162eac2c97a5a6b1313d42499d4380ed5cda0",
+                "shasum": ""
+            },
+            "require": {
+                "fanamurov/larrock-core": "^0.3",
+                "fanamurov/larrock-users": "^0.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Larrock\\ComponentReviews\\LarrockComponentReviewsServiceProvider"
+                    ],
+                    "aliases": {
+                        "LarrockReviews": "Larrock\\ComponentReviews\\Facades\\LarrockReviews"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larrock\\ComponentReviews\\": "src",
+                    "Larrock\\ComponentReviews\\Models\\": "src/Models",
+                    "Larrock\\ComponentReviews\\Requests\\": "src/Requests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Fanamurov",
+                    "email": "fanamurov@ya.ru"
+                }
+            ],
+            "description": "Reviews component for larrockCMS",
+            "time": "2017-11-09T05:20:03+00:00"
+        },
+        {
+            "name": "fanamurov/larrock-search",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fanamurov/larrock-search.git",
+                "reference": "a2f2fdf2abea6988be3df7404177ddfe990abef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-search/zipball/a2f2fdf2abea6988be3df7404177ddfe990abef3",
+                "reference": "a2f2fdf2abea6988be3df7404177ddfe990abef3",
                 "shasum": ""
             },
             "require": {
@@ -1014,20 +1269,63 @@
                 }
             ],
             "description": "Search content for larrockCMS",
-            "time": "2017-10-31T05:10:23+00:00"
+            "time": "2017-11-09T05:19:34+00:00"
         },
         {
-            "name": "fanamurov/larrock-users",
-            "version": "v0.3.6.1",
+            "name": "fanamurov/larrock-smartbanners",
+            "version": "v0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Fanamurov/larrock-users.git",
-                "reference": "5faf276b89f09504a72b60c2553352c8dbb6fea0"
+                "url": "https://github.com/Fanamurov/larrock-smartbanners.git",
+                "reference": "737bf6c327e9ebb74a486018d626d5dfa79c1ad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/5faf276b89f09504a72b60c2553352c8dbb6fea0",
-                "reference": "5faf276b89f09504a72b60c2553352c8dbb6fea0",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-smartbanners/zipball/737bf6c327e9ebb74a486018d626d5dfa79c1ad1",
+                "reference": "737bf6c327e9ebb74a486018d626d5dfa79c1ad1",
+                "shasum": ""
+            },
+            "require": {
+                "fanamurov/larrock-core": "^0.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Larrock\\ComponentSmartbanners\\LarrockComponentSmartbannersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larrock\\ComponentSmartbanners\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Fanamurov",
+                    "email": "fanamurov@ya.ru"
+                }
+            ],
+            "description": "Smartbanners component for larrockCMS",
+            "time": "2017-10-20T05:15:29+00:00"
+        },
+        {
+            "name": "fanamurov/larrock-users",
+            "version": "v0.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fanamurov/larrock-users.git",
+                "reference": "0b4e03cc82f5552ce62f78ffa77fe10643020aef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/0b4e03cc82f5552ce62f78ffa77fe10643020aef",
+                "reference": "0b4e03cc82f5552ce62f78ffa77fe10643020aef",
                 "shasum": ""
             },
             "require": {
@@ -1063,7 +1361,53 @@
                 }
             ],
             "description": "Users component for larrockCMS",
-            "time": "2017-11-03T07:15:38+00:00"
+            "time": "2017-11-09T05:20:51+00:00"
+        },
+        {
+            "name": "fanamurov/larrock-wizard",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fanamurov/larrock-wizard.git",
+                "reference": "19f02dfece6e747aebdd98c3b294f4ad882540ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-wizard/zipball/19f02dfece6e747aebdd98c3b294f4ad882540ef",
+                "reference": "19f02dfece6e747aebdd98c3b294f4ad882540ef",
+                "shasum": ""
+            },
+            "require": {
+                "fanamurov/larrock-catalog": "^0.3",
+                "fanamurov/larrock-category": "^0.3",
+                "fanamurov/larrock-core": "^0.3",
+                "maatwebsite/excel": "^2.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Larrock\\ComponentWizard\\LarrockComponentWizardServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larrock\\ComponentWizard\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Fanamurov",
+                    "email": "fanamurov@ya.ru"
+                }
+            ],
+            "description": "Import .xlsx price to catalog component for larrockCMS",
+            "time": "2017-11-09T05:15:06+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1121,6 +1465,66 @@
                 "trusted proxy"
             ],
             "time": "2017-06-15T17:19:42+00:00"
+        },
+        {
+            "name": "gloudemans/shoppingcart",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crinsane/LaravelShoppingcart.git",
+                "reference": "095a260a7cdd3575b39044738c5db2d50c984e55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Crinsane/LaravelShoppingcart/zipball/095a260a7cdd3575b39044738c5db2d50c984e55",
+                "reference": "095a260a7cdd3575b39044738c5db2d50c984e55",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.0",
+                "orchestra/testbench": "~3.1",
+                "phpunit/phpunit": "~5.0|~6.0"
+            },
+            "suggest": {
+                "gloudemans/notify": "Simple flash notifications for Laravel"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+                    ],
+                    "aliases": {
+                        "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gloudemans\\Shoppingcart\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Gloudemans",
+                    "email": "info@robgloudemans.nl"
+                }
+            ],
+            "description": "Laravel Shoppingcart",
+            "keywords": [
+                "laravel",
+                "shoppingcart"
+            ],
+            "time": "2017-09-02T08:44:31+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1461,6 +1865,64 @@
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
+            "name": "jeremeamia/SuperClosure",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeremeamia/super_closure.git",
+                "reference": "443c3df3207f176a1b41576ee2a66968a507b3db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/443c3df3207f176a1b41576ee2a66968a507b3db",
+                "reference": "443c3df3207f176a1b41576ee2a66968a507b3db",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^1.2|^2.0|^3.0",
+                "php": ">=5.4",
+                "symfony/polyfill-php56": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SuperClosure\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Lindblom",
+                    "email": "jeremeamia@gmail.com",
+                    "homepage": "https://github.com/jeremeamia",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Serialize Closure objects, including their context and binding",
+            "homepage": "https://github.com/jeremeamia/super_closure",
+            "keywords": [
+                "closure",
+                "function",
+                "lambda",
+                "parser",
+                "serializable",
+                "serialize",
+                "tokenizer"
+            ],
+            "time": "2016-12-07T09:37:55+00:00"
+        },
+        {
             "name": "kix/mdash",
             "version": "0.5.4",
             "source": {
@@ -1503,16 +1965,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.19",
+            "version": "v5.5.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c678100e84934ec85c9f8bc26bd0a60222682719"
+                "reference": "ce0019d22a83b1b240330ea4115ae27a4d75d79c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c678100e84934ec85c9f8bc26bd0a60222682719",
-                "reference": "c678100e84934ec85c9f8bc26bd0a60222682719",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ce0019d22a83b1b240330ea4115ae27a4d75d79c",
+                "reference": "ce0019d22a83b1b240330ea4115ae27a4d75d79c",
                 "shasum": ""
             },
             "require": {
@@ -1594,7 +2056,7 @@
                 "nexmo/client": "Required to use the Nexmo transport (~1.0).",
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
                 "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
-                "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
+                "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~3.0).",
                 "symfony/css-selector": "Required to use some of the crawler integration testing tools (~3.3).",
                 "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (~3.3).",
                 "symfony/psr-http-message-bridge": "Required to psr7 bridging features (~1.0)."
@@ -1630,7 +2092,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-10-25T19:10:45+00:00"
+            "time": "2017-11-07T14:24:50+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -1838,6 +2300,84 @@
                 "processing"
             ],
             "time": "2017-05-09T17:41:49+00:00"
+        },
+        {
+            "name": "maatwebsite/excel",
+            "version": "2.1.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
+                "reference": "8682c955601b6de15a8c7d6e373b927cc8380627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/8682c955601b6de15a8c7d6e373b927cc8380627",
+                "reference": "8682c955601b6de15a8c7d6e373b927cc8380627",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/cache": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "jeremeamia/superclosure": "^2.3",
+                "nesbot/carbon": "~1.0",
+                "php": ">=5.5",
+                "phpoffice/phpexcel": "1.8.*",
+                "tijsverkoyen/css-to-inline-styles": "~2.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "orchestra/testbench": "3.1.*|3.2.*|3.3.*|3.4.*|3.5.*",
+                "phpseclib/phpseclib": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "illuminate/http": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/queue": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/routing": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+                "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Maatwebsite\\Excel\\ExcelServiceProvider"
+                    ],
+                    "aliases": {
+                        "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+                    }
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/Maatwebsite/Excel"
+                ],
+                "psr-0": {
+                    "Maatwebsite\\Excel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maatwebsite.nl",
+                    "email": "patrick@maatwebsite.nl"
+                }
+            ],
+            "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 4 with the power of PHPExcel",
+            "keywords": [
+                "PHPExcel",
+                "batch",
+                "csv",
+                "excel",
+                "export",
+                "import",
+                "laravel"
+            ],
+            "time": "2017-09-19T19:36:48+00:00"
         },
         {
             "name": "maximebf/debugbar",
@@ -2219,6 +2759,63 @@
                 "random"
             ],
             "time": "2017-09-27T21:40:39+00:00"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2015-05-01T07:00:55+00:00"
         },
         {
             "name": "proengsoft/laravel-jsvalidation",
@@ -2745,16 +3342,16 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "6.6.1",
+            "version": "6.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
-                "reference": "1ca1c39126bfe6035ec99f149480b9aa214e80b0"
+                "reference": "36f25439883d2f15b0afe81e31e788f87bca481b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/1ca1c39126bfe6035ec99f149480b9aa214e80b0",
-                "reference": "1ca1c39126bfe6035ec99f149480b9aa214e80b0",
+                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/36f25439883d2f15b0afe81e31e788f87bca481b",
+                "reference": "36f25439883d2f15b0afe81e31e788f87bca481b",
                 "shasum": ""
             },
             "require": {
@@ -2821,7 +3418,7 @@
                 "media",
                 "spatie"
             ],
-            "time": "2017-11-02T11:39:07+00:00"
+            "time": "2017-11-07T07:58:40+00:00"
         },
         {
             "name": "spatie/pdf-to-image",
@@ -3513,6 +4110,114 @@
                 "mbstring",
                 "polyfill",
                 "portable",
+                "shim"
+            ],
+            "time": "2017-10-11T12:05:26+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php56",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php56.git",
+                "reference": "265fc96795492430762c29be291a371494ba3a5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/265fc96795492430762c29be291a371494ba3a5b",
+                "reference": "265fc96795492430762c29be291a371494ba3a5b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/polyfill-util": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php56\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 5.6+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2017-10-11T12:05:26+00:00"
+        },
+        {
+            "name": "symfony/polyfill-util",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-util.git",
+                "reference": "6e719200c8e540e0c0effeb31f96bdb344b94176"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/6e719200c8e540e0c0effeb31f96bdb344b94176",
+                "reference": "6e719200c8e540e0c0effeb31f96bdb344b94176",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Util\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony utilities for portability of PHP codes",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compat",
+                "compatibility",
+                "polyfill",
                 "shim"
             ],
             "time": "2017-10-11T12:05:26+00:00"
@@ -4759,16 +5464,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.4.3",
+            "version": "6.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "06b28548fd2b4a20c3cd6e247dc86331a7d4db13"
+                "reference": "562f7dc75d46510a4ed5d16189ae57fbe45a9932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/06b28548fd2b4a20c3cd6e247dc86331a7d4db13",
-                "reference": "06b28548fd2b4a20c3cd6e247dc86331a7d4db13",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/562f7dc75d46510a4ed5d16189ae57fbe45a9932",
+                "reference": "562f7dc75d46510a4ed5d16189ae57fbe45a9932",
                 "shasum": ""
             },
             "require": {
@@ -4839,7 +5544,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-10-16T13:18:59+00:00"
+            "time": "2017-11-08T11:26:09+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
