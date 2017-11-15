@@ -1,0 +1,27 @@
+{
+    "name": "fanamurov/larrock-search",
+    "description": "Search content for larrockCMS",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larrock\\ComponentSearch\\": "src"
+        }
+    },
+    "require": {
+        "fanamurov/larrock-core": "^0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\ComponentSearch\\LarrockSearchServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "fanamurov/larrock-core",
+    "description": "Core components for LarrockCMS",
+    "type": "library",
+    "keywords": ["larrock", "larrockCMS", "laravel", "laravel5", "laravel55", "laravel-admin", 
+        "cms", "php7", "larrock-core", "larrock-menu", "larrock-users", "larrock-pages", 
+        "larrock-blocks", "larrock-contact", "larrock-admin-seo", "larrock-admin-search"],
+    "require": {
+        "php": ">=7.0.0",
+        "barryvdh/laravel-debugbar": "~3.0",
+        "barryvdh/laravel-ide-helper": "~2.4",
+        "proengsoft/laravel-jsvalidation": "^2.0",
+        "davejamesmiller/laravel-breadcrumbs": "4.*",
+        "nicolaslopezj/searchable": "^1.9",
+        "spatie/laravel-medialibrary": "^6.0.0",
+        "kix/mdash": "^0.5.4",
+        "fanamurov/larrock-menu": "^0.3",
+        "fanamurov/larrock-users": "^0.3",
+        "fanamurov/larrock-pages": "^0.3",
+        "fanamurov/larrock-blocks": "^0.3",
+        "fanamurov/larrock-contact": "^0.3",
+        "fanamurov/larrock-admin-seo": "^0.3",
+        "fanamurov/larrock-search": "^0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larrock\\Core\\": "src",
+            "Larrock\\Core\\Models\\": "src/Models",
+            "Larrock\\Core\\Requests\\": "src/Requests"
+        }
+    },
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru",
+            "homepage": "https://github.com/Fanamurov/",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\Core\\LarrockCoreServiceProvider"
+            ]
+        }
+    }
+}

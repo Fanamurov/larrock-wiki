@@ -1,0 +1,33 @@
+{
+    "name": "fanamurov/larrock-users",
+    "description": "Users component for larrockCMS",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larrock\\ComponentUsers\\": "src",
+            "Larrock\\ComponentUsers\\Models\\": "src/Models",
+            "Larrock\\ComponentUsers\\Requests\\": "src/Requests",
+            "Larrock\\ComponentUsers\\Database\\Seeds\\": "src/database/seeds"
+        }
+    },
+    "require": {
+        "fanamurov/larrock-core": "^0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\ComponentUsers\\LarrockComponentUsersServiceProvider"
+            ],
+            "aliases": {
+                "LarrockUsers": "Larrock\\ComponentUsers\\Facades\\LarrockUsers"
+            }
+        }
+    }
+}

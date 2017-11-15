@@ -1,0 +1,25 @@
+{
+    "name": "kix/mdash",
+    "description": "E. Muravjov's typographer, Composer version",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stepan Anchugov",
+            "email": "kixxx1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "EMT": "src",
+            "EMT\\Tests": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.x"
+    },
+    "minimum-stability": "dev",
+    "keywords": [
+        "typographer",
+        "mdash"
+    ]
+}

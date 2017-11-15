@@ -1,0 +1,33 @@
+{
+    "name": "fanamurov/larrock-reviews",
+    "description": "Reviews component for larrockCMS",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larrock\\ComponentReviews\\": "src",
+            "Larrock\\ComponentReviews\\Models\\": "src/Models",
+            "Larrock\\ComponentReviews\\Requests\\": "src/Requests"
+        }
+    },
+    "require": {
+        "fanamurov/larrock-core": "^0.3",
+        "fanamurov/larrock-users": "^0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\ComponentReviews\\LarrockComponentReviewsServiceProvider"
+            ],
+            "aliases": {
+                "LarrockReviews": "Larrock\\ComponentReviews\\Facades\\LarrockReviews"
+            }
+        }
+    }
+}

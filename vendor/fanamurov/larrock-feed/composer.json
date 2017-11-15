@@ -1,0 +1,32 @@
+{
+    "name": "fanamurov/larrock-feed",
+    "description": "Feeds items component for larrockCMS",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larrock\\ComponentFeed\\": "src",
+            "Larrock\\ComponentFeed\\Models\\": "src/Models"
+        }
+    },
+    "require": {
+        "fanamurov/larrock-core": "^0.3",
+        "fanamurov/larrock-category": "^0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\ComponentFeed\\LarrockComponentFeedServiceProvider"
+            ],
+            "aliases": {
+                "LarrockFeed": "Larrock\\ComponentFeed\\Facades\\LarrockFeed"
+            }
+        }
+    }
+}

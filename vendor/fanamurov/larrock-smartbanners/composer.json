@@ -1,0 +1,27 @@
+{
+    "name": "fanamurov/larrock-smartbanners",
+    "description": "Smartbanners component for larrockCMS",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larrock\\ComponentSmartbanners\\": "src"
+        }
+    },
+    "require": {
+        "fanamurov/larrock-core": "^0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\ComponentSmartbanners\\LarrockComponentSmartbannersServiceProvider"
+            ]
+        }
+    }
+}

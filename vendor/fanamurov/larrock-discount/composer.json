@@ -1,0 +1,33 @@
+{
+    "name": "fanamurov/larrock-discount",
+    "description": "Discounts in catalog component for larrockCMS",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Alexandr Fanamurov",
+            "email": "fanamurov@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larrock\\ComponentDiscount\\": "src",
+            "Larrock\\ComponentDiscount\\Models\\": "src/Models"
+        }
+    },
+    "require": {
+        "fanamurov/larrock-core": "^0.3",
+        "fanamurov/larrock-catalog": "^0.3",
+        "fanamurov/larrock-category": "^0.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larrock\\ComponentDiscount\\LarrockComponentDiscountServiceProvider"
+            ],
+            "aliases": {
+                "LarrockDiscount": "Larrock\\ComponentDiscount\\Facades\\LarrockDiscount"
+            }
+        }
+    }
+}
