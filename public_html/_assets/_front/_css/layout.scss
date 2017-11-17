@@ -421,6 +421,33 @@ a.admin_edit {
   font: 14px/20px Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
+@media (max-width: 426px) {
+  .pageFeedItem{
+    ul.uk-breadcrumb{
+      margin-top: 35px;
+      margin-bottom: 25px;
+    }
+  }
+  .hljs{
+    padding-bottom: 22px;
+  }
+  :not(pre)>code, :not(pre)>kbd, :not(pre)>samp{
+    white-space: normal !important;
+  }
+
+  .page_description{
+    p{
+      white-space: normal;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      &:hover, &:focus{
+        overflow: inherit;
+        text-overflow: inherit;
+      }
+    }
+  }
+}
+
 
 @import "./sections/header";
 @import "./sections/footer";

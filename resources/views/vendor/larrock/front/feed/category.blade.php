@@ -13,10 +13,10 @@
             {!! Breadcrumbs::render('feed.category', $data) !!}
         </div>
         @if($data->short)
-            <div class="short">{!! $data->short_render !!}</div>
+            <div class="short uk-margin-large-bottom">{!! $data->short_render !!}</div>
         @endif
         @if($data->description)
-            <div class="description">{!! $data->description_render !!}</div>
+            <div class="description uk-margin-large-bottom">{!! $data->description_render !!}</div>
         @endif
         <div class="clearfix"></div>
 

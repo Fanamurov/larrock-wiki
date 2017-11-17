@@ -3,7 +3,13 @@ section#right_colomn {
   padding-left: 25px;
 
   @media (max-width: 881px) {
-    display: none;
+    padding-top: 55px;
+    > div{
+      background: #eaeaea;
+      height: 100%;
+      padding-top: 7px;
+      border-radius: 10px;
+    }
   }
 
   &:before{

@@ -1,6 +1,26 @@
 header{
   padding-top: 15px;
   background: url("/_assets/_front/_images/bg/bg.png") repeat;
+
+  .logo_text{
+    display: none;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 0 15px 0;
+    font-weight: 700;
+  }
+  @media (max-width: 426px) {
+    margin-top: 0;
+    padding-top: 0;
+
+    .a_logo{
+      display: none;
+    }
+    .logo_text{
+      display: block;
+    }
+  }
   @media (max-width: 414px) {
     .uk-margin-large-bottom {
       margin-bottom: 25px!important;
@@ -26,6 +46,10 @@ header{
     @media (max-width: 768px) {
       margin-top: 20px;
       margin-bottom: 15px;
+    }
+    @media (max-width: 426px) {
+      margin-top: 5px;
+      margin-bottom: 3px;
     }
   }
 }

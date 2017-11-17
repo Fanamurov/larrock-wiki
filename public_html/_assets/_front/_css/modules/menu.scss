@@ -1,4 +1,11 @@
 section#top_menu{
+  @media (max-width: 426px) {
+    padding: 0;
+
+    .header-links{
+      margin-top: 0;
+    }
+  }
   .uk-navbar{
     background: none;
     text-align: center;
@@ -33,6 +40,15 @@ section#top_menu{
         font-size: 19px;
         font-weight: 500;
         border-radius: 25px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+
+        @media (max-width: 426px) {
+          font-size: 17px;
+          padding: 0 10px;
+        }
         @media (max-width: 768px) {
           border-radius: 0;
         }
