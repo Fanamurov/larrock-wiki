@@ -16,3 +16,4 @@
 <link rel="stylesheet" href="/_assets/_front/_css/code_hightlight/github-gist.css">
 <script src="/_assets/_front/_js/highlight.pack.js"></script>
 <meta name="yandex-verification" content="d7214ad692742eec" />
+<meta name="google-site-verification" content="8bTDxcOUKN-J9Z5c_8CixZ2m4otlA68ZyUvtTDyIZww" />
