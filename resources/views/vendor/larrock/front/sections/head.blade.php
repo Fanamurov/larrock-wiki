@@ -15,3 +15,4 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <link rel="stylesheet" href="/_assets/_front/_css/code_hightlight/github-gist.css">
 <script src="/_assets/_front/_js/highlight.pack.js"></script>
+<meta name="yandex-verification" content="d7214ad692742eec" />
