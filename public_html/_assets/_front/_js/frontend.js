@@ -12,7 +12,6 @@ function noty_show(type, message){
             timeout : 0,
             pos     : 'top-center'
         });
-
     }else{
         UIkit.notify({
             message : '<i class="uk-icon-check"></i> '+ message,
@@ -141,6 +140,7 @@ function change_option_ajax() {
  */
 function add_to_cart_fast() {
     $('.add_to_cart_fast').click(function(){
+        noty_show('message', 'Добавляем в корзину');
         var qty = 1;
         if(parseInt($(this).attr('data-id')) > 0){
             qty = parseInt($(this).attr('data-qty'));
@@ -258,6 +258,26 @@ function link_block() {
 
     /** Ищет в элементе аттрибут data-href и делает блок ссылкой */
     $('.link_block_this').click(function(){window.location = $(this).attr('data-href');});
+}
+
+function checkKuponDiscount() {
+    var keyword = $('input[name=kupon]').val();
+    $.ajax({
+        url: '/ajax/checkKuponDiscount',
+        type: 'POST',
+        dataType: 'json',
+        data: {
+            keyword: keyword
+        },
+        error: function() {
+            noty_show('alert', 'Такого купона нет');
+            $('.kupon_text').slideUp().html();
+        },
+        success: function(res) {
+            noty_show('success', 'Купон "'+ keyword +'" будет применен');
+            $('.kupon_text').slideDown().html(res.message);
+        }
+    });
 }
 
 $(document).ready(function(){

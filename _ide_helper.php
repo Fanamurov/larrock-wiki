@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.5.20 on 2017-11-09.
+ * Generated for Laravel 5.5.21 on 2017-11-22.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -375,6 +375,18 @@ namespace Illuminate\Support\Facades {
         public static function getProvider($provider)
         {
             return \Illuminate\Foundation\Application::getProvider($provider);
+        }
+        
+        /**
+         * Get the registered service provider instances if any exist.
+         *
+         * @param \Illuminate\Support\ServiceProvider|string $provider
+         * @return array 
+         * @static 
+         */ 
+        public static function getProviders($provider)
+        {
+            return \Illuminate\Foundation\Application::getProviders($provider);
         }
         
         /**
@@ -7410,8 +7422,8 @@ namespace Illuminate\Support\Facades {
          * 
          * Order of precedence: PATH (routing placeholders or custom attributes), GET, BODY
          *
-         * @param string $key the key
-         * @param mixed $default the default value if the parameter key does not exist
+         * @param string $key The key
+         * @param mixed $default The default value if the parameter key does not exist
          * @return mixed 
          * @static 
          */ 
@@ -13036,1127 +13048,6 @@ namespace Barryvdh\Debugbar {
  
 }
 
-namespace Larrock\ComponentCategory\Facades { 
-
-    class LarrockCategory {
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function createSitemap()
-        {
-            return \Larrock\ComponentCategory\CategoryComponent::createSitemap();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function search()
-        {
-            return \Larrock\ComponentCategory\CategoryComponent::search();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getConfig();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTitle()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getTitle();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModel()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getModel();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModelName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getModelName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getTable();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getRows()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getRows();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getValid()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::getValid();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addFillableUserRows($rows)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addFillableUserRows($rows);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPositionAndActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addPositionAndActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPosition()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addPosition();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function shareConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::shareConfig();
-        }
-        
-        /**
-         * Используется через SaveAdminPluginsData Middleware (Core)
-         *
-         * @param $request
-         * @static 
-         */ 
-        public static function savePluginsData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::savePluginsData($request);
-        }
-        
-        /**
-         * Подключение плагина SEO
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function addPluginSeo()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addPluginSeo();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function savePluginSeoData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::savePluginSeoData($request);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginImages()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addPluginImages();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginFiles()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addPluginFiles();
-        }
-        
-        /**
-         * Плагин для генерации анонса новости для блока анонс новости
-         *
-         * @param int $categoryAnons ID категории с анонсами
-         * @return $this 
-         * @static 
-         */ 
-        public static function addAnonsToModule($categoryAnons)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addAnonsToModule($categoryAnons);
-        }
-        
-        /**
-         * Создание анонса новости
-         *
-         * @param $request
-         * @return bool 
-         * @static 
-         */ 
-        public static function savePluginAnonsToModuleData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::savePluginAnonsToModuleData($request);
-        }
-        
-        /**
-         * Вспомогательный метод построения правил валидации из конфига полей компонента
-         *
-         * @param $config
-         * @param string $action create|update
-         * @param null $id
-         * @return array 
-         * @static 
-         */ 
-        public static function _valid_construct($config, $action = 'create', $id = null)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::_valid_construct($config, $action, $id);
-        }
-        
-        /**
-         * Вывод данные полей компонента для табов
-         *
-         * @param $data
-         * @return $this 
-         * @static 
-         */ 
-        public static function tabbable($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::tabbable($data);
-        }
-        
-        /**
-         * Присоединяем данные от плагинов
-         *
-         * @param $data
-         * @static 
-         */ 
-        public static function addDataPlugins($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::addDataPlugins($data);
-        }
-        
-        /**
-         * Удаление данных плагинов
-         *
-         * @param $config
-         * @static 
-         */ 
-        public static function removeDataPlugins($config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::removeDataPlugins($config);
-        }
-        
-        /**
-         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
-         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
-         *
-         * @param mixed $config Предсгенерированный конфиг компонента
-         * @param mixed $data Данные материала после сохранения ($data->save())
-         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
-         * @static 
-         */ 
-        public static function actionAttach($config, $data, $request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::actionAttach($config, $data, $request);
-        }
-        
-        /**
-         * Перезапись конфига компонента (например внутри контроллера)
-         *
-         * @param $option
-         * @param $config
-         * @return $this 
-         * @static 
-         */ 
-        public static function overrideComponent($option, $config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::overrideComponent($option, $config);
-        }
-        
-        /**
-         * Разрешить поиск по материалам компонента
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function isSearchable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::isSearchable();
-        }
-        
-        /**
-         * Формирование пунктов меню компонента в админке
-         *
-         * @return string 
-         * @static 
-         */ 
-        public static function renderAdminMenu()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::renderAdminMenu();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в rss-feed
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createRSS()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCategory\CategoryComponent::createRSS();
-        }
-         
-    }
- 
-}
-
-namespace Larrock\ComponentFeed\Facades { 
-
-    class LarrockFeed {
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function renderAdminMenu()
-        {
-            return \Larrock\ComponentFeed\FeedComponent::renderAdminMenu();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function createSitemap()
-        {
-            return \Larrock\ComponentFeed\FeedComponent::createSitemap();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function search()
-        {
-            return \Larrock\ComponentFeed\FeedComponent::search();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getConfig();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTitle()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getTitle();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModel()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getModel();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModelName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getModelName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getTable();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getRows()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getRows();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getValid()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::getValid();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addFillableUserRows($rows)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addFillableUserRows($rows);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPositionAndActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addPositionAndActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPosition()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addPosition();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function shareConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::shareConfig();
-        }
-        
-        /**
-         * Используется через SaveAdminPluginsData Middleware (Core)
-         *
-         * @param $request
-         * @static 
-         */ 
-        public static function savePluginsData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::savePluginsData($request);
-        }
-        
-        /**
-         * Подключение плагина SEO
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function addPluginSeo()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addPluginSeo();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function savePluginSeoData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::savePluginSeoData($request);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginImages()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addPluginImages();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginFiles()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addPluginFiles();
-        }
-        
-        /**
-         * Плагин для генерации анонса новости для блока анонс новости
-         *
-         * @param int $categoryAnons ID категории с анонсами
-         * @return $this 
-         * @static 
-         */ 
-        public static function addAnonsToModule($categoryAnons)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addAnonsToModule($categoryAnons);
-        }
-        
-        /**
-         * Создание анонса новости
-         *
-         * @param $request
-         * @return bool 
-         * @static 
-         */ 
-        public static function savePluginAnonsToModuleData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::savePluginAnonsToModuleData($request);
-        }
-        
-        /**
-         * Вспомогательный метод построения правил валидации из конфига полей компонента
-         *
-         * @param $config
-         * @param string $action create|update
-         * @param null $id
-         * @return array 
-         * @static 
-         */ 
-        public static function _valid_construct($config, $action = 'create', $id = null)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::_valid_construct($config, $action, $id);
-        }
-        
-        /**
-         * Вывод данные полей компонента для табов
-         *
-         * @param $data
-         * @return $this 
-         * @static 
-         */ 
-        public static function tabbable($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::tabbable($data);
-        }
-        
-        /**
-         * Присоединяем данные от плагинов
-         *
-         * @param $data
-         * @static 
-         */ 
-        public static function addDataPlugins($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::addDataPlugins($data);
-        }
-        
-        /**
-         * Удаление данных плагинов
-         *
-         * @param $config
-         * @static 
-         */ 
-        public static function removeDataPlugins($config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::removeDataPlugins($config);
-        }
-        
-        /**
-         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
-         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
-         *
-         * @param mixed $config Предсгенерированный конфиг компонента
-         * @param mixed $data Данные материала после сохранения ($data->save())
-         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
-         * @static 
-         */ 
-        public static function actionAttach($config, $data, $request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::actionAttach($config, $data, $request);
-        }
-        
-        /**
-         * Перезапись конфига компонента (например внутри контроллера)
-         *
-         * @param $option
-         * @param $config
-         * @return $this 
-         * @static 
-         */ 
-        public static function overrideComponent($option, $config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::overrideComponent($option, $config);
-        }
-        
-        /**
-         * Разрешить поиск по материалам компонента
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function isSearchable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::isSearchable();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в rss-feed
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createRSS()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentFeed\FeedComponent::createRSS();
-        }
-         
-    }
- 
-}
-
-namespace Larrock\ComponentCatalog\Facades { 
-
-    class LarrockCatalog {
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getRows()
-        {
-            return \Larrock\ComponentCatalog\CatalogComponent::getRows();
-        }
-        
-        /**
-         * Объединение конфига компонента с конфигом каталога из Wizard
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function mergeWizardConfig()
-        {
-            return \Larrock\ComponentCatalog\CatalogComponent::mergeWizardConfig();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function renderAdminMenu()
-        {
-            return \Larrock\ComponentCatalog\CatalogComponent::renderAdminMenu();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function createSitemap()
-        {
-            return \Larrock\ComponentCatalog\CatalogComponent::createSitemap();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getConfig();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTitle()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getTitle();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModel()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getModel();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModelName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getModelName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getTable();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getValid()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::getValid();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addFillableUserRows($rows)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addFillableUserRows($rows);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPositionAndActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addPositionAndActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPosition()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addPosition();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function shareConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::shareConfig();
-        }
-        
-        /**
-         * Используется через SaveAdminPluginsData Middleware (Core)
-         *
-         * @param $request
-         * @static 
-         */ 
-        public static function savePluginsData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::savePluginsData($request);
-        }
-        
-        /**
-         * Подключение плагина SEO
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function addPluginSeo()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addPluginSeo();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function savePluginSeoData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::savePluginSeoData($request);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginImages()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addPluginImages();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginFiles()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addPluginFiles();
-        }
-        
-        /**
-         * Плагин для генерации анонса новости для блока анонс новости
-         *
-         * @param int $categoryAnons ID категории с анонсами
-         * @return $this 
-         * @static 
-         */ 
-        public static function addAnonsToModule($categoryAnons)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addAnonsToModule($categoryAnons);
-        }
-        
-        /**
-         * Создание анонса новости
-         *
-         * @param $request
-         * @return bool 
-         * @static 
-         */ 
-        public static function savePluginAnonsToModuleData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::savePluginAnonsToModuleData($request);
-        }
-        
-        /**
-         * Вспомогательный метод построения правил валидации из конфига полей компонента
-         *
-         * @param $config
-         * @param string $action create|update
-         * @param null $id
-         * @return array 
-         * @static 
-         */ 
-        public static function _valid_construct($config, $action = 'create', $id = null)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::_valid_construct($config, $action, $id);
-        }
-        
-        /**
-         * Вывод данные полей компонента для табов
-         *
-         * @param $data
-         * @return $this 
-         * @static 
-         */ 
-        public static function tabbable($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::tabbable($data);
-        }
-        
-        /**
-         * Присоединяем данные от плагинов
-         *
-         * @param $data
-         * @static 
-         */ 
-        public static function addDataPlugins($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::addDataPlugins($data);
-        }
-        
-        /**
-         * Удаление данных плагинов
-         *
-         * @param $config
-         * @static 
-         */ 
-        public static function removeDataPlugins($config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::removeDataPlugins($config);
-        }
-        
-        /**
-         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
-         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
-         *
-         * @param mixed $config Предсгенерированный конфиг компонента
-         * @param mixed $data Данные материала после сохранения ($data->save())
-         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
-         * @static 
-         */ 
-        public static function actionAttach($config, $data, $request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::actionAttach($config, $data, $request);
-        }
-        
-        /**
-         * Перезапись конфига компонента (например внутри контроллера)
-         *
-         * @param $option
-         * @param $config
-         * @return $this 
-         * @static 
-         */ 
-        public static function overrideComponent($option, $config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::overrideComponent($option, $config);
-        }
-        
-        /**
-         * Разрешить поиск по материалам компонента
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function isSearchable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::isSearchable();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в rss-feed
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createRSS()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::createRSS();
-        }
-        
-        /**
-         * Данные для поиска по материалам компонента
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function search()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCatalog\CatalogComponent::search();
-        }
-         
-    }
- 
-}
-
 namespace Gloudemans\Shoppingcart\Facades { 
 
     class Cart {
@@ -14378,389 +13269,6 @@ namespace Gloudemans\Shoppingcart\Facades {
  
 }
 
-namespace Larrock\ComponentCart\Facades { 
-
-    class LarrockCart {
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function renderAdminMenu()
-        {
-            return \Larrock\ComponentCart\CartComponent::renderAdminMenu();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function toDashboard()
-        {
-            return \Larrock\ComponentCart\CartComponent::toDashboard();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getConfig();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTitle()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getTitle();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModel()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getModel();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModelName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getModelName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getTable();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getRows()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getRows();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getValid()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::getValid();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addFillableUserRows($rows)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addFillableUserRows($rows);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPositionAndActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addPositionAndActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPosition()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addPosition();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function shareConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::shareConfig();
-        }
-        
-        /**
-         * Используется через SaveAdminPluginsData Middleware (Core)
-         *
-         * @param $request
-         * @static 
-         */ 
-        public static function savePluginsData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::savePluginsData($request);
-        }
-        
-        /**
-         * Подключение плагина SEO
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function addPluginSeo()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addPluginSeo();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function savePluginSeoData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::savePluginSeoData($request);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginImages()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addPluginImages();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginFiles()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addPluginFiles();
-        }
-        
-        /**
-         * Плагин для генерации анонса новости для блока анонс новости
-         *
-         * @param int $categoryAnons ID категории с анонсами
-         * @return $this 
-         * @static 
-         */ 
-        public static function addAnonsToModule($categoryAnons)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addAnonsToModule($categoryAnons);
-        }
-        
-        /**
-         * Создание анонса новости
-         *
-         * @param $request
-         * @return bool 
-         * @static 
-         */ 
-        public static function savePluginAnonsToModuleData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::savePluginAnonsToModuleData($request);
-        }
-        
-        /**
-         * Вспомогательный метод построения правил валидации из конфига полей компонента
-         *
-         * @param $config
-         * @param string $action create|update
-         * @param null $id
-         * @return array 
-         * @static 
-         */ 
-        public static function _valid_construct($config, $action = 'create', $id = null)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::_valid_construct($config, $action, $id);
-        }
-        
-        /**
-         * Вывод данные полей компонента для табов
-         *
-         * @param $data
-         * @return $this 
-         * @static 
-         */ 
-        public static function tabbable($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::tabbable($data);
-        }
-        
-        /**
-         * Присоединяем данные от плагинов
-         *
-         * @param $data
-         * @static 
-         */ 
-        public static function addDataPlugins($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::addDataPlugins($data);
-        }
-        
-        /**
-         * Удаление данных плагинов
-         *
-         * @param $config
-         * @static 
-         */ 
-        public static function removeDataPlugins($config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::removeDataPlugins($config);
-        }
-        
-        /**
-         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
-         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
-         *
-         * @param mixed $config Предсгенерированный конфиг компонента
-         * @param mixed $data Данные материала после сохранения ($data->save())
-         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
-         * @static 
-         */ 
-        public static function actionAttach($config, $data, $request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::actionAttach($config, $data, $request);
-        }
-        
-        /**
-         * Перезапись конфига компонента (например внутри контроллера)
-         *
-         * @param $option
-         * @param $config
-         * @return $this 
-         * @static 
-         */ 
-        public static function overrideComponent($option, $config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::overrideComponent($option, $config);
-        }
-        
-        /**
-         * Разрешить поиск по материалам компонента
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function isSearchable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::isSearchable();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в карту сайта sitemap.xml
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createSitemap()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::createSitemap();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в rss-feed
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createRSS()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::createRSS();
-        }
-        
-        /**
-         * Данные для поиска по материалам компонента
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function search()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentCart\CartComponent::search();
-        }
-         
-    }
- 
-}
-
 namespace Maatwebsite\Excel\Facades { 
 
     class Excel {
@@ -14900,6 +13408,819 @@ namespace Maatwebsite\Excel\Facades {
  
 }
 
+namespace Larrock\ComponentCategory\Facades { 
+
+    class LarrockCategory {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function createSitemap()
+        {
+            return \Larrock\ComponentCategory\CategoryComponent::createSitemap();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function search($admin = null)
+        {
+            return \Larrock\ComponentCategory\CategoryComponent::search($admin);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTitle()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getTitle();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModel()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getModel();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModelName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getModelName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getTable();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getValid()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addFillableUserRows($rows)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addFillableUserRows($rows);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPositionAndActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addPositionAndActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPosition()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addPosition();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function shareConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
+         * Используется через SaveAdminPluginsData Middleware (Core)
+         *
+         * @param $request
+         * @static 
+         */ 
+        public static function savePluginsData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::savePluginsData($request);
+        }
+        
+        /**
+         * Подключение плагина SEO
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function addPluginSeo()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addPluginSeo();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function savePluginSeoData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::savePluginSeoData($request);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginImages()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addCustomMediaConversions($conversions);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginFiles()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addPluginFiles();
+        }
+        
+        /**
+         * Плагин для генерации анонса новости для блока анонс новости
+         *
+         * @param int $categoryAnons ID категории с анонсами
+         * @return $this 
+         * @static 
+         */ 
+        public static function addAnonsToModule($categoryAnons)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addAnonsToModule($categoryAnons);
+        }
+        
+        /**
+         * Создание анонса новости
+         *
+         * @param $request
+         * @return bool 
+         * @static 
+         */ 
+        public static function savePluginAnonsToModuleData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::savePluginAnonsToModuleData($request);
+        }
+        
+        /**
+         * Вспомогательный метод построения правил валидации из конфига полей компонента
+         *
+         * @param $config
+         * @param string $action create|update
+         * @param null $id
+         * @return array 
+         * @static 
+         */ 
+        public static function _valid_construct($config, $action = 'create', $id = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::_valid_construct($config, $action, $id);
+        }
+        
+        /**
+         * Вывод данные полей компонента для табов
+         *
+         * @param $data
+         * @return $this 
+         * @static 
+         */ 
+        public static function tabbable($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::tabbable($data);
+        }
+        
+        /**
+         * Присоединяем данные от плагинов
+         *
+         * @param $data
+         * @static 
+         */ 
+        public static function addDataPlugins($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::addDataPlugins($data);
+        }
+        
+        /**
+         * Удаление данных плагинов
+         *
+         * @param $config
+         * @static 
+         */ 
+        public static function removeDataPlugins($config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::removeDataPlugins($config);
+        }
+        
+        /**
+         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
+         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
+         *
+         * @param mixed $config Предсгенерированный конфиг компонента
+         * @param mixed $data Данные материала после сохранения ($data->save())
+         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
+         * @static 
+         */ 
+        public static function actionAttach($config, $data, $request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::actionAttach($config, $data, $request);
+        }
+        
+        /**
+         * Перезапись конфига компонента (например внутри контроллера)
+         *
+         * @param $option
+         * @param $config
+         * @return $this 
+         * @static 
+         */ 
+        public static function overrideComponent($option, $config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::overrideComponent($option, $config);
+        }
+        
+        /**
+         * Разрешить поиск по материалам компонента
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function isSearchable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::isSearchable();
+        }
+        
+        /**
+         * Формирование пунктов меню компонента в админке
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function renderAdminMenu()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::renderAdminMenu();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в rss-feed
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createRSS()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCategory\CategoryComponent::createRSS();
+        }
+         
+    }
+ 
+}
+
+namespace Larrock\ComponentMenu\Facades { 
+
+    class LarrockMenu {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function renderAdminMenu()
+        {
+            return \Larrock\ComponentMenu\MenuComponent::renderAdminMenu();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTitle()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getTitle();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModel()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getModel();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModelName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getModelName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getTable();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getValid()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addFillableUserRows($rows)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addFillableUserRows($rows);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPositionAndActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addPositionAndActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPosition()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addPosition();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function shareConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
+         * Используется через SaveAdminPluginsData Middleware (Core)
+         *
+         * @param $request
+         * @static 
+         */ 
+        public static function savePluginsData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::savePluginsData($request);
+        }
+        
+        /**
+         * Подключение плагина SEO
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function addPluginSeo()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addPluginSeo();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function savePluginSeoData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::savePluginSeoData($request);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginImages()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addCustomMediaConversions($conversions);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginFiles()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addPluginFiles();
+        }
+        
+        /**
+         * Плагин для генерации анонса новости для блока анонс новости
+         *
+         * @param int $categoryAnons ID категории с анонсами
+         * @return $this 
+         * @static 
+         */ 
+        public static function addAnonsToModule($categoryAnons)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addAnonsToModule($categoryAnons);
+        }
+        
+        /**
+         * Создание анонса новости
+         *
+         * @param $request
+         * @return bool 
+         * @static 
+         */ 
+        public static function savePluginAnonsToModuleData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::savePluginAnonsToModuleData($request);
+        }
+        
+        /**
+         * Вспомогательный метод построения правил валидации из конфига полей компонента
+         *
+         * @param $config
+         * @param string $action create|update
+         * @param null $id
+         * @return array 
+         * @static 
+         */ 
+        public static function _valid_construct($config, $action = 'create', $id = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::_valid_construct($config, $action, $id);
+        }
+        
+        /**
+         * Вывод данные полей компонента для табов
+         *
+         * @param $data
+         * @return $this 
+         * @static 
+         */ 
+        public static function tabbable($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::tabbable($data);
+        }
+        
+        /**
+         * Присоединяем данные от плагинов
+         *
+         * @param $data
+         * @static 
+         */ 
+        public static function addDataPlugins($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::addDataPlugins($data);
+        }
+        
+        /**
+         * Удаление данных плагинов
+         *
+         * @param $config
+         * @static 
+         */ 
+        public static function removeDataPlugins($config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::removeDataPlugins($config);
+        }
+        
+        /**
+         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
+         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
+         *
+         * @param mixed $config Предсгенерированный конфиг компонента
+         * @param mixed $data Данные материала после сохранения ($data->save())
+         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
+         * @static 
+         */ 
+        public static function actionAttach($config, $data, $request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::actionAttach($config, $data, $request);
+        }
+        
+        /**
+         * Перезапись конфига компонента (например внутри контроллера)
+         *
+         * @param $option
+         * @param $config
+         * @return $this 
+         * @static 
+         */ 
+        public static function overrideComponent($option, $config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::overrideComponent($option, $config);
+        }
+        
+        /**
+         * Разрешить поиск по материалам компонента
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function isSearchable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::isSearchable();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в карту сайта sitemap.xml
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createSitemap()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::createSitemap();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в rss-feed
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createRSS()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::createRSS();
+        }
+        
+        /**
+         * Данные для поиска по материалам компонента
+         *
+         * @param null|bool $admin Если TRUE - дял поиска будут доступны вообще все элементы (не только опубликованные)
+         * @return null 
+         * @static 
+         */ 
+        public static function search($admin)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentMenu\MenuComponent::search($admin);
+        }
+         
+    }
+ 
+}
+
 namespace Larrock\ComponentDiscount\Facades { 
 
     class LarrockDiscount {
@@ -14997,6 +14318,17 @@ namespace Larrock\ComponentDiscount\Facades {
          *
          * @static 
          */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentDiscount\DiscountComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
         public static function addFillableUserRows($rows)
         {
             //Method inherited from \Larrock\Core\Component            
@@ -15048,6 +14380,17 @@ namespace Larrock\ComponentDiscount\Facades {
         }
         
         /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentDiscount\DiscountComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
          * Используется через SaveAdminPluginsData Middleware (Core)
          *
          * @param $request
@@ -15091,6 +14434,18 @@ namespace Larrock\ComponentDiscount\Facades {
         {
             //Method inherited from \Larrock\Core\Component            
             return \Larrock\ComponentDiscount\DiscountComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentDiscount\DiscountComponent::addCustomMediaConversions($conversions);
         }
         
         /**
@@ -15262,13 +14617,1245 @@ namespace Larrock\ComponentDiscount\Facades {
         /**
          * Данные для поиска по материалам компонента
          *
+         * @param null|bool $admin Если TRUE - дял поиска будут доступны вообще все элементы (не только опубликованные)
          * @return null 
          * @static 
          */ 
-        public static function search()
+        public static function search($admin)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentDiscount\DiscountComponent::search();
+            return \Larrock\ComponentDiscount\DiscountComponent::search($admin);
+        }
+         
+    }
+ 
+}
+
+namespace Larrock\ComponentBlocks\Facades { 
+
+    class LarrockBlocks {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function renderAdminMenu()
+        {
+            return \Larrock\ComponentBlocks\BlocksComponent::renderAdminMenu();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function toDashboard()
+        {
+            return \Larrock\ComponentBlocks\BlocksComponent::toDashboard();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function search($admin = null)
+        {
+            return \Larrock\ComponentBlocks\BlocksComponent::search($admin);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTitle()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getTitle();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModel()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getModel();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModelName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getModelName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getTable();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getValid()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addFillableUserRows($rows)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addFillableUserRows($rows);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPositionAndActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addPositionAndActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPosition()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addPosition();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function shareConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
+         * Используется через SaveAdminPluginsData Middleware (Core)
+         *
+         * @param $request
+         * @static 
+         */ 
+        public static function savePluginsData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::savePluginsData($request);
+        }
+        
+        /**
+         * Подключение плагина SEO
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function addPluginSeo()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addPluginSeo();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function savePluginSeoData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::savePluginSeoData($request);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginImages()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addCustomMediaConversions($conversions);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginFiles()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addPluginFiles();
+        }
+        
+        /**
+         * Плагин для генерации анонса новости для блока анонс новости
+         *
+         * @param int $categoryAnons ID категории с анонсами
+         * @return $this 
+         * @static 
+         */ 
+        public static function addAnonsToModule($categoryAnons)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addAnonsToModule($categoryAnons);
+        }
+        
+        /**
+         * Создание анонса новости
+         *
+         * @param $request
+         * @return bool 
+         * @static 
+         */ 
+        public static function savePluginAnonsToModuleData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::savePluginAnonsToModuleData($request);
+        }
+        
+        /**
+         * Вспомогательный метод построения правил валидации из конфига полей компонента
+         *
+         * @param $config
+         * @param string $action create|update
+         * @param null $id
+         * @return array 
+         * @static 
+         */ 
+        public static function _valid_construct($config, $action = 'create', $id = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::_valid_construct($config, $action, $id);
+        }
+        
+        /**
+         * Вывод данные полей компонента для табов
+         *
+         * @param $data
+         * @return $this 
+         * @static 
+         */ 
+        public static function tabbable($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::tabbable($data);
+        }
+        
+        /**
+         * Присоединяем данные от плагинов
+         *
+         * @param $data
+         * @static 
+         */ 
+        public static function addDataPlugins($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::addDataPlugins($data);
+        }
+        
+        /**
+         * Удаление данных плагинов
+         *
+         * @param $config
+         * @static 
+         */ 
+        public static function removeDataPlugins($config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::removeDataPlugins($config);
+        }
+        
+        /**
+         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
+         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
+         *
+         * @param mixed $config Предсгенерированный конфиг компонента
+         * @param mixed $data Данные материала после сохранения ($data->save())
+         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
+         * @static 
+         */ 
+        public static function actionAttach($config, $data, $request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::actionAttach($config, $data, $request);
+        }
+        
+        /**
+         * Перезапись конфига компонента (например внутри контроллера)
+         *
+         * @param $option
+         * @param $config
+         * @return $this 
+         * @static 
+         */ 
+        public static function overrideComponent($option, $config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::overrideComponent($option, $config);
+        }
+        
+        /**
+         * Разрешить поиск по материалам компонента
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function isSearchable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::isSearchable();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в карту сайта sitemap.xml
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createSitemap()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::createSitemap();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в rss-feed
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createRSS()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentBlocks\BlocksComponent::createRSS();
+        }
+         
+    }
+ 
+}
+
+namespace Larrock\ComponentPages\Facades { 
+
+    class LarrockPages {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function renderAdminMenu()
+        {
+            return \Larrock\ComponentPages\PageComponent::renderAdminMenu();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function createSitemap()
+        {
+            return \Larrock\ComponentPages\PageComponent::createSitemap();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function toDashboard()
+        {
+            return \Larrock\ComponentPages\PageComponent::toDashboard();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function search($admin = null)
+        {
+            return \Larrock\ComponentPages\PageComponent::search($admin);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTitle()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getTitle();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModel()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getModel();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModelName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getModelName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getTable();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getValid()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addFillableUserRows($rows)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addFillableUserRows($rows);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPositionAndActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addPositionAndActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPosition()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addPosition();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function shareConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
+         * Используется через SaveAdminPluginsData Middleware (Core)
+         *
+         * @param $request
+         * @static 
+         */ 
+        public static function savePluginsData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::savePluginsData($request);
+        }
+        
+        /**
+         * Подключение плагина SEO
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function addPluginSeo()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addPluginSeo();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function savePluginSeoData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::savePluginSeoData($request);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginImages()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addCustomMediaConversions($conversions);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginFiles()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addPluginFiles();
+        }
+        
+        /**
+         * Плагин для генерации анонса новости для блока анонс новости
+         *
+         * @param int $categoryAnons ID категории с анонсами
+         * @return $this 
+         * @static 
+         */ 
+        public static function addAnonsToModule($categoryAnons)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addAnonsToModule($categoryAnons);
+        }
+        
+        /**
+         * Создание анонса новости
+         *
+         * @param $request
+         * @return bool 
+         * @static 
+         */ 
+        public static function savePluginAnonsToModuleData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::savePluginAnonsToModuleData($request);
+        }
+        
+        /**
+         * Вспомогательный метод построения правил валидации из конфига полей компонента
+         *
+         * @param $config
+         * @param string $action create|update
+         * @param null $id
+         * @return array 
+         * @static 
+         */ 
+        public static function _valid_construct($config, $action = 'create', $id = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::_valid_construct($config, $action, $id);
+        }
+        
+        /**
+         * Вывод данные полей компонента для табов
+         *
+         * @param $data
+         * @return $this 
+         * @static 
+         */ 
+        public static function tabbable($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::tabbable($data);
+        }
+        
+        /**
+         * Присоединяем данные от плагинов
+         *
+         * @param $data
+         * @static 
+         */ 
+        public static function addDataPlugins($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::addDataPlugins($data);
+        }
+        
+        /**
+         * Удаление данных плагинов
+         *
+         * @param $config
+         * @static 
+         */ 
+        public static function removeDataPlugins($config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::removeDataPlugins($config);
+        }
+        
+        /**
+         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
+         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
+         *
+         * @param mixed $config Предсгенерированный конфиг компонента
+         * @param mixed $data Данные материала после сохранения ($data->save())
+         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
+         * @static 
+         */ 
+        public static function actionAttach($config, $data, $request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::actionAttach($config, $data, $request);
+        }
+        
+        /**
+         * Перезапись конфига компонента (например внутри контроллера)
+         *
+         * @param $option
+         * @param $config
+         * @return $this 
+         * @static 
+         */ 
+        public static function overrideComponent($option, $config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::overrideComponent($option, $config);
+        }
+        
+        /**
+         * Разрешить поиск по материалам компонента
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function isSearchable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::isSearchable();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в rss-feed
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createRSS()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentPages\PageComponent::createRSS();
+        }
+         
+    }
+ 
+}
+
+namespace Larrock\ComponentFeed\Facades { 
+
+    class LarrockFeed {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function renderAdminMenu()
+        {
+            return \Larrock\ComponentFeed\FeedComponent::renderAdminMenu();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function createSitemap()
+        {
+            return \Larrock\ComponentFeed\FeedComponent::createSitemap();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function search($admin = null)
+        {
+            return \Larrock\ComponentFeed\FeedComponent::search($admin);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTitle()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getTitle();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModel()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getModel();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getModelName()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getModelName();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getTable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getTable();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getValid()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addFillableUserRows($rows)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addFillableUserRows($rows);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPositionAndActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addPositionAndActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPosition()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addPosition();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addActive()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addActive();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function shareConfig()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
+         * Используется через SaveAdminPluginsData Middleware (Core)
+         *
+         * @param $request
+         * @static 
+         */ 
+        public static function savePluginsData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::savePluginsData($request);
+        }
+        
+        /**
+         * Подключение плагина SEO
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function addPluginSeo()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addPluginSeo();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function savePluginSeoData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::savePluginSeoData($request);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginImages()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addCustomMediaConversions($conversions);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function addPluginFiles()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addPluginFiles();
+        }
+        
+        /**
+         * Плагин для генерации анонса новости для блока анонс новости
+         *
+         * @param int $categoryAnons ID категории с анонсами
+         * @return $this 
+         * @static 
+         */ 
+        public static function addAnonsToModule($categoryAnons)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addAnonsToModule($categoryAnons);
+        }
+        
+        /**
+         * Создание анонса новости
+         *
+         * @param $request
+         * @return bool 
+         * @static 
+         */ 
+        public static function savePluginAnonsToModuleData($request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::savePluginAnonsToModuleData($request);
+        }
+        
+        /**
+         * Вспомогательный метод построения правил валидации из конфига полей компонента
+         *
+         * @param $config
+         * @param string $action create|update
+         * @param null $id
+         * @return array 
+         * @static 
+         */ 
+        public static function _valid_construct($config, $action = 'create', $id = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::_valid_construct($config, $action, $id);
+        }
+        
+        /**
+         * Вывод данные полей компонента для табов
+         *
+         * @param $data
+         * @return $this 
+         * @static 
+         */ 
+        public static function tabbable($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::tabbable($data);
+        }
+        
+        /**
+         * Присоединяем данные от плагинов
+         *
+         * @param $data
+         * @static 
+         */ 
+        public static function addDataPlugins($data)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::addDataPlugins($data);
+        }
+        
+        /**
+         * Удаление данных плагинов
+         *
+         * @param $config
+         * @static 
+         */ 
+        public static function removeDataPlugins($config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::removeDataPlugins($config);
+        }
+        
+        /**
+         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
+         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
+         *
+         * @param mixed $config Предсгенерированный конфиг компонента
+         * @param mixed $data Данные материала после сохранения ($data->save())
+         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
+         * @static 
+         */ 
+        public static function actionAttach($config, $data, $request)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::actionAttach($config, $data, $request);
+        }
+        
+        /**
+         * Перезапись конфига компонента (например внутри контроллера)
+         *
+         * @param $option
+         * @param $config
+         * @return $this 
+         * @static 
+         */ 
+        public static function overrideComponent($option, $config)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::overrideComponent($option, $config);
+        }
+        
+        /**
+         * Разрешить поиск по материалам компонента
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function isSearchable()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::isSearchable();
+        }
+        
+        /**
+         * Метод встаивания данных компонента в rss-feed
+         *
+         * @return null 
+         * @static 
+         */ 
+        public static function createRSS()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentFeed\FeedComponent::createRSS();
         }
          
     }
@@ -15392,6 +15979,17 @@ namespace Larrock\ComponentReviews\Facades {
          *
          * @static 
          */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentReviews\ReviewsComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
         public static function addFillableUserRows($rows)
         {
             //Method inherited from \Larrock\Core\Component            
@@ -15443,6 +16041,17 @@ namespace Larrock\ComponentReviews\Facades {
         }
         
         /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentReviews\ReviewsComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
          * Используется через SaveAdminPluginsData Middleware (Core)
          *
          * @param $request
@@ -15486,6 +16095,18 @@ namespace Larrock\ComponentReviews\Facades {
         {
             //Method inherited from \Larrock\Core\Component            
             return \Larrock\ComponentReviews\ReviewsComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentReviews\ReviewsComponent::addCustomMediaConversions($conversions);
         }
         
         /**
@@ -15633,22 +16254,44 @@ namespace Larrock\ComponentReviews\Facades {
         /**
          * Данные для поиска по материалам компонента
          *
+         * @param null|bool $admin Если TRUE - дял поиска будут доступны вообще все элементы (не только опубликованные)
          * @return null 
          * @static 
          */ 
-        public static function search()
+        public static function search($admin)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentReviews\ReviewsComponent::search();
+            return \Larrock\ComponentReviews\ReviewsComponent::search($admin);
         }
          
     }
  
 }
 
-namespace Larrock\ComponentMenu\Facades { 
+namespace Larrock\ComponentCatalog\Facades { 
 
-    class LarrockMenu {
+    class LarrockCatalog {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getRows()
+        {
+            return \Larrock\ComponentCatalog\CatalogComponent::getRows();
+        }
+        
+        /**
+         * Объединение конфига компонента с конфигом каталога из Wizard
+         *
+         * @return $this 
+         * @static 
+         */ 
+        public static function mergeWizardConfig()
+        {
+            return \Larrock\ComponentCatalog\CatalogComponent::mergeWizardConfig();
+        }
         
         /**
          * 
@@ -15657,7 +16300,27 @@ namespace Larrock\ComponentMenu\Facades {
          */ 
         public static function renderAdminMenu()
         {
-            return \Larrock\ComponentMenu\MenuComponent::renderAdminMenu();
+            return \Larrock\ComponentCatalog\CatalogComponent::renderAdminMenu();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function createSitemap()
+        {
+            return \Larrock\ComponentCatalog\CatalogComponent::createSitemap();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function search($admin = null)
+        {
+            return \Larrock\ComponentCatalog\CatalogComponent::search($admin);
         }
         
         /**
@@ -15668,7 +16331,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getConfig()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getConfig();
+            return \Larrock\ComponentCatalog\CatalogComponent::getConfig();
         }
         
         /**
@@ -15679,7 +16342,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getName()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getName();
+            return \Larrock\ComponentCatalog\CatalogComponent::getName();
         }
         
         /**
@@ -15690,7 +16353,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getTitle()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getTitle();
+            return \Larrock\ComponentCatalog\CatalogComponent::getTitle();
         }
         
         /**
@@ -15701,7 +16364,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getModel()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getModel();
+            return \Larrock\ComponentCatalog\CatalogComponent::getModel();
         }
         
         /**
@@ -15712,7 +16375,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getModelName()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getModelName();
+            return \Larrock\ComponentCatalog\CatalogComponent::getModelName();
         }
         
         /**
@@ -15723,18 +16386,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getTable()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getTable();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getRows()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getRows();
+            return \Larrock\ComponentCatalog\CatalogComponent::getTable();
         }
         
         /**
@@ -15745,7 +16397,18 @@ namespace Larrock\ComponentMenu\Facades {
         public static function getValid()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::getValid();
+            return \Larrock\ComponentCatalog\CatalogComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCatalog\CatalogComponent::getFillableRows();
         }
         
         /**
@@ -15756,7 +16419,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addFillableUserRows($rows)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addFillableUserRows($rows);
+            return \Larrock\ComponentCatalog\CatalogComponent::addFillableUserRows($rows);
         }
         
         /**
@@ -15767,7 +16430,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addPositionAndActive()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addPositionAndActive();
+            return \Larrock\ComponentCatalog\CatalogComponent::addPositionAndActive();
         }
         
         /**
@@ -15778,7 +16441,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addPosition()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addPosition();
+            return \Larrock\ComponentCatalog\CatalogComponent::addPosition();
         }
         
         /**
@@ -15789,7 +16452,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addActive()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addActive();
+            return \Larrock\ComponentCatalog\CatalogComponent::addActive();
         }
         
         /**
@@ -15800,7 +16463,18 @@ namespace Larrock\ComponentMenu\Facades {
         public static function shareConfig()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::shareConfig();
+            return \Larrock\ComponentCatalog\CatalogComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCatalog\CatalogComponent::combineFrontMiddlewares($user_middlewares);
         }
         
         /**
@@ -15812,7 +16486,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function savePluginsData($request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::savePluginsData($request);
+            return \Larrock\ComponentCatalog\CatalogComponent::savePluginsData($request);
         }
         
         /**
@@ -15824,7 +16498,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addPluginSeo()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addPluginSeo();
+            return \Larrock\ComponentCatalog\CatalogComponent::addPluginSeo();
         }
         
         /**
@@ -15835,7 +16509,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function savePluginSeoData($request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::savePluginSeoData($request);
+            return \Larrock\ComponentCatalog\CatalogComponent::savePluginSeoData($request);
         }
         
         /**
@@ -15846,7 +16520,19 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addPluginImages()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addPluginImages();
+            return \Larrock\ComponentCatalog\CatalogComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCatalog\CatalogComponent::addCustomMediaConversions($conversions);
         }
         
         /**
@@ -15857,7 +16543,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addPluginFiles()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addPluginFiles();
+            return \Larrock\ComponentCatalog\CatalogComponent::addPluginFiles();
         }
         
         /**
@@ -15870,7 +16556,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addAnonsToModule($categoryAnons)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addAnonsToModule($categoryAnons);
+            return \Larrock\ComponentCatalog\CatalogComponent::addAnonsToModule($categoryAnons);
         }
         
         /**
@@ -15883,7 +16569,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function savePluginAnonsToModuleData($request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::savePluginAnonsToModuleData($request);
+            return \Larrock\ComponentCatalog\CatalogComponent::savePluginAnonsToModuleData($request);
         }
         
         /**
@@ -15898,7 +16584,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function _valid_construct($config, $action = 'create', $id = null)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::_valid_construct($config, $action, $id);
+            return \Larrock\ComponentCatalog\CatalogComponent::_valid_construct($config, $action, $id);
         }
         
         /**
@@ -15911,7 +16597,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function tabbable($data)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::tabbable($data);
+            return \Larrock\ComponentCatalog\CatalogComponent::tabbable($data);
         }
         
         /**
@@ -15923,7 +16609,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function addDataPlugins($data)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::addDataPlugins($data);
+            return \Larrock\ComponentCatalog\CatalogComponent::addDataPlugins($data);
         }
         
         /**
@@ -15935,7 +16621,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function removeDataPlugins($config)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::removeDataPlugins($config);
+            return \Larrock\ComponentCatalog\CatalogComponent::removeDataPlugins($config);
         }
         
         /**
@@ -15950,7 +16636,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function actionAttach($config, $data, $request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::actionAttach($config, $data, $request);
+            return \Larrock\ComponentCatalog\CatalogComponent::actionAttach($config, $data, $request);
         }
         
         /**
@@ -15964,7 +16650,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function overrideComponent($option, $config)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::overrideComponent($option, $config);
+            return \Larrock\ComponentCatalog\CatalogComponent::overrideComponent($option, $config);
         }
         
         /**
@@ -15976,19 +16662,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function isSearchable()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::isSearchable();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в карту сайта sitemap.xml
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createSitemap()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::createSitemap();
+            return \Larrock\ComponentCatalog\CatalogComponent::isSearchable();
         }
         
         /**
@@ -16000,19 +16674,7 @@ namespace Larrock\ComponentMenu\Facades {
         public static function createRSS()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::createRSS();
-        }
-        
-        /**
-         * Данные для поиска по материалам компонента
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function search()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentMenu\MenuComponent::search();
+            return \Larrock\ComponentCatalog\CatalogComponent::createRSS();
         }
          
     }
@@ -16136,6 +16798,17 @@ namespace Larrock\ComponentUsers\Facades {
          *
          * @static 
          */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentUsers\UsersComponent::getFillableRows();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
         public static function addFillableUserRows($rows)
         {
             //Method inherited from \Larrock\Core\Component            
@@ -16187,6 +16860,17 @@ namespace Larrock\ComponentUsers\Facades {
         }
         
         /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentUsers\UsersComponent::combineFrontMiddlewares($user_middlewares);
+        }
+        
+        /**
          * Используется через SaveAdminPluginsData Middleware (Core)
          *
          * @param $request
@@ -16230,6 +16914,18 @@ namespace Larrock\ComponentUsers\Facades {
         {
             //Method inherited from \Larrock\Core\Component            
             return \Larrock\ComponentUsers\UsersComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentUsers\UsersComponent::addCustomMediaConversions($conversions);
         }
         
         /**
@@ -16389,22 +17085,23 @@ namespace Larrock\ComponentUsers\Facades {
         /**
          * Данные для поиска по материалам компонента
          *
+         * @param null|bool $admin Если TRUE - дял поиска будут доступны вообще все элементы (не только опубликованные)
          * @return null 
          * @static 
          */ 
-        public static function search()
+        public static function search($admin)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentUsers\UsersComponent::search();
+            return \Larrock\ComponentUsers\UsersComponent::search($admin);
         }
          
     }
  
 }
 
-namespace Larrock\ComponentPages\Facades { 
+namespace Larrock\ComponentCart\Facades { 
 
-    class LarrockPages {
+    class LarrockCart {
         
         /**
          * 
@@ -16413,17 +17110,7 @@ namespace Larrock\ComponentPages\Facades {
          */ 
         public static function renderAdminMenu()
         {
-            return \Larrock\ComponentPages\PageComponent::renderAdminMenu();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function createSitemap()
-        {
-            return \Larrock\ComponentPages\PageComponent::createSitemap();
+            return \Larrock\ComponentCart\CartComponent::renderAdminMenu();
         }
         
         /**
@@ -16433,17 +17120,7 @@ namespace Larrock\ComponentPages\Facades {
          */ 
         public static function toDashboard()
         {
-            return \Larrock\ComponentPages\PageComponent::toDashboard();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function search()
-        {
-            return \Larrock\ComponentPages\PageComponent::search();
+            return \Larrock\ComponentCart\CartComponent::toDashboard();
         }
         
         /**
@@ -16454,7 +17131,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getConfig()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getConfig();
+            return \Larrock\ComponentCart\CartComponent::getConfig();
         }
         
         /**
@@ -16465,7 +17142,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getName()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getName();
+            return \Larrock\ComponentCart\CartComponent::getName();
         }
         
         /**
@@ -16476,7 +17153,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getTitle()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getTitle();
+            return \Larrock\ComponentCart\CartComponent::getTitle();
         }
         
         /**
@@ -16487,7 +17164,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getModel()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getModel();
+            return \Larrock\ComponentCart\CartComponent::getModel();
         }
         
         /**
@@ -16498,7 +17175,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getModelName()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getModelName();
+            return \Larrock\ComponentCart\CartComponent::getModelName();
         }
         
         /**
@@ -16509,7 +17186,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getTable()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getTable();
+            return \Larrock\ComponentCart\CartComponent::getTable();
         }
         
         /**
@@ -16520,7 +17197,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function getRows()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getRows();
+            return \Larrock\ComponentCart\CartComponent::getRows();
         }
         
         /**
@@ -16531,7 +17208,18 @@ namespace Larrock\ComponentPages\Facades {
         public static function getValid()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::getValid();
+            return \Larrock\ComponentCart\CartComponent::getValid();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getFillableRows()
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCart\CartComponent::getFillableRows();
         }
         
         /**
@@ -16542,7 +17230,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addFillableUserRows($rows)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addFillableUserRows($rows);
+            return \Larrock\ComponentCart\CartComponent::addFillableUserRows($rows);
         }
         
         /**
@@ -16553,7 +17241,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addPositionAndActive()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addPositionAndActive();
+            return \Larrock\ComponentCart\CartComponent::addPositionAndActive();
         }
         
         /**
@@ -16564,7 +17252,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addPosition()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addPosition();
+            return \Larrock\ComponentCart\CartComponent::addPosition();
         }
         
         /**
@@ -16575,7 +17263,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addActive()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addActive();
+            return \Larrock\ComponentCart\CartComponent::addActive();
         }
         
         /**
@@ -16586,7 +17274,18 @@ namespace Larrock\ComponentPages\Facades {
         public static function shareConfig()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::shareConfig();
+            return \Larrock\ComponentCart\CartComponent::shareConfig();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function combineFrontMiddlewares($user_middlewares = null)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCart\CartComponent::combineFrontMiddlewares($user_middlewares);
         }
         
         /**
@@ -16598,7 +17297,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function savePluginsData($request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::savePluginsData($request);
+            return \Larrock\ComponentCart\CartComponent::savePluginsData($request);
         }
         
         /**
@@ -16610,7 +17309,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addPluginSeo()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addPluginSeo();
+            return \Larrock\ComponentCart\CartComponent::addPluginSeo();
         }
         
         /**
@@ -16621,7 +17320,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function savePluginSeoData($request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::savePluginSeoData($request);
+            return \Larrock\ComponentCart\CartComponent::savePluginSeoData($request);
         }
         
         /**
@@ -16632,7 +17331,19 @@ namespace Larrock\ComponentPages\Facades {
         public static function addPluginImages()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addPluginImages();
+            return \Larrock\ComponentCart\CartComponent::addPluginImages();
+        }
+        
+        /**
+         * Метод для добавления в модель новых пресетов картинок для Medialibrary
+         *
+         * @param $conversions
+         * @static 
+         */ 
+        public static function addCustomMediaConversions($conversions)
+        {
+            //Method inherited from \Larrock\Core\Component            
+            return \Larrock\ComponentCart\CartComponent::addCustomMediaConversions($conversions);
         }
         
         /**
@@ -16643,7 +17354,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addPluginFiles()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addPluginFiles();
+            return \Larrock\ComponentCart\CartComponent::addPluginFiles();
         }
         
         /**
@@ -16656,7 +17367,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addAnonsToModule($categoryAnons)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addAnonsToModule($categoryAnons);
+            return \Larrock\ComponentCart\CartComponent::addAnonsToModule($categoryAnons);
         }
         
         /**
@@ -16669,7 +17380,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function savePluginAnonsToModuleData($request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::savePluginAnonsToModuleData($request);
+            return \Larrock\ComponentCart\CartComponent::savePluginAnonsToModuleData($request);
         }
         
         /**
@@ -16684,7 +17395,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function _valid_construct($config, $action = 'create', $id = null)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::_valid_construct($config, $action, $id);
+            return \Larrock\ComponentCart\CartComponent::_valid_construct($config, $action, $id);
         }
         
         /**
@@ -16697,7 +17408,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function tabbable($data)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::tabbable($data);
+            return \Larrock\ComponentCart\CartComponent::tabbable($data);
         }
         
         /**
@@ -16709,7 +17420,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function addDataPlugins($data)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::addDataPlugins($data);
+            return \Larrock\ComponentCart\CartComponent::addDataPlugins($data);
         }
         
         /**
@@ -16721,7 +17432,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function removeDataPlugins($config)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::removeDataPlugins($config);
+            return \Larrock\ComponentCart\CartComponent::removeDataPlugins($config);
         }
         
         /**
@@ -16736,7 +17447,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function actionAttach($config, $data, $request)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::actionAttach($config, $data, $request);
+            return \Larrock\ComponentCart\CartComponent::actionAttach($config, $data, $request);
         }
         
         /**
@@ -16750,7 +17461,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function overrideComponent($option, $config)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::overrideComponent($option, $config);
+            return \Larrock\ComponentCart\CartComponent::overrideComponent($option, $config);
         }
         
         /**
@@ -16762,366 +17473,7 @@ namespace Larrock\ComponentPages\Facades {
         public static function isSearchable()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::isSearchable();
-        }
-        
-        /**
-         * Метод встаивания данных компонента в rss-feed
-         *
-         * @return null 
-         * @static 
-         */ 
-        public static function createRSS()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentPages\PageComponent::createRSS();
-        }
-         
-    }
- 
-}
-
-namespace Larrock\ComponentBlocks\Facades { 
-
-    class LarrockBlocks {
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function renderAdminMenu()
-        {
-            return \Larrock\ComponentBlocks\BlocksComponent::renderAdminMenu();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function toDashboard()
-        {
-            return \Larrock\ComponentBlocks\BlocksComponent::toDashboard();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getConfig();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTitle()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getTitle();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModel()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getModel();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getModelName()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getModelName();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getTable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getTable();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getRows()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getRows();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getValid()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::getValid();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addFillableUserRows($rows)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addFillableUserRows($rows);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPositionAndActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addPositionAndActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPosition()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addPosition();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addActive()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addActive();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function shareConfig()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::shareConfig();
-        }
-        
-        /**
-         * Используется через SaveAdminPluginsData Middleware (Core)
-         *
-         * @param $request
-         * @static 
-         */ 
-        public static function savePluginsData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::savePluginsData($request);
-        }
-        
-        /**
-         * Подключение плагина SEO
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function addPluginSeo()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addPluginSeo();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function savePluginSeoData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::savePluginSeoData($request);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginImages()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addPluginImages();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function addPluginFiles()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addPluginFiles();
-        }
-        
-        /**
-         * Плагин для генерации анонса новости для блока анонс новости
-         *
-         * @param int $categoryAnons ID категории с анонсами
-         * @return $this 
-         * @static 
-         */ 
-        public static function addAnonsToModule($categoryAnons)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addAnonsToModule($categoryAnons);
-        }
-        
-        /**
-         * Создание анонса новости
-         *
-         * @param $request
-         * @return bool 
-         * @static 
-         */ 
-        public static function savePluginAnonsToModuleData($request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::savePluginAnonsToModuleData($request);
-        }
-        
-        /**
-         * Вспомогательный метод построения правил валидации из конфига полей компонента
-         *
-         * @param $config
-         * @param string $action create|update
-         * @param null $id
-         * @return array 
-         * @static 
-         */ 
-        public static function _valid_construct($config, $action = 'create', $id = null)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::_valid_construct($config, $action, $id);
-        }
-        
-        /**
-         * Вывод данные полей компонента для табов
-         *
-         * @param $data
-         * @return $this 
-         * @static 
-         */ 
-        public static function tabbable($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::tabbable($data);
-        }
-        
-        /**
-         * Присоединяем данные от плагинов
-         *
-         * @param $data
-         * @static 
-         */ 
-        public static function addDataPlugins($data)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::addDataPlugins($data);
-        }
-        
-        /**
-         * Удаление данных плагинов
-         *
-         * @param $config
-         * @static 
-         */ 
-        public static function removeDataPlugins($config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::removeDataPlugins($config);
-        }
-        
-        /**
-         * Метод изменяет данные прикрепляемых полей при изменении/удалении/добавлении материала
-         * ИСПОЛЬЗОВАНИЕ: в экшенах сохранения/удаления материалов после data->save()
-         *
-         * @param mixed $config Предсгенерированный конфиг компонента
-         * @param mixed $data Данные материала после сохранения ($data->save())
-         * @param mixed $request Параметры переданные в качестве запроса. Значение Request $request
-         * @static 
-         */ 
-        public static function actionAttach($config, $data, $request)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::actionAttach($config, $data, $request);
-        }
-        
-        /**
-         * Перезапись конфига компонента (например внутри контроллера)
-         *
-         * @param $option
-         * @param $config
-         * @return $this 
-         * @static 
-         */ 
-        public static function overrideComponent($option, $config)
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::overrideComponent($option, $config);
-        }
-        
-        /**
-         * Разрешить поиск по материалам компонента
-         *
-         * @return $this 
-         * @static 
-         */ 
-        public static function isSearchable()
-        {
-            //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::isSearchable();
+            return \Larrock\ComponentCart\CartComponent::isSearchable();
         }
         
         /**
@@ -17133,7 +17485,7 @@ namespace Larrock\ComponentBlocks\Facades {
         public static function createSitemap()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::createSitemap();
+            return \Larrock\ComponentCart\CartComponent::createSitemap();
         }
         
         /**
@@ -17145,19 +17497,20 @@ namespace Larrock\ComponentBlocks\Facades {
         public static function createRSS()
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::createRSS();
+            return \Larrock\ComponentCart\CartComponent::createRSS();
         }
         
         /**
          * Данные для поиска по материалам компонента
          *
+         * @param null|bool $admin Если TRUE - дял поиска будут доступны вообще все элементы (не только опубликованные)
          * @return null 
          * @static 
          */ 
-        public static function search()
+        public static function search($admin)
         {
             //Method inherited from \Larrock\Core\Component            
-            return \Larrock\ComponentBlocks\BlocksComponent::search();
+            return \Larrock\ComponentCart\CartComponent::search($admin);
         }
          
     }
@@ -19285,29 +19638,29 @@ namespace  {
 
     class Debugbar extends \Barryvdh\Debugbar\Facade {}
 
-    class LarrockCategory extends \Larrock\ComponentCategory\Facades\LarrockCategory {}
-
-    class LarrockFeed extends \Larrock\ComponentFeed\Facades\LarrockFeed {}
-
-    class LarrockCatalog extends \Larrock\ComponentCatalog\Facades\LarrockCatalog {}
-
     class Cart extends \Gloudemans\Shoppingcart\Facades\Cart {}
-
-    class LarrockCart extends \Larrock\ComponentCart\Facades\LarrockCart {}
 
     class Excel extends \Maatwebsite\Excel\Facades\Excel {}
 
-    class LarrockDiscount extends \Larrock\ComponentDiscount\Facades\LarrockDiscount {}
-
-    class LarrockReviews extends \Larrock\ComponentReviews\Facades\LarrockReviews {}
+    class LarrockCategory extends \Larrock\ComponentCategory\Facades\LarrockCategory {}
 
     class LarrockMenu extends \Larrock\ComponentMenu\Facades\LarrockMenu {}
 
-    class LarrockUsers extends \Larrock\ComponentUsers\Facades\LarrockUsers {}
+    class LarrockDiscount extends \Larrock\ComponentDiscount\Facades\LarrockDiscount {}
+
+    class LarrockBlocks extends \Larrock\ComponentBlocks\Facades\LarrockBlocks {}
 
     class LarrockPages extends \Larrock\ComponentPages\Facades\LarrockPages {}
 
-    class LarrockBlocks extends \Larrock\ComponentBlocks\Facades\LarrockBlocks {}
+    class LarrockFeed extends \Larrock\ComponentFeed\Facades\LarrockFeed {}
+
+    class LarrockReviews extends \Larrock\ComponentReviews\Facades\LarrockReviews {}
+
+    class LarrockCatalog extends \Larrock\ComponentCatalog\Facades\LarrockCatalog {}
+
+    class LarrockUsers extends \Larrock\ComponentUsers\Facades\LarrockUsers {}
+
+    class LarrockCart extends \Larrock\ComponentCart\Facades\LarrockCart {}
  
 }
 

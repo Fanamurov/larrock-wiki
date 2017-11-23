@@ -74,6 +74,17 @@ class Component
         return Component::_valid_construct($this);
     }
 
+    public function getFillableRows()
+    {
+        $fillable_rows = [];
+        foreach ($this->rows as $key => $row){
+            if($row->fillable){
+                $fillable_rows[] = $key;
+            }
+        }
+        return $fillable_rows;
+    }
+
     public function addFillableUserRows($rows)
     {
         $fillable_rows = $rows;
@@ -129,6 +140,24 @@ class Component
         $this->valid = Component::_valid_construct($this);
         View::share('validator', JsValidator::make($this->valid));
         return $this;
+    }
+
+    public function combineFrontMiddlewares($user_middlewares = NULL)
+    {
+        $middleware = ['web', 'GetSeo'];
+        if(file_exists(base_path(). '/vendor/fanamurov/larrock-menu')){
+            $middleware[] = 'AddMenuFront';
+        }
+        if(file_exists(base_path(). '/vendor/fanamurov/larrock-blocks')){
+            $middleware[] = 'AddBlocksTemplate';
+        }
+        if(file_exists(base_path(). '/vendor/fanamurov/larrock-discount')){
+            $middleware[] = 'DiscountsShare';
+        }
+        if($user_middlewares){
+            array_merge($middleware, $user_middlewares);
+        }
+        return array_unique($middleware);
     }
 
     /**

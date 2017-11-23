@@ -1,9 +1,10 @@
 //Install Yarn:
 //https://yarnpkg.com/en/docs/install
+//brew install yarn
 //Install Gulp:
 //yarn add gulp-cli gulp gulp-sass gulp-cssnano gulp-autoprefixer gulp-bless gulp-concat gulp-notify gulp-removelogs gulp-uglify gulp-rename gulp-changed gulp-filesize gulp-imagemin imagemin-pngquant
 
-var project = 'larrock55'; //Название проекта
+var project = 'larrock'; //Название проекта
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
@@ -21,15 +22,19 @@ var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
 gulp.task('default', function() {
-    gulp.start('sass_uikit_admin', 'sass', 'sass_uikit', 'javascript_admin', 'javascript_front', 'libs_styles', 'watch');
+    gulp.start('watch');
+});
+
+gulp.task('reload', function() {
+    gulp.start('sass_uikit_admin', 'sass', 'sass_uikit', 'javascript_admin', 'javascript_front', 'libs_styles');
 });
 
 gulp.task('watch', function () {
     gulp.watch('./public_html/_assets/_admin/_css/**/*.scss', ['sass_uikit_admin']);
     gulp.watch('./public_html/_assets/_front/_css/**/**/*.scss', ['sass']);
     gulp.watch('./public_html/_assets/bower_components/uikit/scss/**/**/*.scss', ['sass_uikit']);
-    gulp.watch(['./resources/assets/admin/js/**/*.js', '!./resources/assets/admin/js/min/*'], ['javascript_admin']);
-    gulp.watch(['./resources/assets/front/js/**/*.js', '!./resources/assets/front/js/min/*'], ['javascript_front']);
+    gulp.watch(['./public_html/_assets/_admin/_js/**/*.js', '!./public_html/_assets/_admin/_js/min/*'], ['javascript_admin']);
+    gulp.watch(['./public_html/_assets/_front/_js/**/*.js', '!./public_html/_assets/_front/_js/min/*'], ['javascript_front']);
     gulp.watch(['./public_html/_assets/bower_components/**/**/**/**'], ['libs_styles']);
 });
 
@@ -50,7 +55,7 @@ gulp.task('sass', function () {
         .pipe(size({showFiles : true}))
         .pipe(gulp.dest('./public_html/_assets/_front/_css/_min'))
         .pipe(removeLogs())
-        .pipe(notify("Scss reload: <%= file.relative %>! "+ project));
+        .pipe(notify("Scss reload: ./public_html/_assets/_front/_css/_min/<%= file.relative %>! "+ project));
 });
 
 gulp.task('sass_uikit', function () {
@@ -68,7 +73,7 @@ gulp.task('sass_uikit', function () {
         .pipe(size({showFiles : true}))
         .pipe(gulp.dest('./public_html/_assets/_front/_css/_min'))
         .pipe(removeLogs())
-        .pipe(notify("Scss reload: <%= file.relative %>! "+ project));
+        .pipe(notify("Scss reload: ./public_html/_assets/_front/_css/_min/<%= file.relative %>! "+ project));
 });
 
 /**
@@ -93,7 +98,7 @@ gulp.task('libs_styles', function () {
         .pipe(size({showFiles : true}))
         .pipe(gulp.dest('./public_html/_assets/_front/_css/_min'))
         .pipe(removeLogs())
-        .pipe(notify("Scss reload: <%= file.relative %>! "+ project));
+        .pipe(notify("Scss reload: ./public_html/_assets/_front/_css/_min/<%= file.relative %>! "+ project));
 });
 
 gulp.task('sass_uikit_admin', function () {
@@ -113,7 +118,7 @@ gulp.task('sass_uikit_admin', function () {
         .pipe(size({showFiles : true}))
         .pipe(gulp.dest('./public_html/_assets/_admin/_css/min'))
         .pipe(removeLogs())
-        .pipe(notify("Scss reload: <%= file.relative %>! "+ project));
+        .pipe(notify("Scss reload: ./public_html/_assets/_admin/_css/min/<%= file.relative %>! "+ project));
 });
 
 gulp.task('javascript_admin', function() {
@@ -128,7 +133,7 @@ gulp.task('javascript_admin', function() {
         ])
         .pipe(concat('back_core.min.js'))
         .pipe(removeLogs())
-        .pipe(notify("Js reload: <%= file.relative %>! "+ project))
+        .pipe(notify("Js reload: ./public_html/_assets/_admin/_js/min/<%= file.relative %>! "+ project))
         .pipe(size({showFiles : true}))
         .pipe(gulp.dest('./public_html/_assets/_admin/_js/min'));
 });
@@ -145,7 +150,7 @@ gulp.task('javascript_front', function() {
         .pipe(concat('front_core.min.js'))
         .pipe(uglify())
         .pipe(removeLogs())
-        .pipe(notify("Js reload: <%= file.relative %>! "+ project))
+        .pipe(notify("Js reload: ./public_html/_assets/_front/_js/min/<%= file.relative %>! "+ project))
         .pipe(size({showFiles : true}))
         .pipe(gulp.dest('./public_html/_assets/_front/_js/min'));
 });
