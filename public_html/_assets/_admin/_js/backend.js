@@ -587,6 +587,7 @@ function ajax_edit_row() {
     });
 }
 
+
 /**
  * Сортировка материалов по весу через плагин uikit sortable
  */
@@ -764,17 +765,21 @@ function rebuild_cost() {
 }
 
 function selectIdItem(id) {
+    var target = $('.actionSelect'+id).attr('data-target');
+    if(target === undefined){
+        target = 'massiveAction';
+    }
     $('.actionSelect'+id).toggleClass('uk-icon-check');
     var countSelected = $('.actionSelect.uk-icon-check').length;
     if(countSelected > 0){
-        $('form#massiveAction').find('span').html(countSelected);
-        $('form#massiveAction').removeClass('uk-hidden');
+        $('form#'+ target).find('span').html(countSelected);
+        $('form#'+ target).removeClass('uk-hidden');
     }else{
-        $('form#massiveAction').addClass('uk-hidden');
+        $('form#'+ target).addClass('uk-hidden');
     }
-    if($('select[name="ids[]"]').find('option[value='+ id +']:selected').val()){
-        $('select[name="ids[]"]').find('option[value='+ id +']').prop('selected', false);
+    if($('form#'+ target).find('select[name="ids[]"]').find('option[value='+ id +']:selected').val()){
+        $('form#'+ target).find('select[name="ids[]"]').find('option[value='+ id +']').prop('selected', false);
     }else{
-        $('select[name="ids[]"]').find('option[value='+ id +']').prop('selected', true);
+        $('form#'+ target).find('select[name="ids[]"]').find('option[value='+ id +']').prop('selected', true);
     }
 }

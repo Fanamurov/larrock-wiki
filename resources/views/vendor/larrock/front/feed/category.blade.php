@@ -28,9 +28,9 @@
                     @endrole
                     <h2><a href="{{ $item->full_url }}">{{ $item->title }}</a></h2>
                     <div class="pageFeedCategory-item_short">{!! $item->short !!}</div>
-                    @if(count($item->get_child) > 0)
+                    @if(count($item->get_childActive) > 0)
                         <ul>
-                            @foreach($item->get_child as $child)
+                            @foreach($item->get_childActive as $child)
                                 <li><a href="{{ $child->full_url }}">{{ $child->title }}</a></li>
                             @endforeach
                         </ul>

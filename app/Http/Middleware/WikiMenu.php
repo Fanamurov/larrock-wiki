@@ -24,7 +24,7 @@ class WikiMenu
         });
         $categoriesUsers = Cache::remember('categoriesUsers', 1440, function() {
             return \LarrockCategory::getModel()->whereId(2)
-                ->with(['get_childActive.get_childActive.get_childActive'])
+                ->with(['get_childActive.get_childActive.get_childActive', 'get_childActive.get_feedActive'])
                 ->get();
         });
 

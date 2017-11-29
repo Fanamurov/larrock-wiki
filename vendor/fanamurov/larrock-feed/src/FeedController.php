@@ -42,7 +42,7 @@ class FeedController extends Controller
         $category = last($params);
 		$page = $request->get('page', 1);
 		$data['data'] = Cache::remember('feed_'.$category.'_'.$page, 1440, function() use ($category, $page) {
-			$data = LarrockCategory::getModel()->whereUrl($category)->whereActive(1)->firstOrFail();
+			$data = LarrockCategory::getModel()->whereUrl($category)->whereActive(1)->with(['get_childActive', 'get_childActive.get_childActive'])->firstOrFail();
 			$data->get_feedActive = $data->get_feedActive()->orderBy('date', 'desc')->skip(($page-1)*8)->paginate(8);
 			return $data;
 		});
