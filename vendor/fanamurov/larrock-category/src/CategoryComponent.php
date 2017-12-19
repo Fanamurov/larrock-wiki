@@ -45,9 +45,6 @@ class CategoryComponent extends Component
         $row = new FormTextarea('description', 'Полное описание');
         $this->rows['description'] = $row->setTypo()->setFillable();
 
-        $row = new FormHidden('type', 'Тип раздела');
-        $this->rows['type'] = $row->setDefaultValue('type')->setFillable();
-
         $row = new FormHidden('level', 'Уровень вложенности раздела');
         $this->rows['level'] = $row->setDefaultValue('level')->setFillable();
 
