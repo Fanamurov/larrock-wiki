@@ -8,7 +8,7 @@ use Larrock\Core\Traits\GetLink;
 class FormsLog extends Model
 {
     use GetLink;
-
+    
     protected $searchable = [
         'columns' => [
             'forms_log.title' => 15,

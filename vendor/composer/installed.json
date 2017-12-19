@@ -5285,405 +5285,6 @@
         ]
     },
     {
-        "name": "fanamurov/larrock-blocks",
-        "version": "v0.3.7",
-        "version_normalized": "0.3.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-blocks.git",
-            "reference": "6014603ef3bda1dd2df6f81041d6011478e1bef6"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/6014603ef3bda1dd2df6f81041d6011478e1bef6",
-            "reference": "6014603ef3bda1dd2df6f81041d6011478e1bef6",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-22T06:24:23+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentBlocks\\LarrockComponentBlocksServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockBlocks": "Larrock\\ComponentBlocks\\Facades\\LarrockBlocks"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentBlocks\\": "src",
-                "Larrock\\ComponentBlocks\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Template blocks component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-pages",
-        "version": "v0.3.10",
-        "version_normalized": "0.3.10.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-pages.git",
-            "reference": "86fd1524b0ff67bbecae1935ffdb265a86824f66"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/86fd1524b0ff67bbecae1935ffdb265a86824f66",
-            "reference": "86fd1524b0ff67bbecae1935ffdb265a86824f66",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-22T07:07:13+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentPages\\LarrockComponentPagesServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockPages": "Larrock\\ComponentPages\\Facades\\LarrockPages"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentPages\\": "src",
-                "Larrock\\ComponentPages\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Static pages component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-users",
-        "version": "v0.3.10",
-        "version_normalized": "0.3.10.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-users.git",
-            "reference": "98db6c83b3c403354710f2c7198e60cca710bfc7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/98db6c83b3c403354710f2c7198e60cca710bfc7",
-            "reference": "98db6c83b3c403354710f2c7198e60cca710bfc7",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-22T07:05:56+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentUsers\\LarrockComponentUsersServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockUsers": "Larrock\\ComponentUsers\\Facades\\LarrockUsers"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentUsers\\": "src",
-                "Larrock\\ComponentUsers\\Models\\": "src/Models",
-                "Larrock\\ComponentUsers\\Requests\\": "src/Requests",
-                "Larrock\\ComponentUsers\\Database\\Seeds\\": "src/database/seeds"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Users component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-menu",
-        "version": "v0.3.4",
-        "version_normalized": "0.3.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-menu.git",
-            "reference": "d64bf843f42ad49b86d1c74790ab729aa82bdcdc"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/d64bf843f42ad49b86d1c74790ab729aa82bdcdc",
-            "reference": "d64bf843f42ad49b86d1c74790ab729aa82bdcdc",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-22T07:01:36+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentMenu\\LarrockComponentMenuServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockMenu": "Larrock\\ComponentMenu\\Facades\\LarrockMenu"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentMenu\\": "src",
-                "Larrock\\ComponentMenu\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Menu component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-category",
-        "version": "v0.3.9",
-        "version_normalized": "0.3.9.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-category.git",
-            "reference": "7d037d4d2ae79e95c19a326b8f8f1a84aa105e28"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/7d037d4d2ae79e95c19a326b8f8f1a84aa105e28",
-            "reference": "7d037d4d2ae79e95c19a326b8f8f1a84aa105e28",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-22T07:04:04+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCategory\\LarrockComponentCategoryServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCategory": "Larrock\\ComponentCategory\\Facades\\LarrockCategory"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCategory\\": "src",
-                "Larrock\\ComponentCategory\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Category component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-contact",
-        "version": "v0.3.8.1",
-        "version_normalized": "0.3.8.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-contact.git",
-            "reference": "7ed3fdc17b333f910adb92ac7429be8afd6487ee"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/7ed3fdc17b333f910adb92ac7429be8afd6487ee",
-            "reference": "7ed3fdc17b333f910adb92ac7429be8afd6487ee",
-            "shasum": ""
-        },
-        "require": {
-            "albertcht/invisible-recaptcha": "^1.7",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-22T07:24:40+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentContact\\LarrockComponentContactServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentContact\\": "src",
-                "Larrock\\ComponentContact\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Send forms component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-catalog",
-        "version": "v0.3.7.1",
-        "version_normalized": "0.3.7.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-catalog.git",
-            "reference": "6f9031447221b80bf79c64d0b6a5beed02b50674"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/6f9031447221b80bf79c64d0b6a5beed02b50674",
-            "reference": "6f9031447221b80bf79c64d0b6a5beed02b50674",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-23T02:37:48+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCatalog\\LarrockComponentCatalogServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCatalog": "Larrock\\ComponentCatalog\\Facades\\LarrockCatalog"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCatalog\\": "src",
-                "Larrock\\ComponentCatalog\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Catalog component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-cart",
-        "version": "v0.3.5.1",
-        "version_normalized": "0.3.5.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-cart.git",
-            "reference": "d062979aef52d854fd95197671c6bc858176bc04"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/d062979aef52d854fd95197671c6bc858176bc04",
-            "reference": "d062979aef52d854fd95197671c6bc858176bc04",
-            "shasum": ""
-        },
-        "require": {
-            "artem328/laravel-yandex-kassa": "^1.0",
-            "fanamurov/larrock-catalog": "^0.3",
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3",
-            "fanamurov/larrock-users": "^0.3",
-            "gloudemans/shoppingcart": "^2.3"
-        },
-        "time": "2017-11-23T02:37:03+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCart\\": "src",
-                "Larrock\\ComponentCart\\Models\\": "src/Models",
-                "Larrock\\ComponentCart\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Cart to catalog component for larrockCMS"
-    },
-    {
         "name": "laravel/framework",
         "version": "v5.5.22",
         "version_normalized": "5.5.22.0",
@@ -5899,239 +5500,6 @@
             "media",
             "spatie"
         ]
-    },
-    {
-        "name": "fanamurov/larrock-core",
-        "version": "v0.3.14.1",
-        "version_normalized": "0.3.14.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-core.git",
-            "reference": "6b9d5e8168c9987be16e296ae140469590d1233f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/6b9d5e8168c9987be16e296ae140469590d1233f",
-            "reference": "6b9d5e8168c9987be16e296ae140469590d1233f",
-            "shasum": ""
-        },
-        "require": {
-            "barryvdh/laravel-debugbar": "~3.0",
-            "barryvdh/laravel-ide-helper": "~2.4",
-            "davejamesmiller/laravel-breadcrumbs": "4.*",
-            "fanamurov/larrock-admin-seo": "^0.3",
-            "fanamurov/larrock-blocks": "^0.3",
-            "fanamurov/larrock-contact": "^0.3",
-            "fanamurov/larrock-menu": "^0.3",
-            "fanamurov/larrock-pages": "^0.3",
-            "fanamurov/larrock-search": "^0.3",
-            "fanamurov/larrock-users": "^0.3",
-            "kix/mdash": "^0.5.4",
-            "nicolaslopezj/searchable": "^1.9",
-            "php": ">=7.0.0",
-            "proengsoft/laravel-jsvalidation": "^2.0",
-            "spatie/laravel-medialibrary": "^6.0.0"
-        },
-        "time": "2017-11-29T06:16:31+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\Core\\LarrockCoreServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\Core\\": "src",
-                "Larrock\\Core\\Models\\": "src/Models",
-                "Larrock\\Core\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru",
-                "homepage": "https://github.com/Fanamurov/",
-                "role": "Developer"
-            }
-        ],
-        "description": "Core components for LarrockCMS",
-        "keywords": [
-            "PHP7",
-            "cms",
-            "laravel",
-            "laravel-admin",
-            "laravel5",
-            "laravel55",
-            "larrock",
-            "larrock-admin-search",
-            "larrock-admin-seo",
-            "larrock-blocks",
-            "larrock-contact",
-            "larrock-core",
-            "larrock-menu",
-            "larrock-pages",
-            "larrock-users",
-            "larrockCMS"
-        ]
-    },
-    {
-        "name": "fanamurov/larrock-discount",
-        "version": "v0.3.5.1",
-        "version_normalized": "0.3.5.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-discount.git",
-            "reference": "d9b02d9d89b93c076dc12bfca0a67f9043d31d9d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/d9b02d9d89b93c076dc12bfca0a67f9043d31d9d",
-            "reference": "d9b02d9d89b93c076dc12bfca0a67f9043d31d9d",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-catalog": "^0.3",
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-23T04:01:59+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentDiscount\\LarrockComponentDiscountServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockDiscount": "Larrock\\ComponentDiscount\\Facades\\LarrockDiscount"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentDiscount\\": "src",
-                "Larrock\\ComponentDiscount\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Discounts in catalog component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-feed",
-        "version": "v0.3.11.1",
-        "version_normalized": "0.3.11.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-feed.git",
-            "reference": "f707379dbc17205ba384ab6e64befe4fbb0287ed"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/f707379dbc17205ba384ab6e64befe4fbb0287ed",
-            "reference": "f707379dbc17205ba384ab6e64befe4fbb0287ed",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-11-29T06:17:19+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentFeed\\LarrockComponentFeedServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockFeed": "Larrock\\ComponentFeed\\Facades\\LarrockFeed"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentFeed\\": "src",
-                "Larrock\\ComponentFeed\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Feeds items component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-reviews",
-        "version": "v0.3.4.2",
-        "version_normalized": "0.3.4.2",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-reviews.git",
-            "reference": "256e360bf7d57a6e29e2e4286e0be3f59dbc8ec3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/256e360bf7d57a6e29e2e4286e0be3f59dbc8ec3",
-            "reference": "256e360bf7d57a6e29e2e4286e0be3f59dbc8ec3",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3",
-            "fanamurov/larrock-users": "^0.3"
-        },
-        "time": "2017-11-29T06:17:59+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentReviews\\LarrockComponentReviewsServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockReviews": "Larrock\\ComponentReviews\\Facades\\LarrockReviews"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentReviews\\": "src",
-                "Larrock\\ComponentReviews\\Models\\": "src/Models",
-                "Larrock\\ComponentReviews\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Reviews component for larrockCMS"
     },
     {
         "name": "filp/whoops",
@@ -6479,5 +5847,637 @@
             "testing",
             "xunit"
         ]
+    },
+    {
+        "name": "fanamurov/larrock-core",
+        "version": "v0.3.15",
+        "version_normalized": "0.3.15.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-core.git",
+            "reference": "fa66033f0346330dbdae9bb75c317cabeadd44d1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/fa66033f0346330dbdae9bb75c317cabeadd44d1",
+            "reference": "fa66033f0346330dbdae9bb75c317cabeadd44d1",
+            "shasum": ""
+        },
+        "require": {
+            "barryvdh/laravel-debugbar": "~3.0",
+            "barryvdh/laravel-ide-helper": "~2.4",
+            "davejamesmiller/laravel-breadcrumbs": "4.*",
+            "fanamurov/larrock-admin-seo": "^0.3",
+            "fanamurov/larrock-blocks": "^0.3",
+            "fanamurov/larrock-contact": "^0.3",
+            "fanamurov/larrock-menu": "^0.3",
+            "fanamurov/larrock-pages": "^0.3",
+            "fanamurov/larrock-search": "^0.3",
+            "fanamurov/larrock-users": "^0.3",
+            "kix/mdash": "^0.5.4",
+            "nicolaslopezj/searchable": "^1.9",
+            "php": ">=7.0.0",
+            "proengsoft/laravel-jsvalidation": "^2.0",
+            "spatie/laravel-medialibrary": "^6.0.0"
+        },
+        "time": "2017-11-30T06:52:43+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\Core\\LarrockCoreServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\Core\\": "src",
+                "Larrock\\Core\\Models\\": "src/Models",
+                "Larrock\\Core\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru",
+                "homepage": "https://github.com/Fanamurov/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Core components for LarrockCMS",
+        "keywords": [
+            "PHP7",
+            "cms",
+            "laravel",
+            "laravel-admin",
+            "laravel5",
+            "laravel55",
+            "larrock",
+            "larrock-admin-search",
+            "larrock-admin-seo",
+            "larrock-blocks",
+            "larrock-contact",
+            "larrock-core",
+            "larrock-menu",
+            "larrock-pages",
+            "larrock-users",
+            "larrockCMS"
+        ]
+    },
+    {
+        "name": "fanamurov/larrock-contact",
+        "version": "v0.3.9",
+        "version_normalized": "0.3.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-contact.git",
+            "reference": "b8a739654b37737e8d5cd20ce6b45207e6d71ff1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/b8a739654b37737e8d5cd20ce6b45207e6d71ff1",
+            "reference": "b8a739654b37737e8d5cd20ce6b45207e6d71ff1",
+            "shasum": ""
+        },
+        "require": {
+            "albertcht/invisible-recaptcha": "^1.7",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T06:56:50+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentContact\\LarrockComponentContactServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentContact\\": "src",
+                "Larrock\\ComponentContact\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Send forms component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-blocks",
+        "version": "v0.3.8",
+        "version_normalized": "0.3.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-blocks.git",
+            "reference": "164ade5436a1536df74a970a8a850f6afd33ac1a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/164ade5436a1536df74a970a8a850f6afd33ac1a",
+            "reference": "164ade5436a1536df74a970a8a850f6afd33ac1a",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T06:59:25+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentBlocks\\LarrockComponentBlocksServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockBlocks": "Larrock\\ComponentBlocks\\Facades\\LarrockBlocks"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentBlocks\\": "src",
+                "Larrock\\ComponentBlocks\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Template blocks component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-pages",
+        "version": "v0.3.11",
+        "version_normalized": "0.3.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-pages.git",
+            "reference": "2d46be586c5c822baafc793bacbb7474d8de77cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/2d46be586c5c822baafc793bacbb7474d8de77cd",
+            "reference": "2d46be586c5c822baafc793bacbb7474d8de77cd",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T07:03:49+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentPages\\LarrockComponentPagesServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockPages": "Larrock\\ComponentPages\\Facades\\LarrockPages"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentPages\\": "src",
+                "Larrock\\ComponentPages\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Static pages component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-users",
+        "version": "v0.3.11",
+        "version_normalized": "0.3.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-users.git",
+            "reference": "718d927a1c29f58e02622075f73bddbc047ed848"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/718d927a1c29f58e02622075f73bddbc047ed848",
+            "reference": "718d927a1c29f58e02622075f73bddbc047ed848",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T07:02:57+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentUsers\\LarrockComponentUsersServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockUsers": "Larrock\\ComponentUsers\\Facades\\LarrockUsers"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentUsers\\": "src",
+                "Larrock\\ComponentUsers\\Models\\": "src/Models",
+                "Larrock\\ComponentUsers\\Requests\\": "src/Requests",
+                "Larrock\\ComponentUsers\\Database\\Seeds\\": "src/database/seeds"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Users component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-menu",
+        "version": "v0.3.5",
+        "version_normalized": "0.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-menu.git",
+            "reference": "780d0012e9bd15e32a00f24fcc837cb7e562becd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/780d0012e9bd15e32a00f24fcc837cb7e562becd",
+            "reference": "780d0012e9bd15e32a00f24fcc837cb7e562becd",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T06:56:14+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentMenu\\LarrockComponentMenuServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockMenu": "Larrock\\ComponentMenu\\Facades\\LarrockMenu"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentMenu\\": "src",
+                "Larrock\\ComponentMenu\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Menu component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-category",
+        "version": "v0.3.10",
+        "version_normalized": "0.3.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-category.git",
+            "reference": "879becc00976b535001288a4de8395dcaa445960"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/879becc00976b535001288a4de8395dcaa445960",
+            "reference": "879becc00976b535001288a4de8395dcaa445960",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T07:01:05+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCategory\\LarrockComponentCategoryServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCategory": "Larrock\\ComponentCategory\\Facades\\LarrockCategory"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCategory\\": "src",
+                "Larrock\\ComponentCategory\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Category component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-catalog",
+        "version": "v0.3.8",
+        "version_normalized": "0.3.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-catalog.git",
+            "reference": "b93557693a4647676e52f3f4fd3c55e6c1d67ad7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/b93557693a4647676e52f3f4fd3c55e6c1d67ad7",
+            "reference": "b93557693a4647676e52f3f4fd3c55e6c1d67ad7",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T06:58:46+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCatalog\\LarrockComponentCatalogServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCatalog": "Larrock\\ComponentCatalog\\Facades\\LarrockCatalog"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCatalog\\": "src",
+                "Larrock\\ComponentCatalog\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Catalog component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-cart",
+        "version": "v0.3.6",
+        "version_normalized": "0.3.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-cart.git",
+            "reference": "47506ec24c6c5e85c61da35721bd38febf3f4933"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/47506ec24c6c5e85c61da35721bd38febf3f4933",
+            "reference": "47506ec24c6c5e85c61da35721bd38febf3f4933",
+            "shasum": ""
+        },
+        "require": {
+            "artem328/laravel-yandex-kassa": "^1.0",
+            "fanamurov/larrock-catalog": "^0.3",
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3",
+            "fanamurov/larrock-users": "^0.3",
+            "gloudemans/shoppingcart": "^2.3"
+        },
+        "time": "2017-11-30T06:58:09+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCart\\": "src",
+                "Larrock\\ComponentCart\\Models\\": "src/Models",
+                "Larrock\\ComponentCart\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Cart to catalog component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-discount",
+        "version": "v0.3.6",
+        "version_normalized": "0.3.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-discount.git",
+            "reference": "60d0f14ef6d81a6604080cfd316990e1c6f4865c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/60d0f14ef6d81a6604080cfd316990e1c6f4865c",
+            "reference": "60d0f14ef6d81a6604080cfd316990e1c6f4865c",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-catalog": "^0.3",
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T06:55:39+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentDiscount\\LarrockComponentDiscountServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockDiscount": "Larrock\\ComponentDiscount\\Facades\\LarrockDiscount"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentDiscount\\": "src",
+                "Larrock\\ComponentDiscount\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Discounts in catalog component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-feed",
+        "version": "v0.3.12",
+        "version_normalized": "0.3.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-feed.git",
+            "reference": "d90ce87074826f576ff786a9f56c84e8e385b6e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/d90ce87074826f576ff786a9f56c84e8e385b6e9",
+            "reference": "d90ce87074826f576ff786a9f56c84e8e385b6e9",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-11-30T07:00:10+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentFeed\\LarrockComponentFeedServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockFeed": "Larrock\\ComponentFeed\\Facades\\LarrockFeed"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentFeed\\": "src",
+                "Larrock\\ComponentFeed\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Feeds items component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-reviews",
+        "version": "v0.3.5",
+        "version_normalized": "0.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-reviews.git",
+            "reference": "96d560feff3abe23e5a40f45a0217d3432cd4d99"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/96d560feff3abe23e5a40f45a0217d3432cd4d99",
+            "reference": "96d560feff3abe23e5a40f45a0217d3432cd4d99",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3",
+            "fanamurov/larrock-users": "^0.3"
+        },
+        "time": "2017-11-30T07:01:51+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentReviews\\LarrockComponentReviewsServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockReviews": "Larrock\\ComponentReviews\\Facades\\LarrockReviews"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentReviews\\": "src",
+                "Larrock\\ComponentReviews\\Models\\": "src/Models",
+                "Larrock\\ComponentReviews\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Reviews component for larrockCMS"
     }
 ]

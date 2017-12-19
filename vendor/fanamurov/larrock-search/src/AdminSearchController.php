@@ -7,6 +7,11 @@ use Illuminate\Routing\Controller;
 
 class AdminSearchController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware(\LarrockPages::combineAdminMiddlewares());
+    }
+
     public function index(Request $request)
     {
         $result = [];

@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Larrock\\ComponentAdminSeo\\": "src"
+            "Larrock\\ComponentSeo\\": "src"
         }
     },
     "require": {
@@ -20,10 +20,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Larrock\\ComponentAdminSeo\\LarrockComponentAdminSeoServiceProvider"
+                "Larrock\\ComponentSeo\\LarrockComponentSeoServiceProvider"
             ],
             "aliases": {
-                "LarrockCategory": "Larrock\\ComponentAdminSeo\\Facades\\LarrockSeo"
+                "LarrockSeo": "Larrock\\ComponentSeo\\Facades\\LarrockSeo"
             }
         }
     }

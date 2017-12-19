@@ -23,7 +23,10 @@
         "laravel": {
             "providers": [
                 "Larrock\\ComponentContact\\LarrockComponentContactServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "LarrockContact": "Larrock\\ComponentContact\\Facades\\LarrockContact"
+            }
         }
     }
 }
