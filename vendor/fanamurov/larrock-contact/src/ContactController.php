@@ -5,7 +5,6 @@ namespace Larrock\ComponentContact;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Larrock\ComponentContact\Models\FormsLog;
-use LarrockPages;
 use Session;
 use Validator;
 use Mail;
@@ -153,7 +152,8 @@ class ContactController extends Controller
      */
     public function debugMail($form, Request $request)
     {
-        return view(array_get($form['email'], 'template', 'larrock::emails.formDefault'),[
+        return view(array_get($form['email'], 'template', 'larrock::emails.formDefault'),
+            [
                 'data' => $request->except($this->exceptMailData($form)),
                 'form' => $form,
                 'uploaded_file' => 'Загрузка файла в дебаге отключена'

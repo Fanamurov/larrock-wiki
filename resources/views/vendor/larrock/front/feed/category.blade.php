@@ -8,10 +8,13 @@
 @endsection
 
 @section('content')
-    <div class="pageFeedCategory">
-        <div class="col-xs-24 row">
-            {!! Breadcrumbs::render('feed.category', $data) !!}
-        </div>
+    <div class="pageFeedCategory uk-position-relative">
+        @role('Админ|Модератор')
+        <a class="admin_edit" href="/admin/category/{{ $data->id }}/edit">Редактировать</a>
+        @endrole
+
+        {!! Breadcrumbs::render('feed.category', $data) !!}
+
         @if($data->short)
             <div class="short uk-margin-large-bottom">{!! $data->short_render !!}</div>
         @endif

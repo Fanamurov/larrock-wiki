@@ -9,7 +9,7 @@
         <div class="uk-hidden" id="collapseOrder{{ $data->id }}">
             @endif
             <div class="uk-grid">
-                <div class="uk-width-4-10">
+                <div class="uk-width-1-1 uk-width-medium-4-10">
                     <form action="/admin/{{ $app->name }}/{{ $data->id }}" method="post" class="uk-form uk-float-right">
                         <input name="_method" type="hidden" value="DELETE">
                         {{ csrf_field() }}
@@ -77,9 +77,9 @@
                         </select>
                     </div>
                 </div>
-                <form class="cart-user-info uk-width-6-10 uk-form uk-form-stacked" action="/admin/{{ $app->name }}/{{ $data->id }}" method="post">
+                <form class="cart-user-info uk-width-1-1 uk-width-medium-6-10 uk-form uk-form-stacked" action="/admin/{{ $app->name }}/{{ $data->id }}" method="post">
                     <div class="uk-grid">
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-1 uk-width-medium-1-2">
                             <div class="uk-form-row">
                                 <label class="uk-form-label" for="user_id{{ $data->order_id }}">ID пользователя:</label>
                                 <select id="user_id{{ $data->order_id }}" name="user_id" class="uk-width-1-1">
@@ -118,7 +118,7 @@
                                 </div>
                             @endif
                         </div>
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-1 uk-width-medium-1-2">
                             <div class="uk-form-row">
                                 <label class="uk-form-label" for="status_order{{ $data->order_id }}">Статус заказа:</label>
                                 <select name="status_order" id="status_order{{ $data->order_id }}" class="uk-width-1-1">

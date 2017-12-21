@@ -8,6 +8,11 @@ use LarrockPages;
 
 class MainpageController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware(['web', 'GetSeo', 'SiteSearch', 'App\Http\Middleware\WikiMenu', 'AddMenuFront', 'AddBlocksTemplate']);
+    }
+
     public function index()
     {
         $url = 'larrockcms';

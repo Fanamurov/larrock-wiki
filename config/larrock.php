@@ -2,6 +2,6 @@
 
 return [
     'middlewares' => [
-        'front' => ['WikiMenu', 'SiteSearch']
+        'front' => ['App\Http\Middleware\WikiMenu', 'SiteSearch', 'GetSeo']
     ]
 ];
