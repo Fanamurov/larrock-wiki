@@ -16,12 +16,12 @@
                                 <span class="uk-align-left">К оплате по договорной цене</span>
                             @endif
                         @endif
-                        @if(isset($app->rows['method_pay']))
+                        @if(isset($config_cart->rows['method_pay']))
                             @if($data->method_pay !== 'наличными')
-                                @if(View::exists('larrock::front.yandexkassa.form') && config('yandex_kassa.sc_id'))
-                                    @include('larrock::front.yandexkassa.form')
+                                @if(file_exists(base_path(). '/vendor/fanamurov/larrock-yandex-kassa') && config('larrock-yandex-kassa.shop_id'))
+                                    @include('larrock::front.modules.yandexkassa.form-cart')
                                 @else
-                                    Метод оплаты не подключен
+                                    <p class="uk-alert uk-alert-danger uk-display-block">Метод оплаты не подключен</p>
                                 @endif
                             @else
                                 <span class="not-pay">{{ $data->status_pay }}</span>
@@ -32,10 +32,10 @@
                     @endif
                 </div>
                 <div class="uk-clearfix"></div>
-                @if(isset($app->rows['method_pay']))
+                @if(isset($config_cart->rows['method_pay']))
                     <p class="uk-text-muted">Метод оплаты: {{ $data->method_pay }}</p>
                 @endif
-                @if(isset($app->rows['method_delivery']))
+                @if(isset($config_cart->rows['method_delivery']))
                     <p class="uk-text-muted">Метод доставки: {{ $data->method_delivery }}</p>
                 @endif
                 <p class="uk-text-muted">

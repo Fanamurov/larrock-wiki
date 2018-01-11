@@ -68,7 +68,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
 
     use Authenticatable, CanResetPassword, HasRoleAndPermission, Notifiable;
     use HasMediaTrait;
@@ -104,6 +104,11 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
 
     public function role()
     {

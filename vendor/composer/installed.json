@@ -2455,67 +2455,6 @@
         ]
     },
     {
-        "name": "albertcht/invisible-recaptcha",
-        "version": "v1.8",
-        "version_normalized": "1.8.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/albertcht/invisible-recaptcha.git",
-            "reference": "7c32eef12e4792a4d3ddb72a71a6a6965011c19d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/albertcht/invisible-recaptcha/zipball/7c32eef12e4792a4d3ddb72a71a6a6965011c19d",
-            "reference": "7c32eef12e4792a4d3ddb72a71a6a6965011c19d",
-            "shasum": ""
-        },
-        "require": {
-            "guzzlehttp/guzzle": "^6.2",
-            "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "php": "^5.6.4 || ^7.0"
-        },
-        "require-dev": {
-            "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "phpunit/phpunit": "^6.1"
-        },
-        "time": "2017-09-30T07:27:34+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "AlbertCht\\InvisibleReCaptcha\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Albert Chen",
-                "email": "albert.cht@gmail.com"
-            }
-        ],
-        "description": "Invisible reCAPTCHA For Laravel.",
-        "keywords": [
-            "captcha",
-            "invisible",
-            "invisible-recaptcha",
-            "laravel",
-            "laravel5",
-            "no-captcha",
-            "php",
-            "recaptcha"
-        ]
-    },
-    {
         "name": "kix/mdash",
         "version": "0.5.4",
         "version_normalized": "0.5.4.0",
@@ -3335,183 +3274,6 @@
         ]
     },
     {
-        "name": "nikic/php-parser",
-        "version": "v3.1.2",
-        "version_normalized": "3.1.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/08131e7ff29de6bb9f12275c7d35df71f25f4d89",
-            "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89",
-            "shasum": ""
-        },
-        "require": {
-            "ext-tokenizer": "*",
-            "php": ">=5.5"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "~4.0|~5.0"
-        },
-        "time": "2017-11-04T11:48:34+00:00",
-        "bin": [
-            "bin/php-parse"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "PhpParser\\": "lib/PhpParser"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Nikita Popov"
-            }
-        ],
-        "description": "A PHP parser written in PHP",
-        "keywords": [
-            "parser",
-            "php"
-        ]
-    },
-    {
-        "name": "sebastian/comparator",
-        "version": "2.1.0",
-        "version_normalized": "2.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/comparator.git",
-            "reference": "1174d9018191e93cb9d719edec01257fc05f8158"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/1174d9018191e93cb9d719edec01257fc05f8158",
-            "reference": "1174d9018191e93cb9d719edec01257fc05f8158",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^7.0",
-            "sebastian/diff": "^2.0",
-            "sebastian/exporter": "^3.1"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^6.4"
-        },
-        "time": "2017-11-03T07:16:52+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Jeff Welch",
-                "email": "whatthejeff@gmail.com"
-            },
-            {
-                "name": "Volker Dusch",
-                "email": "github@wallbash.com"
-            },
-            {
-                "name": "Bernhard Schussek",
-                "email": "bschussek@2bepublished.at"
-            },
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sebastian@phpunit.de"
-            }
-        ],
-        "description": "Provides the functionality to compare PHP values for equality",
-        "homepage": "https://github.com/sebastianbergmann/comparator",
-        "keywords": [
-            "comparator",
-            "compare",
-            "equality"
-        ]
-    },
-    {
-        "name": "artem328/laravel-yandex-kassa",
-        "version": "v1.0.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/artem328/laravel-yandex-kassa.git",
-            "reference": "6e6360e2db9838232356b6a3e395ccc6725780ce"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/artem328/laravel-yandex-kassa/zipball/6e6360e2db9838232356b6a3e395ccc6725780ce",
-            "reference": "6e6360e2db9838232356b6a3e395ccc6725780ce",
-            "shasum": ""
-        },
-        "require": {
-            "illuminate/support": "~5.1",
-            "php": "~5.5|~7.0"
-        },
-        "time": "2016-05-30T10:05:11+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Artem328\\LaravelYandexKassa\\": "src/LaravelYandexKassa"
-            },
-            "files": [
-                "src/LaravelYandexKassa/helpers.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Artem Vozhzhov",
-                "email": "vojjov.artem@ya.ru",
-                "role": "Developer"
-            }
-        ],
-        "description": "Yandex Kassa integration with Laravel framework",
-        "homepage": "https://github.com/artem328/laravel-yandex-kassa",
-        "keywords": [
-            "kassa",
-            "laravel",
-            "money",
-            "yandex",
-            "деньги",
-            "касса",
-            "яндекс"
-        ]
-    },
-    {
         "name": "gloudemans/shoppingcart",
         "version": "2.4.0",
         "version_normalized": "2.4.0.0",
@@ -3805,86 +3567,6 @@
         ]
     },
     {
-        "name": "maatwebsite/excel",
-        "version": "2.1.23",
-        "version_normalized": "2.1.23.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
-            "reference": "8682c955601b6de15a8c7d6e373b927cc8380627"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/8682c955601b6de15a8c7d6e373b927cc8380627",
-            "reference": "8682c955601b6de15a8c7d6e373b927cc8380627",
-            "shasum": ""
-        },
-        "require": {
-            "illuminate/cache": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "jeremeamia/superclosure": "^2.3",
-            "nesbot/carbon": "~1.0",
-            "php": ">=5.5",
-            "phpoffice/phpexcel": "1.8.*",
-            "tijsverkoyen/css-to-inline-styles": "~2.0"
-        },
-        "require-dev": {
-            "mockery/mockery": "~0.9",
-            "orchestra/testbench": "3.1.*|3.2.*|3.3.*|3.4.*|3.5.*",
-            "phpseclib/phpseclib": "~1.0",
-            "phpunit/phpunit": "~4.0"
-        },
-        "suggest": {
-            "illuminate/http": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "illuminate/queue": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "illuminate/routing": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-            "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
-        },
-        "time": "2017-09-19T19:36:48+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Maatwebsite\\Excel\\ExcelServiceProvider"
-                ],
-                "aliases": {
-                    "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/Maatwebsite/Excel"
-            ],
-            "psr-0": {
-                "Maatwebsite\\Excel\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Maatwebsite.nl",
-                "email": "patrick@maatwebsite.nl"
-            }
-        ],
-        "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 4 with the power of PHPExcel",
-        "keywords": [
-            "PHPExcel",
-            "batch",
-            "csv",
-            "excel",
-            "export",
-            "import",
-            "laravel"
-        ]
-    },
-    {
         "name": "egulias/email-validator",
         "version": "2.1.3",
         "version_normalized": "2.1.3.0",
@@ -3988,88 +3670,6 @@
         "keywords": [
             "markdown",
             "parser"
-        ]
-    },
-    {
-        "name": "spatie/laravel-medialibrary",
-        "version": "6.6.3",
-        "version_normalized": "6.6.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/spatie/laravel-medialibrary.git",
-            "reference": "ac8b8df1d2266260a20dc181b528050e09b1c9b4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/ac8b8df1d2266260a20dc181b528050e09b1c9b4",
-            "reference": "ac8b8df1d2266260a20dc181b528050e09b1c9b4",
-            "shasum": ""
-        },
-        "require": {
-            "illuminate/bus": "~5.5.0",
-            "illuminate/console": "~5.5.0",
-            "illuminate/database": "~5.5.0",
-            "illuminate/pipeline": "~5.5.0",
-            "illuminate/support": "~5.5.0",
-            "league/flysystem": "^1.0.8",
-            "php": "^7.0",
-            "spatie/image": "^1.3.3",
-            "spatie/pdf-to-image": "^1.2",
-            "spatie/temporary-directory": "^1.1"
-        },
-        "conflict": {
-            "php-ffmpeg/php-ffmpeg": "<0.6.1"
-        },
-        "require-dev": {
-            "doctrine/dbal": "^2.5.2",
-            "guzzlehttp/guzzle": "^6.3",
-            "league/flysystem-aws-s3-v3": "^1.0.13",
-            "mockery/mockery": "^0.9.4",
-            "orchestra/testbench": "~3.5.0",
-            "phpunit/phpunit": "^6.2"
-        },
-        "suggest": {
-            "league/flysystem-aws-s3-v3": "Required to use AWS S3 file storage",
-            "php-ffmpeg/php-ffmpeg": "Required for generating video thumbnails"
-        },
-        "time": "2017-11-28T10:07:52+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Spatie\\MediaLibrary\\MediaLibraryServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Spatie\\MediaLibrary\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Freek Van der Herten",
-                "email": "freek@spatie.be",
-                "homepage": "https://murze.be",
-                "role": "Developer"
-            }
-        ],
-        "description": "Associate files with Eloquent models",
-        "homepage": "https://github.com/spatie/laravel-medialibrary",
-        "keywords": [
-            "cms",
-            "conversion",
-            "downloads",
-            "images",
-            "laravel",
-            "laravel-medialibrary",
-            "media",
-            "spatie"
         ]
     },
     {
@@ -4354,57 +3954,6 @@
         ]
     },
     {
-        "name": "symfony/process",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/process.git",
-            "reference": "bb3ef65d493a6d57297cad6c560ee04e2a8f5098"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/process/zipball/bb3ef65d493a6d57297cad6c560ee04e2a8f5098",
-            "reference": "bb3ef65d493a6d57297cad6c560ee04e2a8f5098",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "time": "2017-12-14T19:40:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Process\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Process Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "spatie/image",
         "version": "1.4.0",
         "version_normalized": "1.4.0.0",
@@ -4455,212 +4004,6 @@
         "keywords": [
             "image",
             "spatie"
-        ]
-    },
-    {
-        "name": "symfony/css-selector",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/css-selector.git",
-            "reference": "eac760b414cf1f64362c3dd047b989e4db121332"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/eac760b414cf1f64362c3dd047b989e4db121332",
-            "reference": "eac760b414cf1f64362c3dd047b989e4db121332",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "time": "2017-12-14T19:40:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\CssSelector\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Jean-François Simon",
-                "email": "jeanfrancois.simon@sensiolabs.com"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony CssSelector Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/var-dumper",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/var-dumper.git",
-            "reference": "757074cf71b952ce9e75b557538948811c2bf006"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/757074cf71b952ce9e75b557538948811c2bf006",
-            "reference": "757074cf71b952ce9e75b557538948811c2bf006",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/polyfill-mbstring": "~1.0"
-        },
-        "conflict": {
-            "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
-        },
-        "require-dev": {
-            "ext-iconv": "*",
-            "twig/twig": "~1.34|~2.4"
-        },
-        "suggest": {
-            "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
-            "ext-intl": "To show region name in time zone dump",
-            "ext-symfony_debug": ""
-        },
-        "time": "2017-12-11T22:06:16+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "Resources/functions/dump.php"
-            ],
-            "psr-4": {
-                "Symfony\\Component\\VarDumper\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Nicolas Grekas",
-                "email": "p@tchwork.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony mechanism for exploring and dumping PHP variables",
-        "homepage": "https://symfony.com",
-        "keywords": [
-            "debug",
-            "dump"
-        ]
-    },
-    {
-        "name": "symfony/routing",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/routing.git",
-            "reference": "5f248dfac5e4660c74982eb3dadc71cf58595570"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/routing/zipball/5f248dfac5e4660c74982eb3dadc71cf58595570",
-            "reference": "5f248dfac5e4660c74982eb3dadc71cf58595570",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "conflict": {
-            "symfony/config": "<2.8",
-            "symfony/dependency-injection": "<3.3",
-            "symfony/yaml": "<3.4"
-        },
-        "require-dev": {
-            "doctrine/annotations": "~1.0",
-            "doctrine/common": "~2.2",
-            "psr/log": "~1.0",
-            "symfony/config": "~2.8|~3.0|~4.0",
-            "symfony/dependency-injection": "~3.3|~4.0",
-            "symfony/expression-language": "~2.8|~3.0|~4.0",
-            "symfony/http-foundation": "~2.8|~3.0|~4.0",
-            "symfony/yaml": "~3.4|~4.0"
-        },
-        "suggest": {
-            "doctrine/annotations": "For using the annotation loader",
-            "symfony/config": "For using the all-in-one router or any loader",
-            "symfony/dependency-injection": "For loading routes from a service",
-            "symfony/expression-language": "For using expression matching",
-            "symfony/http-foundation": "For using a Symfony Request object",
-            "symfony/yaml": "For using the YAML loader"
-        },
-        "time": "2017-12-14T22:37:31+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Routing\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Routing Component",
-        "homepage": "https://symfony.com",
-        "keywords": [
-            "router",
-            "routing",
-            "uri",
-            "url"
         ]
     },
     {
@@ -4725,1386 +4068,6 @@
         ]
     },
     {
-        "name": "symfony/http-foundation",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/http-foundation.git",
-            "reference": "59bf131b5460227a2f583a7dbe6b179f98f9e0a5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/59bf131b5460227a2f583a7dbe6b179f98f9e0a5",
-            "reference": "59bf131b5460227a2f583a7dbe6b179f98f9e0a5",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/polyfill-mbstring": "~1.1",
-            "symfony/polyfill-php70": "~1.6"
-        },
-        "require-dev": {
-            "symfony/expression-language": "~2.8|~3.0|~4.0"
-        },
-        "time": "2017-12-14T19:40:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\HttpFoundation\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony HttpFoundation Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/event-dispatcher",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/event-dispatcher.git",
-            "reference": "b869cbf8a15ca6261689de2c28a7d7f2d0706835"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b869cbf8a15ca6261689de2c28a7d7f2d0706835",
-            "reference": "b869cbf8a15ca6261689de2c28a7d7f2d0706835",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "conflict": {
-            "symfony/dependency-injection": "<3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.8|~3.0|~4.0",
-            "symfony/dependency-injection": "~3.3|~4.0",
-            "symfony/expression-language": "~2.8|~3.0|~4.0",
-            "symfony/stopwatch": "~2.8|~3.0|~4.0"
-        },
-        "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
-        },
-        "time": "2017-12-14T19:40:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\EventDispatcher\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony EventDispatcher Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/debug",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/debug.git",
-            "reference": "543deab3ffff94402440b326fc94153bae2dfa7a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/debug/zipball/543deab3ffff94402440b326fc94153bae2dfa7a",
-            "reference": "543deab3ffff94402440b326fc94153bae2dfa7a",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "psr/log": "~1.0"
-        },
-        "conflict": {
-            "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
-        },
-        "require-dev": {
-            "symfony/http-kernel": "~2.8|~3.0|~4.0"
-        },
-        "time": "2017-12-12T08:27:14+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Debug\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Debug Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/http-kernel",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/http-kernel.git",
-            "reference": "48325096bbda77b983e642d21a4dd9bdde3ab73e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/http-kernel/zipball/48325096bbda77b983e642d21a4dd9bdde3ab73e",
-            "reference": "48325096bbda77b983e642d21a4dd9bdde3ab73e",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "psr/log": "~1.0",
-            "symfony/debug": "~2.8|~3.0|~4.0",
-            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
-            "symfony/http-foundation": "^3.3.11|~4.0"
-        },
-        "conflict": {
-            "symfony/config": "<2.8",
-            "symfony/dependency-injection": "<3.4",
-            "symfony/var-dumper": "<3.3",
-            "twig/twig": "<1.34|<2.4,>=2"
-        },
-        "provide": {
-            "psr/log-implementation": "1.0"
-        },
-        "require-dev": {
-            "psr/cache": "~1.0",
-            "symfony/browser-kit": "~2.8|~3.0|~4.0",
-            "symfony/class-loader": "~2.8|~3.0",
-            "symfony/config": "~2.8|~3.0|~4.0",
-            "symfony/console": "~2.8|~3.0|~4.0",
-            "symfony/css-selector": "~2.8|~3.0|~4.0",
-            "symfony/dependency-injection": "~3.4|~4.0",
-            "symfony/dom-crawler": "~2.8|~3.0|~4.0",
-            "symfony/expression-language": "~2.8|~3.0|~4.0",
-            "symfony/finder": "~2.8|~3.0|~4.0",
-            "symfony/process": "~2.8|~3.0|~4.0",
-            "symfony/routing": "~3.4|~4.0",
-            "symfony/stopwatch": "~2.8|~3.0|~4.0",
-            "symfony/templating": "~2.8|~3.0|~4.0",
-            "symfony/translation": "~2.8|~3.0|~4.0",
-            "symfony/var-dumper": "~3.3|~4.0"
-        },
-        "suggest": {
-            "symfony/browser-kit": "",
-            "symfony/config": "",
-            "symfony/console": "",
-            "symfony/dependency-injection": "",
-            "symfony/finder": "",
-            "symfony/var-dumper": ""
-        },
-        "time": "2017-12-15T02:05:18+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\HttpKernel\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony HttpKernel Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/finder",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/finder.git",
-            "reference": "dac8d7db537bac7ad8143eb11360a8c2231f251a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/dac8d7db537bac7ad8143eb11360a8c2231f251a",
-            "reference": "dac8d7db537bac7ad8143eb11360a8c2231f251a",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "time": "2017-11-05T16:10:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Finder\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Finder Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/console",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/console.git",
-            "reference": "9f21adfb92a9315b73ae2ed43138988ee4913d4e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/9f21adfb92a9315b73ae2ed43138988ee4913d4e",
-            "reference": "9f21adfb92a9315b73ae2ed43138988ee4913d4e",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/debug": "~2.8|~3.0|~4.0",
-            "symfony/polyfill-mbstring": "~1.0"
-        },
-        "conflict": {
-            "symfony/dependency-injection": "<3.4",
-            "symfony/process": "<3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~3.3|~4.0",
-            "symfony/dependency-injection": "~3.4|~4.0",
-            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
-            "symfony/lock": "~3.4|~4.0",
-            "symfony/process": "~3.3|~4.0"
-        },
-        "suggest": {
-            "psr/log": "For using the console logger",
-            "symfony/event-dispatcher": "",
-            "symfony/lock": "",
-            "symfony/process": ""
-        },
-        "time": "2017-12-14T19:40:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Console\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Console Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/translation",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/translation.git",
-            "reference": "4c5d5582baf2829751a5207659329c1f52eedeb6"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/4c5d5582baf2829751a5207659329c1f52eedeb6",
-            "reference": "4c5d5582baf2829751a5207659329c1f52eedeb6",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/polyfill-mbstring": "~1.0"
-        },
-        "conflict": {
-            "symfony/config": "<2.8",
-            "symfony/dependency-injection": "<3.4",
-            "symfony/yaml": "<3.4"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.8|~3.0|~4.0",
-            "symfony/dependency-injection": "~3.4|~4.0",
-            "symfony/finder": "~2.8|~3.0|~4.0",
-            "symfony/intl": "^2.8.18|^3.2.5|~4.0",
-            "symfony/yaml": "~3.4|~4.0"
-        },
-        "suggest": {
-            "psr/log": "To use logging capability in translator",
-            "symfony/config": "",
-            "symfony/yaml": ""
-        },
-        "time": "2017-12-12T08:27:14+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Translation\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Translation Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "laravel/framework",
-        "version": "v5.5.27",
-        "version_normalized": "5.5.27.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/laravel/framework.git",
-            "reference": "b4fb6eeb227b7327b4ca7f92263b693ec9ac9875"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/b4fb6eeb227b7327b4ca7f92263b693ec9ac9875",
-            "reference": "b4fb6eeb227b7327b4ca7f92263b693ec9ac9875",
-            "shasum": ""
-        },
-        "require": {
-            "doctrine/inflector": "~1.1",
-            "erusev/parsedown": "~1.6",
-            "ext-mbstring": "*",
-            "ext-openssl": "*",
-            "league/flysystem": "~1.0",
-            "monolog/monolog": "~1.12",
-            "mtdowling/cron-expression": "~1.0",
-            "nesbot/carbon": "~1.20",
-            "php": ">=7.0",
-            "psr/container": "~1.0",
-            "psr/simple-cache": "^1.0",
-            "ramsey/uuid": "~3.0",
-            "swiftmailer/swiftmailer": "~6.0",
-            "symfony/console": "~3.3",
-            "symfony/debug": "~3.3",
-            "symfony/finder": "~3.3",
-            "symfony/http-foundation": "~3.3",
-            "symfony/http-kernel": "~3.3",
-            "symfony/process": "~3.3",
-            "symfony/routing": "~3.3",
-            "symfony/var-dumper": "~3.3",
-            "tijsverkoyen/css-to-inline-styles": "~2.2",
-            "vlucas/phpdotenv": "~2.2"
-        },
-        "replace": {
-            "illuminate/auth": "self.version",
-            "illuminate/broadcasting": "self.version",
-            "illuminate/bus": "self.version",
-            "illuminate/cache": "self.version",
-            "illuminate/config": "self.version",
-            "illuminate/console": "self.version",
-            "illuminate/container": "self.version",
-            "illuminate/contracts": "self.version",
-            "illuminate/cookie": "self.version",
-            "illuminate/database": "self.version",
-            "illuminate/encryption": "self.version",
-            "illuminate/events": "self.version",
-            "illuminate/filesystem": "self.version",
-            "illuminate/hashing": "self.version",
-            "illuminate/http": "self.version",
-            "illuminate/log": "self.version",
-            "illuminate/mail": "self.version",
-            "illuminate/notifications": "self.version",
-            "illuminate/pagination": "self.version",
-            "illuminate/pipeline": "self.version",
-            "illuminate/queue": "self.version",
-            "illuminate/redis": "self.version",
-            "illuminate/routing": "self.version",
-            "illuminate/session": "self.version",
-            "illuminate/support": "self.version",
-            "illuminate/translation": "self.version",
-            "illuminate/validation": "self.version",
-            "illuminate/view": "self.version",
-            "tightenco/collect": "self.version"
-        },
-        "require-dev": {
-            "aws/aws-sdk-php": "~3.0",
-            "doctrine/dbal": "~2.5",
-            "filp/whoops": "^2.1.4",
-            "mockery/mockery": "~1.0",
-            "orchestra/testbench-core": "3.5.*",
-            "pda/pheanstalk": "~3.0",
-            "phpunit/phpunit": "~6.0",
-            "predis/predis": "^1.1.1",
-            "symfony/css-selector": "~3.3",
-            "symfony/dom-crawler": "~3.3"
-        },
-        "suggest": {
-            "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~3.0).",
-            "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
-            "ext-pcntl": "Required to use all features of the queue worker.",
-            "ext-posix": "Required to use all features of the queue worker.",
-            "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
-            "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~6.0).",
-            "laravel/tinker": "Required to use the tinker console command (~1.0).",
-            "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
-            "league/flysystem-cached-adapter": "Required to use Flysystem caching (~1.0).",
-            "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
-            "nexmo/client": "Required to use the Nexmo transport (~1.0).",
-            "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
-            "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
-            "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~3.0).",
-            "symfony/css-selector": "Required to use some of the crawler integration testing tools (~3.3).",
-            "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (~3.3).",
-            "symfony/psr-http-message-bridge": "Required to psr7 bridging features (~1.0)."
-        },
-        "time": "2017-12-20T15:43:48+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "5.5-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/Illuminate/Foundation/helpers.php",
-                "src/Illuminate/Support/helpers.php"
-            ],
-            "psr-4": {
-                "Illuminate\\": "src/Illuminate/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Taylor Otwell",
-                "email": "taylor@laravel.com"
-            }
-        ],
-        "description": "The Laravel Framework.",
-        "homepage": "https://laravel.com",
-        "keywords": [
-            "framework",
-            "laravel"
-        ]
-    },
-    {
-        "name": "fanamurov/larrock-core",
-        "version": "v0.3.17.2",
-        "version_normalized": "0.3.17.2",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-core.git",
-            "reference": "8973f46544c8367abdf52bf799195a5bef71b568"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/8973f46544c8367abdf52bf799195a5bef71b568",
-            "reference": "8973f46544c8367abdf52bf799195a5bef71b568",
-            "shasum": ""
-        },
-        "require": {
-            "barryvdh/laravel-debugbar": "~3.0",
-            "barryvdh/laravel-ide-helper": "~2.4",
-            "davejamesmiller/laravel-breadcrumbs": "4.*",
-            "fanamurov/larrock-admin-seo": "^0.3",
-            "fanamurov/larrock-blocks": "^0.3",
-            "fanamurov/larrock-contact": "^0.3",
-            "fanamurov/larrock-menu": "^0.3",
-            "fanamurov/larrock-pages": "^0.3",
-            "fanamurov/larrock-search": "^0.3",
-            "fanamurov/larrock-users": "^0.3",
-            "kix/mdash": "^0.5.4",
-            "nicolaslopezj/searchable": "^1.9",
-            "php": ">=7.0.0",
-            "proengsoft/laravel-jsvalidation": "^2.0",
-            "spatie/laravel-medialibrary": "^6.0.0"
-        },
-        "time": "2017-12-20T04:54:59+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\Core\\LarrockCoreServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\Core\\": "src",
-                "Larrock\\Core\\Models\\": "src/Models",
-                "Larrock\\Core\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru",
-                "homepage": "https://github.com/Fanamurov/",
-                "role": "Developer"
-            }
-        ],
-        "description": "Core components for LarrockCMS",
-        "keywords": [
-            "PHP7",
-            "cms",
-            "laravel",
-            "laravel-admin",
-            "laravel5",
-            "laravel55",
-            "larrock",
-            "larrock-admin-search",
-            "larrock-admin-seo",
-            "larrock-blocks",
-            "larrock-contact",
-            "larrock-core",
-            "larrock-menu",
-            "larrock-pages",
-            "larrock-users",
-            "larrockCMS"
-        ]
-    },
-    {
-        "name": "fanamurov/larrock-search",
-        "version": "v0.3.4",
-        "version_normalized": "0.3.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-search.git",
-            "reference": "57e135342997c3aa607173fb0628973b18c38f33"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-search/zipball/57e135342997c3aa607173fb0628973b18c38f33",
-            "reference": "57e135342997c3aa607173fb0628973b18c38f33",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-01T05:15:24+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentSearch\\LarrockSearchServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentSearch\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Search content for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-admin-seo",
-        "version": "v0.3.3",
-        "version_normalized": "0.3.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-admin-seo.git",
-            "reference": "f5d77bb024c28b407c5c13f2740eadaadbff5e85"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-admin-seo/zipball/f5d77bb024c28b407c5c13f2740eadaadbff5e85",
-            "reference": "f5d77bb024c28b407c5c13f2740eadaadbff5e85",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-01T05:10:09+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentAdminSeo\\LarrockComponentAdminSeoServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCategory": "Larrock\\ComponentAdminSeo\\Facades\\LarrockSeo"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentAdminSeo\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "SEO component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-contact",
-        "version": "v0.3.11",
-        "version_normalized": "0.3.11.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-contact.git",
-            "reference": "73c45bbb01c0255fcdfd23fd637235d482a8b8c9"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/73c45bbb01c0255fcdfd23fd637235d482a8b8c9",
-            "reference": "73c45bbb01c0255fcdfd23fd637235d482a8b8c9",
-            "shasum": ""
-        },
-        "require": {
-            "albertcht/invisible-recaptcha": "^1.7",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-19T04:12:45+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentContact\\LarrockComponentContactServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentContact\\": "src",
-                "Larrock\\ComponentContact\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Send forms component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-blocks",
-        "version": "v0.3.9",
-        "version_normalized": "0.3.9.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-blocks.git",
-            "reference": "0591f266e8d91dfbc358855314e6b7f9c73cf4a2"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/0591f266e8d91dfbc358855314e6b7f9c73cf4a2",
-            "reference": "0591f266e8d91dfbc358855314e6b7f9c73cf4a2",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-01T05:13:47+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentBlocks\\LarrockComponentBlocksServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockBlocks": "Larrock\\ComponentBlocks\\Facades\\LarrockBlocks"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentBlocks\\": "src",
-                "Larrock\\ComponentBlocks\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Template blocks component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-pages",
-        "version": "v0.3.13.1",
-        "version_normalized": "0.3.13.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-pages.git",
-            "reference": "7433211be6bb01a17f987947bc028b7ff361964f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/7433211be6bb01a17f987947bc028b7ff361964f",
-            "reference": "7433211be6bb01a17f987947bc028b7ff361964f",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-20T02:35:11+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentPages\\LarrockComponentPagesServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockPages": "Larrock\\ComponentPages\\Facades\\LarrockPages"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentPages\\": "src",
-                "Larrock\\ComponentPages\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Static pages component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-users",
-        "version": "v0.3.13",
-        "version_normalized": "0.3.13.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-users.git",
-            "reference": "f0828e9504b0a1239b463080a8b2e8c1fc7d072f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/f0828e9504b0a1239b463080a8b2e8c1fc7d072f",
-            "reference": "f0828e9504b0a1239b463080a8b2e8c1fc7d072f",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-19T04:17:57+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentUsers\\LarrockComponentUsersServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockUsers": "Larrock\\ComponentUsers\\Facades\\LarrockUsers"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentUsers\\": "src",
-                "Larrock\\ComponentUsers\\Models\\": "src/Models",
-                "Larrock\\ComponentUsers\\Requests\\": "src/Requests",
-                "Larrock\\ComponentUsers\\Database\\Seeds\\": "src/database/seeds"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Users component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-menu",
-        "version": "v0.3.7",
-        "version_normalized": "0.3.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-menu.git",
-            "reference": "9f3ba056eb170a0633ba4682f7d29512c30c518a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/9f3ba056eb170a0633ba4682f7d29512c30c518a",
-            "reference": "9f3ba056eb170a0633ba4682f7d29512c30c518a",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-19T04:12:09+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentMenu\\LarrockComponentMenuServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockMenu": "Larrock\\ComponentMenu\\Facades\\LarrockMenu"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentMenu\\": "src",
-                "Larrock\\ComponentMenu\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Menu component for larrockCMS"
-    },
-    {
-        "name": "symfony/class-loader",
-        "version": "v3.4.2",
-        "version_normalized": "3.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/class-loader.git",
-            "reference": "e8d36a7b5568d232f5c3f8ef92665836b9f1e038"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/class-loader/zipball/e8d36a7b5568d232f5c3f8ef92665836b9f1e038",
-            "reference": "e8d36a7b5568d232f5c3f8ef92665836b9f1e038",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "require-dev": {
-            "symfony/finder": "~2.8|~3.0|~4.0",
-            "symfony/polyfill-apcu": "~1.1"
-        },
-        "suggest": {
-            "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
-        },
-        "time": "2017-11-05T16:10:10+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\ClassLoader\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony ClassLoader Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "fanamurov/larrock-category",
-        "version": "v0.3.12",
-        "version_normalized": "0.3.12.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-category.git",
-            "reference": "0bd87f024d198c9f04636337eadaf6a9bb04b25d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/0bd87f024d198c9f04636337eadaf6a9bb04b25d",
-            "reference": "0bd87f024d198c9f04636337eadaf6a9bb04b25d",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-19T04:17:19+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCategory\\LarrockComponentCategoryServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCategory": "Larrock\\ComponentCategory\\Facades\\LarrockCategory"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCategory\\": "src",
-                "Larrock\\ComponentCategory\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Category component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-catalog",
-        "version": "v0.3.11.1",
-        "version_normalized": "0.3.11.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-catalog.git",
-            "reference": "f6b606e2eefcb00151c34ecaf5910e686ee4a35a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/f6b606e2eefcb00151c34ecaf5910e686ee4a35a",
-            "reference": "f6b606e2eefcb00151c34ecaf5910e686ee4a35a",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-20T02:26:09+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCatalog\\LarrockComponentCatalogServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCatalog": "Larrock\\ComponentCatalog\\Facades\\LarrockCatalog"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCatalog\\": "src",
-                "Larrock\\ComponentCatalog\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Catalog component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-cart",
-        "version": "v0.3.8.1",
-        "version_normalized": "0.3.8.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-cart.git",
-            "reference": "c30e45e02279798b369f275ad492675a12394af1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/c30e45e02279798b369f275ad492675a12394af1",
-            "reference": "c30e45e02279798b369f275ad492675a12394af1",
-            "shasum": ""
-        },
-        "require": {
-            "artem328/laravel-yandex-kassa": "^1.0",
-            "fanamurov/larrock-catalog": "^0.3",
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3",
-            "fanamurov/larrock-users": "^0.3",
-            "gloudemans/shoppingcart": "^2.3"
-        },
-        "time": "2017-12-20T06:14:25+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCart\\": "src",
-                "Larrock\\ComponentCart\\Models\\": "src/Models",
-                "Larrock\\ComponentCart\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Cart to catalog component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-discount",
-        "version": "v0.3.7",
-        "version_normalized": "0.3.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-discount.git",
-            "reference": "4310a99b98775ca42dd951a72ced2018f155bc30"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/4310a99b98775ca42dd951a72ced2018f155bc30",
-            "reference": "4310a99b98775ca42dd951a72ced2018f155bc30",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-catalog": "^0.3",
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-01T05:07:52+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentDiscount\\LarrockComponentDiscountServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockDiscount": "Larrock\\ComponentDiscount\\Facades\\LarrockDiscount"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentDiscount\\": "src",
-                "Larrock\\ComponentDiscount\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Discounts in catalog component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-feed",
-        "version": "v0.3.15",
-        "version_normalized": "0.3.15.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-feed.git",
-            "reference": "33bf1ce8cb6565274e6c71a5d59a082cc6651a97"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/33bf1ce8cb6565274e6c71a5d59a082cc6651a97",
-            "reference": "33bf1ce8cb6565274e6c71a5d59a082cc6651a97",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3"
-        },
-        "time": "2017-12-19T07:22:27+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentFeed\\LarrockComponentFeedServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockFeed": "Larrock\\ComponentFeed\\Facades\\LarrockFeed"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentFeed\\": "src",
-                "Larrock\\ComponentFeed\\Models\\": "src/Models"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Feeds items component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-reviews",
-        "version": "v0.3.7",
-        "version_normalized": "0.3.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-reviews.git",
-            "reference": "05853081ccaddf38b5c6da2b4a9bb40f2b7df4b8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/05853081ccaddf38b5c6da2b4a9bb40f2b7df4b8",
-            "reference": "05853081ccaddf38b5c6da2b4a9bb40f2b7df4b8",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-core": "^0.3",
-            "fanamurov/larrock-users": "^0.3"
-        },
-        "time": "2017-12-19T07:23:58+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentReviews\\LarrockComponentReviewsServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockReviews": "Larrock\\ComponentReviews\\Facades\\LarrockReviews"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentReviews\\": "src",
-                "Larrock\\ComponentReviews\\Models\\": "src/Models",
-                "Larrock\\ComponentReviews\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Reviews component for larrockCMS"
-    },
-    {
         "name": "fanamurov/larrock-smartbanners",
         "version": "v0.3.1",
         "version_normalized": "0.3.1.0",
@@ -6148,128 +4111,6 @@
             }
         ],
         "description": "Smartbanners component for larrockCMS"
-    },
-    {
-        "name": "fanamurov/larrock-wizard",
-        "version": "v0.3.4",
-        "version_normalized": "0.3.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-wizard.git",
-            "reference": "acbaa23ed5bf4092695cd8d2a35030c26285e4b0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-wizard/zipball/acbaa23ed5bf4092695cd8d2a35030c26285e4b0",
-            "reference": "acbaa23ed5bf4092695cd8d2a35030c26285e4b0",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-catalog": "^0.3",
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3",
-            "maatwebsite/excel": "^2.1"
-        },
-        "time": "2017-12-01T05:09:08+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentWizard\\LarrockComponentWizardServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentWizard\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Import .xlsx price to catalog component for larrockCMS"
-    },
-    {
-        "name": "psy/psysh",
-        "version": "v0.8.16",
-        "version_normalized": "0.8.16.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/bobthecow/psysh.git",
-            "reference": "d4c8eab0683dc056f2ca54ca67f5388527c068b1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/bobthecow/psysh/zipball/d4c8eab0683dc056f2ca54ca67f5388527c068b1",
-            "reference": "d4c8eab0683dc056f2ca54ca67f5388527c068b1",
-            "shasum": ""
-        },
-        "require": {
-            "dnoegel/php-xdg-base-dir": "0.1",
-            "jakub-onderka/php-console-highlighter": "0.3.*",
-            "nikic/php-parser": "~1.3|~2.0|~3.0",
-            "php": ">=5.3.9",
-            "symfony/console": "~2.3.10|^2.4.2|~3.0|~4.0",
-            "symfony/var-dumper": "~2.7|~3.0|~4.0"
-        },
-        "require-dev": {
-            "hoa/console": "~3.16|~1.14",
-            "phpunit/phpunit": "^4.8.35|^5.4.3",
-            "symfony/finder": "~2.1|~3.0|~4.0"
-        },
-        "suggest": {
-            "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
-            "ext-pdo-sqlite": "The doc command requires SQLite to work.",
-            "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
-            "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
-            "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
-        },
-        "time": "2017-12-10T21:49:27+00:00",
-        "bin": [
-            "bin/psysh"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-develop": "0.8.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/Psy/functions.php"
-            ],
-            "psr-4": {
-                "Psy\\": "src/Psy/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Justin Hileman",
-                "email": "justin@justinhileman.info",
-                "homepage": "http://justinhileman.com"
-            }
-        ],
-        "description": "An interactive shell for modern PHP.",
-        "homepage": "http://psysh.org",
-        "keywords": [
-            "REPL",
-            "console",
-            "interactive",
-            "shell"
-        ]
     },
     {
         "name": "laravel/tinker",
@@ -6334,67 +4175,6 @@
             "Tinker",
             "laravel",
             "psysh"
-        ]
-    },
-    {
-        "name": "phpunit/phpunit-mock-objects",
-        "version": "5.0.5",
-        "version_normalized": "5.0.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-            "reference": "283b9f4f670e3a6fd6c4ff95c51a952eb5c75933"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/283b9f4f670e3a6fd6c4ff95c51a952eb5c75933",
-            "reference": "283b9f4f670e3a6fd6c4ff95c51a952eb5c75933",
-            "shasum": ""
-        },
-        "require": {
-            "doctrine/instantiator": "^1.0.5",
-            "php": "^7.0",
-            "phpunit/php-text-template": "^1.2.1",
-            "sebastian/exporter": "^3.1"
-        },
-        "conflict": {
-            "phpunit/phpunit": "<6.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^6.5"
-        },
-        "suggest": {
-            "ext-soap": "*"
-        },
-        "time": "2017-12-10T08:01:53+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "5.0.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sebastian@phpunit.de",
-                "role": "lead"
-            }
-        ],
-        "description": "Mock Object library for PHPUnit",
-        "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
-        "keywords": [
-            "mock",
-            "xunit"
         ]
     },
     {
@@ -6546,6 +4326,2167 @@
             "phpunit",
             "testing",
             "xunit"
+        ]
+    },
+    {
+        "name": "fanamurov/larrock-search",
+        "version": "v0.3.5",
+        "version_normalized": "0.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-search.git",
+            "reference": "39fb729a2ae6bc572c4fc166faf4977e7a75c54e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-search/zipball/39fb729a2ae6bc572c4fc166faf4977e7a75c54e",
+            "reference": "39fb729a2ae6bc572c4fc166faf4977e7a75c54e",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-12-22T07:23:27+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentSearch\\LarrockSearchServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentSearch\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Search content for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-admin-seo",
+        "version": "v0.3.4",
+        "version_normalized": "0.3.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-admin-seo.git",
+            "reference": "b1d1f37a0769cf68dfcdc8f03f02162154da401a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-admin-seo/zipball/b1d1f37a0769cf68dfcdc8f03f02162154da401a",
+            "reference": "b1d1f37a0769cf68dfcdc8f03f02162154da401a",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-12-22T07:16:59+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentAdminSeo\\LarrockComponentAdminSeoServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCategory": "Larrock\\ComponentAdminSeo\\Facades\\LarrockSeo"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentAdminSeo\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "SEO component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-contact",
+        "version": "v0.3.12",
+        "version_normalized": "0.3.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-contact.git",
+            "reference": "190078afc35149d46253866fa34a6eff33ef30c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/190078afc35149d46253866fa34a6eff33ef30c9",
+            "reference": "190078afc35149d46253866fa34a6eff33ef30c9",
+            "shasum": ""
+        },
+        "require": {
+            "albertcht/invisible-recaptcha": "^1.7",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2017-12-22T07:18:29+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentContact\\LarrockComponentContactServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentContact\\": "src",
+                "Larrock\\ComponentContact\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Send forms component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-wizard",
+        "version": "v0.3.5",
+        "version_normalized": "0.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-wizard.git",
+            "reference": "8dd7bf7d2a9142dfa3689bd82de62e666996f707"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-wizard/zipball/8dd7bf7d2a9142dfa3689bd82de62e666996f707",
+            "reference": "8dd7bf7d2a9142dfa3689bd82de62e666996f707",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-catalog": "^0.3",
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3",
+            "maatwebsite/excel": "^2.1"
+        },
+        "time": "2017-12-22T07:16:07+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentWizard\\LarrockComponentWizardServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentWizard\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Import .xlsx price to catalog component for larrockCMS"
+    },
+    {
+        "name": "albertcht/invisible-recaptcha",
+        "version": "v1.8.1",
+        "version_normalized": "1.8.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/albertcht/invisible-recaptcha.git",
+            "reference": "8881e6e4b5c32c341911f0113828d843726007eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/albertcht/invisible-recaptcha/zipball/8881e6e4b5c32c341911f0113828d843726007eb",
+            "reference": "8881e6e4b5c32c341911f0113828d843726007eb",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.2",
+            "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "php": "^5.6.4 || ^7.0"
+        },
+        "require-dev": {
+            "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "phpunit/phpunit": "^6.1"
+        },
+        "time": "2017-12-24T12:50:49+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "AlbertCht\\InvisibleReCaptcha\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Albert Chen",
+                "email": "albert.cht@gmail.com"
+            }
+        ],
+        "description": "Invisible reCAPTCHA For Laravel.",
+        "keywords": [
+            "captcha",
+            "invisible",
+            "invisible-recaptcha",
+            "laravel",
+            "laravel5",
+            "no-captcha",
+            "php",
+            "recaptcha"
+        ]
+    },
+    {
+        "name": "sebastian/comparator",
+        "version": "2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/comparator.git",
+            "reference": "b11c729f95109b56a0fe9650c6a63a0fcd8c439f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/b11c729f95109b56a0fe9650c6a63a0fcd8c439f",
+            "reference": "b11c729f95109b56a0fe9650c6a63a0fcd8c439f",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0",
+            "sebastian/diff": "^2.0",
+            "sebastian/exporter": "^3.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.4"
+        },
+        "time": "2017-12-22T14:50:35+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Jeff Welch",
+                "email": "whatthejeff@gmail.com"
+            },
+            {
+                "name": "Volker Dusch",
+                "email": "github@wallbash.com"
+            },
+            {
+                "name": "Bernhard Schussek",
+                "email": "bschussek@2bepublished.at"
+            },
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de"
+            }
+        ],
+        "description": "Provides the functionality to compare PHP values for equality",
+        "homepage": "https://github.com/sebastianbergmann/comparator",
+        "keywords": [
+            "comparator",
+            "compare",
+            "equality"
+        ]
+    },
+    {
+        "name": "laravel/framework",
+        "version": "v5.5.28",
+        "version_normalized": "5.5.28.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laravel/framework.git",
+            "reference": "cfafae1f2043208390a7c984e3070696f4969605"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/cfafae1f2043208390a7c984e3070696f4969605",
+            "reference": "cfafae1f2043208390a7c984e3070696f4969605",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/inflector": "~1.1",
+            "erusev/parsedown": "~1.6",
+            "ext-mbstring": "*",
+            "ext-openssl": "*",
+            "league/flysystem": "~1.0",
+            "monolog/monolog": "~1.12",
+            "mtdowling/cron-expression": "~1.0",
+            "nesbot/carbon": "~1.20",
+            "php": ">=7.0",
+            "psr/container": "~1.0",
+            "psr/simple-cache": "^1.0",
+            "ramsey/uuid": "~3.0",
+            "swiftmailer/swiftmailer": "~6.0",
+            "symfony/console": "~3.3",
+            "symfony/debug": "~3.3",
+            "symfony/finder": "~3.3",
+            "symfony/http-foundation": "~3.3",
+            "symfony/http-kernel": "~3.3",
+            "symfony/process": "~3.3",
+            "symfony/routing": "~3.3",
+            "symfony/var-dumper": "~3.3",
+            "tijsverkoyen/css-to-inline-styles": "~2.2",
+            "vlucas/phpdotenv": "~2.2"
+        },
+        "replace": {
+            "illuminate/auth": "self.version",
+            "illuminate/broadcasting": "self.version",
+            "illuminate/bus": "self.version",
+            "illuminate/cache": "self.version",
+            "illuminate/config": "self.version",
+            "illuminate/console": "self.version",
+            "illuminate/container": "self.version",
+            "illuminate/contracts": "self.version",
+            "illuminate/cookie": "self.version",
+            "illuminate/database": "self.version",
+            "illuminate/encryption": "self.version",
+            "illuminate/events": "self.version",
+            "illuminate/filesystem": "self.version",
+            "illuminate/hashing": "self.version",
+            "illuminate/http": "self.version",
+            "illuminate/log": "self.version",
+            "illuminate/mail": "self.version",
+            "illuminate/notifications": "self.version",
+            "illuminate/pagination": "self.version",
+            "illuminate/pipeline": "self.version",
+            "illuminate/queue": "self.version",
+            "illuminate/redis": "self.version",
+            "illuminate/routing": "self.version",
+            "illuminate/session": "self.version",
+            "illuminate/support": "self.version",
+            "illuminate/translation": "self.version",
+            "illuminate/validation": "self.version",
+            "illuminate/view": "self.version",
+            "tightenco/collect": "self.version"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "~3.0",
+            "doctrine/dbal": "~2.5",
+            "filp/whoops": "^2.1.4",
+            "mockery/mockery": "~1.0",
+            "orchestra/testbench-core": "3.5.*",
+            "pda/pheanstalk": "~3.0",
+            "phpunit/phpunit": "~6.0",
+            "predis/predis": "^1.1.1",
+            "symfony/css-selector": "~3.3",
+            "symfony/dom-crawler": "~3.3"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~3.0).",
+            "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
+            "ext-pcntl": "Required to use all features of the queue worker.",
+            "ext-posix": "Required to use all features of the queue worker.",
+            "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
+            "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~6.0).",
+            "laravel/tinker": "Required to use the tinker console command (~1.0).",
+            "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
+            "league/flysystem-cached-adapter": "Required to use Flysystem caching (~1.0).",
+            "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
+            "nexmo/client": "Required to use the Nexmo transport (~1.0).",
+            "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
+            "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
+            "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~3.0).",
+            "symfony/css-selector": "Required to use some of the crawler integration testing tools (~3.3).",
+            "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (~3.3).",
+            "symfony/psr-http-message-bridge": "Required to psr7 bridging features (~1.0)."
+        },
+        "time": "2017-12-26T16:24:40+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Illuminate/Foundation/helpers.php",
+                "src/Illuminate/Support/helpers.php"
+            ],
+            "psr-4": {
+                "Illuminate\\": "src/Illuminate/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Laravel Framework.",
+        "homepage": "https://laravel.com",
+        "keywords": [
+            "framework",
+            "laravel"
+        ]
+    },
+    {
+        "name": "nikic/php-parser",
+        "version": "v3.1.3",
+        "version_normalized": "3.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "579f4ce846734a1cf55d6a531d00ca07a43e3cda"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/579f4ce846734a1cf55d6a531d00ca07a43e3cda",
+            "reference": "579f4ce846734a1cf55d6a531d00ca07a43e3cda",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0|~5.0"
+        },
+        "time": "2017-12-26T14:43:21+00:00",
+        "bin": [
+            "bin/php-parse"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpParser\\": "lib/PhpParser"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
+        ]
+    },
+    {
+        "name": "psy/psysh",
+        "version": "v0.8.17",
+        "version_normalized": "0.8.17.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bobthecow/psysh.git",
+            "reference": "5069b70e8c4ea492c2b5939b6eddc78bfe41cfec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bobthecow/psysh/zipball/5069b70e8c4ea492c2b5939b6eddc78bfe41cfec",
+            "reference": "5069b70e8c4ea492c2b5939b6eddc78bfe41cfec",
+            "shasum": ""
+        },
+        "require": {
+            "dnoegel/php-xdg-base-dir": "0.1",
+            "jakub-onderka/php-console-highlighter": "0.3.*",
+            "nikic/php-parser": "~1.3|~2.0|~3.0",
+            "php": ">=5.3.9",
+            "symfony/console": "~2.3.10|^2.4.2|~3.0|~4.0",
+            "symfony/var-dumper": "~2.7|~3.0|~4.0"
+        },
+        "require-dev": {
+            "hoa/console": "~3.16|~1.14",
+            "phpunit/phpunit": "^4.8.35|^5.4.3",
+            "symfony/finder": "~2.1|~3.0|~4.0"
+        },
+        "suggest": {
+            "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
+            "ext-pdo-sqlite": "The doc command requires SQLite to work.",
+            "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
+            "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
+            "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
+        },
+        "time": "2017-12-28T16:14:16+00:00",
+        "bin": [
+            "bin/psysh"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "0.8.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Psy/functions.php"
+            ],
+            "psr-4": {
+                "Psy\\": "src/Psy/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Justin Hileman",
+                "email": "justin@justinhileman.info",
+                "homepage": "http://justinhileman.com"
+            }
+        ],
+        "description": "An interactive shell for modern PHP.",
+        "homepage": "http://psysh.org",
+        "keywords": [
+            "REPL",
+            "console",
+            "interactive",
+            "shell"
+        ]
+    },
+    {
+        "name": "symfony/process",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/process.git",
+            "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/process/zipball/ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
+            "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Process\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Process Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/css-selector",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/css-selector.git",
+            "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/e66394bc7610e69279bfdb3ab11b4fe65403f556",
+            "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\CssSelector\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jean-François Simon",
+                "email": "jeanfrancois.simon@sensiolabs.com"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony CssSelector Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/var-dumper",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/var-dumper.git",
+            "reference": "545be7e78ccbec43e599f10ff7500d0b09eda9d0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/545be7e78ccbec43e599f10ff7500d0b09eda9d0",
+            "reference": "545be7e78ccbec43e599f10ff7500d0b09eda9d0",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+        },
+        "require-dev": {
+            "ext-iconv": "*",
+            "twig/twig": "~1.34|~2.4"
+        },
+        "suggest": {
+            "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+            "ext-intl": "To show region name in time zone dump",
+            "ext-symfony_debug": ""
+        },
+        "time": "2018-01-03T17:14:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Resources/functions/dump.php"
+            ],
+            "psr-4": {
+                "Symfony\\Component\\VarDumper\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony mechanism for exploring and dumping PHP variables",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "debug",
+            "dump"
+        ]
+    },
+    {
+        "name": "symfony/routing",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/routing.git",
+            "reference": "e2b6d6fe7b090c7af720b75c7722c6dfa7a52658"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/routing/zipball/e2b6d6fe7b090c7af720b75c7722c6dfa7a52658",
+            "reference": "e2b6d6fe7b090c7af720b75c7722c6dfa7a52658",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/config": "<2.8",
+            "symfony/dependency-injection": "<3.3",
+            "symfony/yaml": "<3.4"
+        },
+        "require-dev": {
+            "doctrine/annotations": "~1.0",
+            "doctrine/common": "~2.2",
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0|~4.0",
+            "symfony/dependency-injection": "~3.3|~4.0",
+            "symfony/expression-language": "~2.8|~3.0|~4.0",
+            "symfony/http-foundation": "~2.8|~3.0|~4.0",
+            "symfony/yaml": "~3.4|~4.0"
+        },
+        "suggest": {
+            "doctrine/annotations": "For using the annotation loader",
+            "symfony/config": "For using the all-in-one router or any loader",
+            "symfony/dependency-injection": "For loading routes from a service",
+            "symfony/expression-language": "For using expression matching",
+            "symfony/http-foundation": "For using a Symfony Request object",
+            "symfony/yaml": "For using the YAML loader"
+        },
+        "time": "2018-01-04T15:09:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Routing\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Routing Component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "router",
+            "routing",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "reference": "4a213be1cc8598089b8c7451529a2927b49b5d26"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4a213be1cc8598089b8c7451529a2927b49b5d26",
+            "reference": "4a213be1cc8598089b8c7451529a2927b49b5d26",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.1",
+            "symfony/polyfill-php70": "~1.6"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.8|~3.0|~4.0"
+        },
+        "time": "2018-01-03T17:14:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\HttpFoundation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "26b87b6bca8f8f797331a30b76fdae5342dc26ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/26b87b6bca8f8f797331a30b76fdae5342dc26ca",
+            "reference": "26b87b6bca8f8f797331a30b76fdae5342dc26ca",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0|~4.0",
+            "symfony/dependency-injection": "~3.3|~4.0",
+            "symfony/expression-language": "~2.8|~3.0|~4.0",
+            "symfony/stopwatch": "~2.8|~3.0|~4.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/debug",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/debug.git",
+            "reference": "603b95dda8b00020e4e6e60dc906e7b715b1c245"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/603b95dda8b00020e4e6e60dc906e7b715b1c245",
+            "reference": "603b95dda8b00020e4e6e60dc906e7b715b1c245",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "psr/log": "~1.0"
+        },
+        "conflict": {
+            "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+        },
+        "require-dev": {
+            "symfony/http-kernel": "~2.8|~3.0|~4.0"
+        },
+        "time": "2018-01-03T17:14:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Debug\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Debug Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/http-kernel",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-kernel.git",
+            "reference": "1c2a82d6a8ec9b354fe4ef48ad1ad3f1a4f7db0e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/http-kernel/zipball/1c2a82d6a8ec9b354fe4ef48ad1ad3f1a4f7db0e",
+            "reference": "1c2a82d6a8ec9b354fe4ef48ad1ad3f1a4f7db0e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "psr/log": "~1.0",
+            "symfony/debug": "~2.8|~3.0|~4.0",
+            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
+            "symfony/http-foundation": "^3.3.11|~4.0"
+        },
+        "conflict": {
+            "symfony/config": "<2.8",
+            "symfony/dependency-injection": "<3.4",
+            "symfony/var-dumper": "<3.3",
+            "twig/twig": "<1.34|<2.4,>=2"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0"
+        },
+        "require-dev": {
+            "psr/cache": "~1.0",
+            "symfony/browser-kit": "~2.8|~3.0|~4.0",
+            "symfony/class-loader": "~2.8|~3.0",
+            "symfony/config": "~2.8|~3.0|~4.0",
+            "symfony/console": "~2.8|~3.0|~4.0",
+            "symfony/css-selector": "~2.8|~3.0|~4.0",
+            "symfony/dependency-injection": "~3.4|~4.0",
+            "symfony/dom-crawler": "~2.8|~3.0|~4.0",
+            "symfony/expression-language": "~2.8|~3.0|~4.0",
+            "symfony/finder": "~2.8|~3.0|~4.0",
+            "symfony/process": "~2.8|~3.0|~4.0",
+            "symfony/routing": "~3.4|~4.0",
+            "symfony/stopwatch": "~2.8|~3.0|~4.0",
+            "symfony/templating": "~2.8|~3.0|~4.0",
+            "symfony/translation": "~2.8|~3.0|~4.0",
+            "symfony/var-dumper": "~3.3|~4.0"
+        },
+        "suggest": {
+            "symfony/browser-kit": "",
+            "symfony/config": "",
+            "symfony/console": "",
+            "symfony/dependency-injection": "",
+            "symfony/finder": "",
+            "symfony/var-dumper": ""
+        },
+        "time": "2018-01-05T08:33:00+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\HttpKernel\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony HttpKernel Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "613e26310776f49a1773b6737c6bd554b8bc8c6f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/613e26310776f49a1773b6737c6bd554b8bc8c6f",
+            "reference": "613e26310776f49a1773b6737c6bd554b8bc8c6f",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/console",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/8394c8ef121949e8f858f13bc1e34f05169e4e7d",
+            "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/debug": "~2.8|~3.0|~4.0",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.4",
+            "symfony/process": "<3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~3.3|~4.0",
+            "symfony/dependency-injection": "~3.4|~4.0",
+            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
+            "symfony/lock": "~3.4|~4.0",
+            "symfony/process": "~3.3|~4.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/lock": "",
+            "symfony/process": ""
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/translation",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/translation.git",
+            "reference": "17b5962d252b2d6d1d37a2485ebb7ddc5b2bef0a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/17b5962d252b2d6d1d37a2485ebb7ddc5b2bef0a",
+            "reference": "17b5962d252b2d6d1d37a2485ebb7ddc5b2bef0a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "symfony/config": "<2.8",
+            "symfony/dependency-injection": "<3.4",
+            "symfony/yaml": "<3.4"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0|~4.0",
+            "symfony/dependency-injection": "~3.4|~4.0",
+            "symfony/finder": "~2.8|~3.0|~4.0",
+            "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+            "symfony/yaml": "~3.4|~4.0"
+        },
+        "suggest": {
+            "psr/log": "To use logging capability in translator",
+            "symfony/config": "",
+            "symfony/yaml": ""
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Translation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Translation Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "spatie/laravel-medialibrary",
+        "version": "6.6.7",
+        "version_normalized": "6.6.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spatie/laravel-medialibrary.git",
+            "reference": "a2b38d11575401182e6200f9ed25e062a5da8007"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/a2b38d11575401182e6200f9ed25e062a5da8007",
+            "reference": "a2b38d11575401182e6200f9ed25e062a5da8007",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/bus": "~5.5.0",
+            "illuminate/console": "~5.5.0",
+            "illuminate/database": "~5.5.0",
+            "illuminate/pipeline": "~5.5.0",
+            "illuminate/support": "~5.5.0",
+            "league/flysystem": "^1.0.8",
+            "php": "^7.0",
+            "spatie/image": "^1.4",
+            "spatie/pdf-to-image": "^1.2",
+            "spatie/temporary-directory": "^1.1"
+        },
+        "conflict": {
+            "php-ffmpeg/php-ffmpeg": "<0.6.1"
+        },
+        "require-dev": {
+            "doctrine/dbal": "^2.5.2",
+            "guzzlehttp/guzzle": "^6.3",
+            "league/flysystem-aws-s3-v3": "^1.0.13",
+            "mockery/mockery": "^0.9.4",
+            "orchestra/testbench": "~3.5.0",
+            "phpunit/phpunit": "^6.2"
+        },
+        "suggest": {
+            "league/flysystem-aws-s3-v3": "Required to use AWS S3 file storage",
+            "php-ffmpeg/php-ffmpeg": "Required for generating video thumbnails"
+        },
+        "time": "2018-01-07T06:34:55+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Spatie\\MediaLibrary\\MediaLibraryServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Spatie\\MediaLibrary\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Freek Van der Herten",
+                "email": "freek@spatie.be",
+                "homepage": "https://murze.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "Associate files with Eloquent models",
+        "homepage": "https://github.com/spatie/laravel-medialibrary",
+        "keywords": [
+            "cms",
+            "conversion",
+            "downloads",
+            "images",
+            "laravel",
+            "laravel-medialibrary",
+            "media",
+            "spatie"
+        ]
+    },
+    {
+        "name": "symfony/class-loader",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/class-loader.git",
+            "reference": "e63c12699822bb3b667e7216ba07fbcc3a3e203e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/class-loader/zipball/e63c12699822bb3b667e7216ba07fbcc3a3e203e",
+            "reference": "e63c12699822bb3b667e7216ba07fbcc3a3e203e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "require-dev": {
+            "symfony/finder": "~2.8|~3.0|~4.0",
+            "symfony/polyfill-apcu": "~1.1"
+        },
+        "suggest": {
+            "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\ClassLoader\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony ClassLoader Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "phpunit/phpunit-mock-objects",
+        "version": "5.0.6",
+        "version_normalized": "5.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+            "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
+            "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/instantiator": "^1.0.5",
+            "php": "^7.0",
+            "phpunit/php-text-template": "^1.2.1",
+            "sebastian/exporter": "^3.1"
+        },
+        "conflict": {
+            "phpunit/phpunit": "<6.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.5"
+        },
+        "suggest": {
+            "ext-soap": "*"
+        },
+        "time": "2018-01-06T05:45:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de",
+                "role": "lead"
+            }
+        ],
+        "description": "Mock Object library for PHPUnit",
+        "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+        "keywords": [
+            "mock",
+            "xunit"
+        ]
+    },
+    {
+        "name": "fanamurov/larrock-core",
+        "version": "v0.3.18.2",
+        "version_normalized": "0.3.18.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-core.git",
+            "reference": "08f9964345f15cd04afff8764b6daee4430417ab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/08f9964345f15cd04afff8764b6daee4430417ab",
+            "reference": "08f9964345f15cd04afff8764b6daee4430417ab",
+            "shasum": ""
+        },
+        "require": {
+            "barryvdh/laravel-debugbar": "~3.0",
+            "barryvdh/laravel-ide-helper": "~2.4",
+            "davejamesmiller/laravel-breadcrumbs": "4.*",
+            "fanamurov/larrock-admin-seo": "^0.3",
+            "fanamurov/larrock-blocks": "^0.3",
+            "fanamurov/larrock-contact": "^0.3",
+            "fanamurov/larrock-menu": "^0.3",
+            "fanamurov/larrock-pages": "^0.3",
+            "fanamurov/larrock-search": "^0.3",
+            "fanamurov/larrock-users": "^0.3",
+            "kix/mdash": "^0.5.4",
+            "nicolaslopezj/searchable": "^1.9",
+            "php": ">=7.0.0",
+            "proengsoft/laravel-jsvalidation": "^2.0",
+            "spatie/laravel-medialibrary": "^6.0.0"
+        },
+        "time": "2018-01-11T04:44:53+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\Core\\LarrockCoreServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\Core\\": "src",
+                "Larrock\\Core\\Models\\": "src/Models",
+                "Larrock\\Core\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru",
+                "homepage": "https://github.com/Fanamurov/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Core components for LarrockCMS",
+        "keywords": [
+            "PHP7",
+            "cms",
+            "laravel",
+            "laravel-admin",
+            "laravel5",
+            "laravel55",
+            "larrock",
+            "larrock-admin-search",
+            "larrock-admin-seo",
+            "larrock-blocks",
+            "larrock-contact",
+            "larrock-core",
+            "larrock-menu",
+            "larrock-pages",
+            "larrock-users",
+            "larrockCMS"
+        ]
+    },
+    {
+        "name": "fanamurov/larrock-blocks",
+        "version": "v0.3.10.2",
+        "version_normalized": "0.3.10.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-blocks.git",
+            "reference": "a76a534c94b0e4708677257c8b6342af1059602a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/a76a534c94b0e4708677257c8b6342af1059602a",
+            "reference": "a76a534c94b0e4708677257c8b6342af1059602a",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:51:15+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentBlocks\\LarrockComponentBlocksServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockBlocks": "Larrock\\ComponentBlocks\\Facades\\LarrockBlocks"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentBlocks\\": "src",
+                "Larrock\\ComponentBlocks\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Template blocks component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-pages",
+        "version": "v0.3.14.2",
+        "version_normalized": "0.3.14.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-pages.git",
+            "reference": "b84c1ca67783a4713711b351bad74700ce3999e1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/b84c1ca67783a4713711b351bad74700ce3999e1",
+            "reference": "b84c1ca67783a4713711b351bad74700ce3999e1",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:53:38+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentPages\\LarrockComponentPagesServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockPages": "Larrock\\ComponentPages\\Facades\\LarrockPages"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentPages\\": "src",
+                "Larrock\\ComponentPages\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Static pages component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-users",
+        "version": "v0.3.14.3",
+        "version_normalized": "0.3.14.3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-users.git",
+            "reference": "6728305a8917f43fcf32cfe20744a75939e2f46b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/6728305a8917f43fcf32cfe20744a75939e2f46b",
+            "reference": "6728305a8917f43fcf32cfe20744a75939e2f46b",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:53:13+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentUsers\\LarrockComponentUsersServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockUsers": "Larrock\\ComponentUsers\\Facades\\LarrockUsers"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentUsers\\": "src",
+                "Larrock\\ComponentUsers\\Models\\": "src/Models",
+                "Larrock\\ComponentUsers\\Requests\\": "src/Requests",
+                "Larrock\\ComponentUsers\\Database\\Seeds\\": "src/database/seeds"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Users component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-menu",
+        "version": "v0.3.8.2",
+        "version_normalized": "0.3.8.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-menu.git",
+            "reference": "89c6ac08e27c5d66b2cbb4ac3be30867abc95619"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/89c6ac08e27c5d66b2cbb4ac3be30867abc95619",
+            "reference": "89c6ac08e27c5d66b2cbb4ac3be30867abc95619",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:46:47+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentMenu\\LarrockComponentMenuServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockMenu": "Larrock\\ComponentMenu\\Facades\\LarrockMenu"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentMenu\\": "src",
+                "Larrock\\ComponentMenu\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Menu component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-category",
+        "version": "v0.3.13.2",
+        "version_normalized": "0.3.13.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-category.git",
+            "reference": "f0704b31c865b963e6f01a47af391da0fd789df8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/f0704b31c865b963e6f01a47af391da0fd789df8",
+            "reference": "f0704b31c865b963e6f01a47af391da0fd789df8",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:52:09+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCategory\\LarrockComponentCategoryServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCategory": "Larrock\\ComponentCategory\\Facades\\LarrockCategory"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCategory\\": "src",
+                "Larrock\\ComponentCategory\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Category component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-catalog",
+        "version": "v0.3.13.2",
+        "version_normalized": "0.3.13.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-catalog.git",
+            "reference": "8ba08f4afeeda03980409e83fc961c4d04dcb3f9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/8ba08f4afeeda03980409e83fc961c4d04dcb3f9",
+            "reference": "8ba08f4afeeda03980409e83fc961c4d04dcb3f9",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:50:38+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCatalog\\LarrockComponentCatalogServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCatalog": "Larrock\\ComponentCatalog\\Facades\\LarrockCatalog"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCatalog\\": "src",
+                "Larrock\\ComponentCatalog\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Catalog component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-cart",
+        "version": "v0.3.12.2",
+        "version_normalized": "0.3.12.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-cart.git",
+            "reference": "38c50ee9238da02ea4e330c18acbba8cd003196a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/38c50ee9238da02ea4e330c18acbba8cd003196a",
+            "reference": "38c50ee9238da02ea4e330c18acbba8cd003196a",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-catalog": "^0.3",
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3",
+            "fanamurov/larrock-users": "^0.3",
+            "gloudemans/shoppingcart": "^2.3"
+        },
+        "time": "2018-01-11T04:49:54+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCart\\": "src",
+                "Larrock\\ComponentCart\\Models\\": "src/Models",
+                "Larrock\\ComponentCart\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Cart to catalog component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-discount",
+        "version": "v0.3.8.2",
+        "version_normalized": "0.3.8.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-discount.git",
+            "reference": "84d2bf5344a8e946bac39eb4d8c99f8458736a07"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/84d2bf5344a8e946bac39eb4d8c99f8458736a07",
+            "reference": "84d2bf5344a8e946bac39eb4d8c99f8458736a07",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-catalog": "^0.3",
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:45:41+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentDiscount\\LarrockComponentDiscountServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockDiscount": "Larrock\\ComponentDiscount\\Facades\\LarrockDiscount"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentDiscount\\": "src",
+                "Larrock\\ComponentDiscount\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Discounts in catalog component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-feed",
+        "version": "v0.3.16.2",
+        "version_normalized": "0.3.16.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-feed.git",
+            "reference": "a9948ed52212adcfcbdf91f0d89d5e868e582d4a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/a9948ed52212adcfcbdf91f0d89d5e868e582d4a",
+            "reference": "a9948ed52212adcfcbdf91f0d89d5e868e582d4a",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3"
+        },
+        "time": "2018-01-11T04:51:43+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentFeed\\LarrockComponentFeedServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockFeed": "Larrock\\ComponentFeed\\Facades\\LarrockFeed"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentFeed\\": "src",
+                "Larrock\\ComponentFeed\\Models\\": "src/Models"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Feeds items component for larrockCMS"
+    },
+    {
+        "name": "fanamurov/larrock-reviews",
+        "version": "v0.3.8.2",
+        "version_normalized": "0.3.8.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-reviews.git",
+            "reference": "b5d2f0bbd40a7d007445817f0415d2500edc2dc9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/b5d2f0bbd40a7d007445817f0415d2500edc2dc9",
+            "reference": "b5d2f0bbd40a7d007445817f0415d2500edc2dc9",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-core": "^0.3",
+            "fanamurov/larrock-users": "^0.3"
+        },
+        "time": "2018-01-11T04:52:35+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentReviews\\LarrockComponentReviewsServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockReviews": "Larrock\\ComponentReviews\\Facades\\LarrockReviews"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentReviews\\": "src",
+                "Larrock\\ComponentReviews\\Models\\": "src/Models",
+                "Larrock\\ComponentReviews\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Reviews component for larrockCMS"
+    },
+    {
+        "name": "maatwebsite/excel",
+        "version": "2.1.24",
+        "version_normalized": "2.1.24.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
+            "reference": "bd71c9f462ea4a7945944691cc58acd2c85abd47"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/bd71c9f462ea4a7945944691cc58acd2c85abd47",
+            "reference": "bd71c9f462ea4a7945944691cc58acd2c85abd47",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/cache": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "jeremeamia/superclosure": "^2.3",
+            "nesbot/carbon": "~1.0",
+            "php": ">=5.5",
+            "phpoffice/phpexcel": "^1.8.1",
+            "tijsverkoyen/css-to-inline-styles": "~2.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "~1.0",
+            "orchestra/testbench": "3.1.*|3.2.*|3.3.*|3.4.*|3.5.*",
+            "phpseclib/phpseclib": "~1.0",
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "illuminate/http": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "illuminate/queue": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "illuminate/routing": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+            "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+        },
+        "time": "2018-01-10T11:58:11+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Maatwebsite\\Excel\\ExcelServiceProvider"
+                ],
+                "aliases": {
+                    "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/Maatwebsite/Excel"
+            ],
+            "psr-0": {
+                "Maatwebsite\\Excel\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Maatwebsite.nl",
+                "email": "patrick@maatwebsite.nl"
+            }
+        ],
+        "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 4 with the power of PHPExcel",
+        "keywords": [
+            "PHPExcel",
+            "batch",
+            "csv",
+            "excel",
+            "export",
+            "import",
+            "laravel"
         ]
     }
 ]

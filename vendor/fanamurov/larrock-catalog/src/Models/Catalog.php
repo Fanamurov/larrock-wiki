@@ -108,7 +108,7 @@ class Catalog extends Model implements HasMediaConversions
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
     
     use HasMediaTrait;
     use GetFilesAndImages;
@@ -161,6 +161,11 @@ class Catalog extends Model implements HasMediaConversions
         'class_element',
         'first_image'
     ];
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
 
     public function get_category()
     {

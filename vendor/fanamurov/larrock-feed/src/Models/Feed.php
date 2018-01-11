@@ -58,7 +58,7 @@ class Feed extends Model implements HasMediaConversions
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
 
     use HasMediaTrait;
     use GetFilesAndImages;
@@ -91,6 +91,11 @@ class Feed extends Model implements HasMediaConversions
         'position' => 'integer',
         'active' => 'integer'
     ];
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
 
     public function scopeCategoryInfo()
     {

@@ -99,7 +99,6 @@ return array(
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'Barryvdh\\LaravelIdeHelper\\' => array($vendorDir . '/barryvdh/laravel-ide-helper/src'),
     'Barryvdh\\Debugbar\\' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
-    'Artem328\\LaravelYandexKassa\\' => array($vendorDir . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa'),
     'App\\' => array($baseDir . '/app'),
     'AlbertCht\\InvisibleReCaptcha\\' => array($vendorDir . '/albertcht/invisible-recaptcha/src'),
 );

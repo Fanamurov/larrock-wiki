@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "albertcht/invisible-recaptcha",
-            "version": "v1.8",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/albertcht/invisible-recaptcha.git",
-                "reference": "7c32eef12e4792a4d3ddb72a71a6a6965011c19d"
+                "reference": "8881e6e4b5c32c341911f0113828d843726007eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/albertcht/invisible-recaptcha/zipball/7c32eef12e4792a4d3ddb72a71a6a6965011c19d",
-                "reference": "7c32eef12e4792a4d3ddb72a71a6a6965011c19d",
+                "url": "https://api.github.com/repos/albertcht/invisible-recaptcha/zipball/8881e6e4b5c32c341911f0113828d843726007eb",
+                "reference": "8881e6e4b5c32c341911f0113828d843726007eb",
                 "shasum": ""
             },
             "require": {
@@ -63,63 +63,7 @@
                 "php",
                 "recaptcha"
             ],
-            "time": "2017-09-30T07:27:34+00:00"
-        },
-        {
-            "name": "artem328/laravel-yandex-kassa",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/artem328/laravel-yandex-kassa.git",
-                "reference": "6e6360e2db9838232356b6a3e395ccc6725780ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/artem328/laravel-yandex-kassa/zipball/6e6360e2db9838232356b6a3e395ccc6725780ce",
-                "reference": "6e6360e2db9838232356b6a3e395ccc6725780ce",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.1",
-                "php": "~5.5|~7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Artem328\\LaravelYandexKassa\\": "src/LaravelYandexKassa"
-                },
-                "files": [
-                    "src/LaravelYandexKassa/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Artem Vozhzhov",
-                    "email": "vojjov.artem@ya.ru",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Yandex Kassa integration with Laravel framework",
-            "homepage": "https://github.com/artem328/laravel-yandex-kassa",
-            "keywords": [
-                "kassa",
-                "laravel",
-                "money",
-                "yandex",
-                "деньги",
-                "касса",
-                "яндекс"
-            ],
-            "time": "2016-05-30T10:05:11+00:00"
+            "time": "2017-12-24T12:50:49+00:00"
         },
         {
             "name": "barryvdh/laravel-debugbar",
@@ -628,16 +572,16 @@
         },
         {
             "name": "fanamurov/larrock-admin-seo",
-            "version": "v0.3.3",
+            "version": "v0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-admin-seo.git",
-                "reference": "f5d77bb024c28b407c5c13f2740eadaadbff5e85"
+                "reference": "b1d1f37a0769cf68dfcdc8f03f02162154da401a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-admin-seo/zipball/f5d77bb024c28b407c5c13f2740eadaadbff5e85",
-                "reference": "f5d77bb024c28b407c5c13f2740eadaadbff5e85",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-admin-seo/zipball/b1d1f37a0769cf68dfcdc8f03f02162154da401a",
+                "reference": "b1d1f37a0769cf68dfcdc8f03f02162154da401a",
                 "shasum": ""
             },
             "require": {
@@ -670,20 +614,20 @@
                 }
             ],
             "description": "SEO component for larrockCMS",
-            "time": "2017-12-01T05:10:09+00:00"
+            "time": "2017-12-22T07:16:59+00:00"
         },
         {
             "name": "fanamurov/larrock-blocks",
-            "version": "v0.3.9",
+            "version": "v0.3.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-blocks.git",
-                "reference": "0591f266e8d91dfbc358855314e6b7f9c73cf4a2"
+                "reference": "a76a534c94b0e4708677257c8b6342af1059602a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/0591f266e8d91dfbc358855314e6b7f9c73cf4a2",
-                "reference": "0591f266e8d91dfbc358855314e6b7f9c73cf4a2",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-blocks/zipball/a76a534c94b0e4708677257c8b6342af1059602a",
+                "reference": "a76a534c94b0e4708677257c8b6342af1059602a",
                 "shasum": ""
             },
             "require": {
@@ -717,24 +661,23 @@
                 }
             ],
             "description": "Template blocks component for larrockCMS",
-            "time": "2017-12-01T05:13:47+00:00"
+            "time": "2018-01-11T04:51:15+00:00"
         },
         {
             "name": "fanamurov/larrock-cart",
-            "version": "v0.3.8.1",
+            "version": "v0.3.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-cart.git",
-                "reference": "c30e45e02279798b369f275ad492675a12394af1"
+                "reference": "38c50ee9238da02ea4e330c18acbba8cd003196a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/c30e45e02279798b369f275ad492675a12394af1",
-                "reference": "c30e45e02279798b369f275ad492675a12394af1",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/38c50ee9238da02ea4e330c18acbba8cd003196a",
+                "reference": "38c50ee9238da02ea4e330c18acbba8cd003196a",
                 "shasum": ""
             },
             "require": {
-                "artem328/laravel-yandex-kassa": "^1.0",
                 "fanamurov/larrock-catalog": "^0.3",
                 "fanamurov/larrock-category": "^0.3",
                 "fanamurov/larrock-core": "^0.3",
@@ -770,20 +713,20 @@
                 }
             ],
             "description": "Cart to catalog component for larrockCMS",
-            "time": "2017-12-20T06:14:25+00:00"
+            "time": "2018-01-11T04:49:54+00:00"
         },
         {
             "name": "fanamurov/larrock-catalog",
-            "version": "v0.3.11.1",
+            "version": "v0.3.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-catalog.git",
-                "reference": "f6b606e2eefcb00151c34ecaf5910e686ee4a35a"
+                "reference": "8ba08f4afeeda03980409e83fc961c4d04dcb3f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/f6b606e2eefcb00151c34ecaf5910e686ee4a35a",
-                "reference": "f6b606e2eefcb00151c34ecaf5910e686ee4a35a",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-catalog/zipball/8ba08f4afeeda03980409e83fc961c4d04dcb3f9",
+                "reference": "8ba08f4afeeda03980409e83fc961c4d04dcb3f9",
                 "shasum": ""
             },
             "require": {
@@ -818,20 +761,20 @@
                 }
             ],
             "description": "Catalog component for larrockCMS",
-            "time": "2017-12-20T02:26:09+00:00"
+            "time": "2018-01-11T04:50:38+00:00"
         },
         {
             "name": "fanamurov/larrock-category",
-            "version": "v0.3.12",
+            "version": "v0.3.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-category.git",
-                "reference": "0bd87f024d198c9f04636337eadaf6a9bb04b25d"
+                "reference": "f0704b31c865b963e6f01a47af391da0fd789df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/0bd87f024d198c9f04636337eadaf6a9bb04b25d",
-                "reference": "0bd87f024d198c9f04636337eadaf6a9bb04b25d",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-category/zipball/f0704b31c865b963e6f01a47af391da0fd789df8",
+                "reference": "f0704b31c865b963e6f01a47af391da0fd789df8",
                 "shasum": ""
             },
             "require": {
@@ -865,20 +808,20 @@
                 }
             ],
             "description": "Category component for larrockCMS",
-            "time": "2017-12-19T04:17:19+00:00"
+            "time": "2018-01-11T04:52:09+00:00"
         },
         {
             "name": "fanamurov/larrock-contact",
-            "version": "v0.3.11",
+            "version": "v0.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-contact.git",
-                "reference": "73c45bbb01c0255fcdfd23fd637235d482a8b8c9"
+                "reference": "190078afc35149d46253866fa34a6eff33ef30c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/73c45bbb01c0255fcdfd23fd637235d482a8b8c9",
-                "reference": "73c45bbb01c0255fcdfd23fd637235d482a8b8c9",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-contact/zipball/190078afc35149d46253866fa34a6eff33ef30c9",
+                "reference": "190078afc35149d46253866fa34a6eff33ef30c9",
                 "shasum": ""
             },
             "require": {
@@ -910,20 +853,20 @@
                 }
             ],
             "description": "Send forms component for larrockCMS",
-            "time": "2017-12-19T04:12:45+00:00"
+            "time": "2017-12-22T07:18:29+00:00"
         },
         {
             "name": "fanamurov/larrock-core",
-            "version": "v0.3.17.2",
+            "version": "v0.3.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-core.git",
-                "reference": "8973f46544c8367abdf52bf799195a5bef71b568"
+                "reference": "08f9964345f15cd04afff8764b6daee4430417ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/8973f46544c8367abdf52bf799195a5bef71b568",
-                "reference": "8973f46544c8367abdf52bf799195a5bef71b568",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-core/zipball/08f9964345f15cd04afff8764b6daee4430417ab",
+                "reference": "08f9964345f15cd04afff8764b6daee4430417ab",
                 "shasum": ""
             },
             "require": {
@@ -989,20 +932,20 @@
                 "larrock-users",
                 "larrockCMS"
             ],
-            "time": "2017-12-20T04:54:59+00:00"
+            "time": "2018-01-11T04:44:53+00:00"
         },
         {
             "name": "fanamurov/larrock-discount",
-            "version": "v0.3.7",
+            "version": "v0.3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-discount.git",
-                "reference": "4310a99b98775ca42dd951a72ced2018f155bc30"
+                "reference": "84d2bf5344a8e946bac39eb4d8c99f8458736a07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/4310a99b98775ca42dd951a72ced2018f155bc30",
-                "reference": "4310a99b98775ca42dd951a72ced2018f155bc30",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-discount/zipball/84d2bf5344a8e946bac39eb4d8c99f8458736a07",
+                "reference": "84d2bf5344a8e946bac39eb4d8c99f8458736a07",
                 "shasum": ""
             },
             "require": {
@@ -1038,20 +981,20 @@
                 }
             ],
             "description": "Discounts in catalog component for larrockCMS",
-            "time": "2017-12-01T05:07:52+00:00"
+            "time": "2018-01-11T04:45:41+00:00"
         },
         {
             "name": "fanamurov/larrock-feed",
-            "version": "v0.3.15",
+            "version": "v0.3.16.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-feed.git",
-                "reference": "33bf1ce8cb6565274e6c71a5d59a082cc6651a97"
+                "reference": "a9948ed52212adcfcbdf91f0d89d5e868e582d4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/33bf1ce8cb6565274e6c71a5d59a082cc6651a97",
-                "reference": "33bf1ce8cb6565274e6c71a5d59a082cc6651a97",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-feed/zipball/a9948ed52212adcfcbdf91f0d89d5e868e582d4a",
+                "reference": "a9948ed52212adcfcbdf91f0d89d5e868e582d4a",
                 "shasum": ""
             },
             "require": {
@@ -1086,20 +1029,20 @@
                 }
             ],
             "description": "Feeds items component for larrockCMS",
-            "time": "2017-12-19T07:22:27+00:00"
+            "time": "2018-01-11T04:51:43+00:00"
         },
         {
             "name": "fanamurov/larrock-menu",
-            "version": "v0.3.7",
+            "version": "v0.3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-menu.git",
-                "reference": "9f3ba056eb170a0633ba4682f7d29512c30c518a"
+                "reference": "89c6ac08e27c5d66b2cbb4ac3be30867abc95619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/9f3ba056eb170a0633ba4682f7d29512c30c518a",
-                "reference": "9f3ba056eb170a0633ba4682f7d29512c30c518a",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-menu/zipball/89c6ac08e27c5d66b2cbb4ac3be30867abc95619",
+                "reference": "89c6ac08e27c5d66b2cbb4ac3be30867abc95619",
                 "shasum": ""
             },
             "require": {
@@ -1133,20 +1076,20 @@
                 }
             ],
             "description": "Menu component for larrockCMS",
-            "time": "2017-12-19T04:12:09+00:00"
+            "time": "2018-01-11T04:46:47+00:00"
         },
         {
             "name": "fanamurov/larrock-pages",
-            "version": "v0.3.13.1",
+            "version": "v0.3.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-pages.git",
-                "reference": "7433211be6bb01a17f987947bc028b7ff361964f"
+                "reference": "b84c1ca67783a4713711b351bad74700ce3999e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/7433211be6bb01a17f987947bc028b7ff361964f",
-                "reference": "7433211be6bb01a17f987947bc028b7ff361964f",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-pages/zipball/b84c1ca67783a4713711b351bad74700ce3999e1",
+                "reference": "b84c1ca67783a4713711b351bad74700ce3999e1",
                 "shasum": ""
             },
             "require": {
@@ -1180,20 +1123,20 @@
                 }
             ],
             "description": "Static pages component for larrockCMS",
-            "time": "2017-12-20T02:35:11+00:00"
+            "time": "2018-01-11T04:53:38+00:00"
         },
         {
             "name": "fanamurov/larrock-reviews",
-            "version": "v0.3.7",
+            "version": "v0.3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-reviews.git",
-                "reference": "05853081ccaddf38b5c6da2b4a9bb40f2b7df4b8"
+                "reference": "b5d2f0bbd40a7d007445817f0415d2500edc2dc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/05853081ccaddf38b5c6da2b4a9bb40f2b7df4b8",
-                "reference": "05853081ccaddf38b5c6da2b4a9bb40f2b7df4b8",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-reviews/zipball/b5d2f0bbd40a7d007445817f0415d2500edc2dc9",
+                "reference": "b5d2f0bbd40a7d007445817f0415d2500edc2dc9",
                 "shasum": ""
             },
             "require": {
@@ -1229,20 +1172,20 @@
                 }
             ],
             "description": "Reviews component for larrockCMS",
-            "time": "2017-12-19T07:23:58+00:00"
+            "time": "2018-01-11T04:52:35+00:00"
         },
         {
             "name": "fanamurov/larrock-search",
-            "version": "v0.3.4",
+            "version": "v0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-search.git",
-                "reference": "57e135342997c3aa607173fb0628973b18c38f33"
+                "reference": "39fb729a2ae6bc572c4fc166faf4977e7a75c54e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-search/zipball/57e135342997c3aa607173fb0628973b18c38f33",
-                "reference": "57e135342997c3aa607173fb0628973b18c38f33",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-search/zipball/39fb729a2ae6bc572c4fc166faf4977e7a75c54e",
+                "reference": "39fb729a2ae6bc572c4fc166faf4977e7a75c54e",
                 "shasum": ""
             },
             "require": {
@@ -1272,7 +1215,7 @@
                 }
             ],
             "description": "Search content for larrockCMS",
-            "time": "2017-12-01T05:15:24+00:00"
+            "time": "2017-12-22T07:23:27+00:00"
         },
         {
             "name": "fanamurov/larrock-smartbanners",
@@ -1319,16 +1262,16 @@
         },
         {
             "name": "fanamurov/larrock-users",
-            "version": "v0.3.13",
+            "version": "v0.3.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-users.git",
-                "reference": "f0828e9504b0a1239b463080a8b2e8c1fc7d072f"
+                "reference": "6728305a8917f43fcf32cfe20744a75939e2f46b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/f0828e9504b0a1239b463080a8b2e8c1fc7d072f",
-                "reference": "f0828e9504b0a1239b463080a8b2e8c1fc7d072f",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-users/zipball/6728305a8917f43fcf32cfe20744a75939e2f46b",
+                "reference": "6728305a8917f43fcf32cfe20744a75939e2f46b",
                 "shasum": ""
             },
             "require": {
@@ -1364,20 +1307,20 @@
                 }
             ],
             "description": "Users component for larrockCMS",
-            "time": "2017-12-19T04:17:57+00:00"
+            "time": "2018-01-11T04:53:13+00:00"
         },
         {
             "name": "fanamurov/larrock-wizard",
-            "version": "v0.3.4",
+            "version": "v0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fanamurov/larrock-wizard.git",
-                "reference": "acbaa23ed5bf4092695cd8d2a35030c26285e4b0"
+                "reference": "8dd7bf7d2a9142dfa3689bd82de62e666996f707"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fanamurov/larrock-wizard/zipball/acbaa23ed5bf4092695cd8d2a35030c26285e4b0",
-                "reference": "acbaa23ed5bf4092695cd8d2a35030c26285e4b0",
+                "url": "https://api.github.com/repos/Fanamurov/larrock-wizard/zipball/8dd7bf7d2a9142dfa3689bd82de62e666996f707",
+                "reference": "8dd7bf7d2a9142dfa3689bd82de62e666996f707",
                 "shasum": ""
             },
             "require": {
@@ -1410,7 +1353,7 @@
                 }
             ],
             "description": "Import .xlsx price to catalog component for larrockCMS",
-            "time": "2017-12-01T05:09:08+00:00"
+            "time": "2017-12-22T07:16:07+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1968,16 +1911,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.27",
+            "version": "v5.5.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b4fb6eeb227b7327b4ca7f92263b693ec9ac9875"
+                "reference": "cfafae1f2043208390a7c984e3070696f4969605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b4fb6eeb227b7327b4ca7f92263b693ec9ac9875",
-                "reference": "b4fb6eeb227b7327b4ca7f92263b693ec9ac9875",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/cfafae1f2043208390a7c984e3070696f4969605",
+                "reference": "cfafae1f2043208390a7c984e3070696f4969605",
                 "shasum": ""
             },
             "require": {
@@ -2098,7 +2041,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-12-20T15:43:48+00:00"
+            "time": "2017-12-26T16:24:40+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2309,16 +2252,16 @@
         },
         {
             "name": "maatwebsite/excel",
-            "version": "2.1.23",
+            "version": "2.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
-                "reference": "8682c955601b6de15a8c7d6e373b927cc8380627"
+                "reference": "bd71c9f462ea4a7945944691cc58acd2c85abd47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/8682c955601b6de15a8c7d6e373b927cc8380627",
-                "reference": "8682c955601b6de15a8c7d6e373b927cc8380627",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/bd71c9f462ea4a7945944691cc58acd2c85abd47",
+                "reference": "bd71c9f462ea4a7945944691cc58acd2c85abd47",
                 "shasum": ""
             },
             "require": {
@@ -2329,11 +2272,11 @@
                 "jeremeamia/superclosure": "^2.3",
                 "nesbot/carbon": "~1.0",
                 "php": ">=5.5",
-                "phpoffice/phpexcel": "1.8.*",
+                "phpoffice/phpexcel": "^1.8.1",
                 "tijsverkoyen/css-to-inline-styles": "~2.0"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9",
+                "mockery/mockery": "~1.0",
                 "orchestra/testbench": "3.1.*|3.2.*|3.3.*|3.4.*|3.5.*",
                 "phpseclib/phpseclib": "~1.0",
                 "phpunit/phpunit": "~4.0"
@@ -2383,7 +2326,7 @@
                 "import",
                 "laravel"
             ],
-            "time": "2017-09-19T19:36:48+00:00"
+            "time": "2018-01-10T11:58:11+00:00"
         },
         {
             "name": "maximebf/debugbar",
@@ -2669,16 +2612,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89"
+                "reference": "579f4ce846734a1cf55d6a531d00ca07a43e3cda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/08131e7ff29de6bb9f12275c7d35df71f25f4d89",
-                "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/579f4ce846734a1cf55d6a531d00ca07a43e3cda",
+                "reference": "579f4ce846734a1cf55d6a531d00ca07a43e3cda",
                 "shasum": ""
             },
             "require": {
@@ -2716,7 +2659,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-11-04T11:48:34+00:00"
+            "time": "2017-12-26T14:43:21+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3093,16 +3036,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.16",
+            "version": "v0.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "d4c8eab0683dc056f2ca54ca67f5388527c068b1"
+                "reference": "5069b70e8c4ea492c2b5939b6eddc78bfe41cfec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/d4c8eab0683dc056f2ca54ca67f5388527c068b1",
-                "reference": "d4c8eab0683dc056f2ca54ca67f5388527c068b1",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/5069b70e8c4ea492c2b5939b6eddc78bfe41cfec",
+                "reference": "5069b70e8c4ea492c2b5939b6eddc78bfe41cfec",
                 "shasum": ""
             },
             "require": {
@@ -3161,7 +3104,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-12-10T21:49:27+00:00"
+            "time": "2017-12-28T16:14:16+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -3347,16 +3290,16 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "6.6.3",
+            "version": "6.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
-                "reference": "ac8b8df1d2266260a20dc181b528050e09b1c9b4"
+                "reference": "a2b38d11575401182e6200f9ed25e062a5da8007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/ac8b8df1d2266260a20dc181b528050e09b1c9b4",
-                "reference": "ac8b8df1d2266260a20dc181b528050e09b1c9b4",
+                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/a2b38d11575401182e6200f9ed25e062a5da8007",
+                "reference": "a2b38d11575401182e6200f9ed25e062a5da8007",
                 "shasum": ""
             },
             "require": {
@@ -3367,7 +3310,7 @@
                 "illuminate/support": "~5.5.0",
                 "league/flysystem": "^1.0.8",
                 "php": "^7.0",
-                "spatie/image": "^1.3.3",
+                "spatie/image": "^1.4",
                 "spatie/pdf-to-image": "^1.2",
                 "spatie/temporary-directory": "^1.1"
             },
@@ -3423,7 +3366,7 @@
                 "media",
                 "spatie"
             ],
-            "time": "2017-11-28T10:07:52+00:00"
+            "time": "2018-01-07T06:34:55+00:00"
         },
         {
             "name": "spatie/pdf-to-image",
@@ -3578,16 +3521,16 @@
         },
         {
             "name": "symfony/class-loader",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/class-loader.git",
-                "reference": "e8d36a7b5568d232f5c3f8ef92665836b9f1e038"
+                "reference": "e63c12699822bb3b667e7216ba07fbcc3a3e203e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/class-loader/zipball/e8d36a7b5568d232f5c3f8ef92665836b9f1e038",
-                "reference": "e8d36a7b5568d232f5c3f8ef92665836b9f1e038",
+                "url": "https://api.github.com/repos/symfony/class-loader/zipball/e63c12699822bb3b667e7216ba07fbcc3a3e203e",
+                "reference": "e63c12699822bb3b667e7216ba07fbcc3a3e203e",
                 "shasum": ""
             },
             "require": {
@@ -3630,20 +3573,20 @@
             ],
             "description": "Symfony ClassLoader Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-05T16:10:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "9f21adfb92a9315b73ae2ed43138988ee4913d4e"
+                "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/9f21adfb92a9315b73ae2ed43138988ee4913d4e",
-                "reference": "9f21adfb92a9315b73ae2ed43138988ee4913d4e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8394c8ef121949e8f858f13bc1e34f05169e4e7d",
+                "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d",
                 "shasum": ""
             },
             "require": {
@@ -3699,20 +3642,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:40:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "eac760b414cf1f64362c3dd047b989e4db121332"
+                "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/eac760b414cf1f64362c3dd047b989e4db121332",
-                "reference": "eac760b414cf1f64362c3dd047b989e4db121332",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/e66394bc7610e69279bfdb3ab11b4fe65403f556",
+                "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556",
                 "shasum": ""
             },
             "require": {
@@ -3752,20 +3695,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:40:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "543deab3ffff94402440b326fc94153bae2dfa7a"
+                "reference": "603b95dda8b00020e4e6e60dc906e7b715b1c245"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/543deab3ffff94402440b326fc94153bae2dfa7a",
-                "reference": "543deab3ffff94402440b326fc94153bae2dfa7a",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/603b95dda8b00020e4e6e60dc906e7b715b1c245",
+                "reference": "603b95dda8b00020e4e6e60dc906e7b715b1c245",
                 "shasum": ""
             },
             "require": {
@@ -3808,20 +3751,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-12T08:27:14+00:00"
+            "time": "2018-01-03T17:14:19+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "b869cbf8a15ca6261689de2c28a7d7f2d0706835"
+                "reference": "26b87b6bca8f8f797331a30b76fdae5342dc26ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b869cbf8a15ca6261689de2c28a7d7f2d0706835",
-                "reference": "b869cbf8a15ca6261689de2c28a7d7f2d0706835",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/26b87b6bca8f8f797331a30b76fdae5342dc26ca",
+                "reference": "26b87b6bca8f8f797331a30b76fdae5342dc26ca",
                 "shasum": ""
             },
             "require": {
@@ -3871,20 +3814,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:40:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "dac8d7db537bac7ad8143eb11360a8c2231f251a"
+                "reference": "613e26310776f49a1773b6737c6bd554b8bc8c6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/dac8d7db537bac7ad8143eb11360a8c2231f251a",
-                "reference": "dac8d7db537bac7ad8143eb11360a8c2231f251a",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/613e26310776f49a1773b6737c6bd554b8bc8c6f",
+                "reference": "613e26310776f49a1773b6737c6bd554b8bc8c6f",
                 "shasum": ""
             },
             "require": {
@@ -3920,20 +3863,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-05T16:10:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "59bf131b5460227a2f583a7dbe6b179f98f9e0a5"
+                "reference": "4a213be1cc8598089b8c7451529a2927b49b5d26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/59bf131b5460227a2f583a7dbe6b179f98f9e0a5",
-                "reference": "59bf131b5460227a2f583a7dbe6b179f98f9e0a5",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4a213be1cc8598089b8c7451529a2927b49b5d26",
+                "reference": "4a213be1cc8598089b8c7451529a2927b49b5d26",
                 "shasum": ""
             },
             "require": {
@@ -3974,20 +3917,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:40:10+00:00"
+            "time": "2018-01-03T17:14:19+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "48325096bbda77b983e642d21a4dd9bdde3ab73e"
+                "reference": "1c2a82d6a8ec9b354fe4ef48ad1ad3f1a4f7db0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/48325096bbda77b983e642d21a4dd9bdde3ab73e",
-                "reference": "48325096bbda77b983e642d21a4dd9bdde3ab73e",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/1c2a82d6a8ec9b354fe4ef48ad1ad3f1a4f7db0e",
+                "reference": "1c2a82d6a8ec9b354fe4ef48ad1ad3f1a4f7db0e",
                 "shasum": ""
             },
             "require": {
@@ -4062,7 +4005,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-15T02:05:18+00:00"
+            "time": "2018-01-05T08:33:00+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4292,16 +4235,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "bb3ef65d493a6d57297cad6c560ee04e2a8f5098"
+                "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/bb3ef65d493a6d57297cad6c560ee04e2a8f5098",
-                "reference": "bb3ef65d493a6d57297cad6c560ee04e2a8f5098",
+                "url": "https://api.github.com/repos/symfony/process/zipball/ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
+                "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
                 "shasum": ""
             },
             "require": {
@@ -4337,20 +4280,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:40:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/routing",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "5f248dfac5e4660c74982eb3dadc71cf58595570"
+                "reference": "e2b6d6fe7b090c7af720b75c7722c6dfa7a52658"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/5f248dfac5e4660c74982eb3dadc71cf58595570",
-                "reference": "5f248dfac5e4660c74982eb3dadc71cf58595570",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/e2b6d6fe7b090c7af720b75c7722c6dfa7a52658",
+                "reference": "e2b6d6fe7b090c7af720b75c7722c6dfa7a52658",
                 "shasum": ""
             },
             "require": {
@@ -4415,20 +4358,20 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-12-14T22:37:31+00:00"
+            "time": "2018-01-04T15:09:34+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "4c5d5582baf2829751a5207659329c1f52eedeb6"
+                "reference": "17b5962d252b2d6d1d37a2485ebb7ddc5b2bef0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/4c5d5582baf2829751a5207659329c1f52eedeb6",
-                "reference": "4c5d5582baf2829751a5207659329c1f52eedeb6",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/17b5962d252b2d6d1d37a2485ebb7ddc5b2bef0a",
+                "reference": "17b5962d252b2d6d1d37a2485ebb7ddc5b2bef0a",
                 "shasum": ""
             },
             "require": {
@@ -4483,20 +4426,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-12T08:27:14+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "757074cf71b952ce9e75b557538948811c2bf006"
+                "reference": "545be7e78ccbec43e599f10ff7500d0b09eda9d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/757074cf71b952ce9e75b557538948811c2bf006",
-                "reference": "757074cf71b952ce9e75b557538948811c2bf006",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/545be7e78ccbec43e599f10ff7500d0b09eda9d0",
+                "reference": "545be7e78ccbec43e599f10ff7500d0b09eda9d0",
                 "shasum": ""
             },
             "require": {
@@ -4552,7 +4495,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-12-11T22:06:16+00:00"
+            "time": "2018-01-03T17:14:19+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -5625,16 +5568,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "5.0.5",
+            "version": "5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "283b9f4f670e3a6fd6c4ff95c51a952eb5c75933"
+                "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/283b9f4f670e3a6fd6c4ff95c51a952eb5c75933",
-                "reference": "283b9f4f670e3a6fd6c4ff95c51a952eb5c75933",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
+                "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
                 "shasum": ""
             },
             "require": {
@@ -5680,7 +5623,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2017-12-10T08:01:53+00:00"
+            "time": "2018-01-06T05:45:45+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -5729,16 +5672,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "1174d9018191e93cb9d719edec01257fc05f8158"
+                "reference": "b11c729f95109b56a0fe9650c6a63a0fcd8c439f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/1174d9018191e93cb9d719edec01257fc05f8158",
-                "reference": "1174d9018191e93cb9d719edec01257fc05f8158",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/b11c729f95109b56a0fe9650c6a63a0fcd8c439f",
+                "reference": "b11c729f95109b56a0fe9650c6a63a0fcd8c439f",
                 "shasum": ""
             },
             "require": {
@@ -5789,7 +5732,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-11-03T07:16:52+00:00"
+            "time": "2017-12-22T14:50:35+00:00"
         },
         {
             "name": "sebastian/diff",

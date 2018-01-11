@@ -2,18 +2,20 @@ Invisible reCAPTCHA
 ==========
 ![php-badge](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg)
 [![packagist-badge](https://img.shields.io/packagist/v/albertcht/invisible-recaptcha.svg)](https://packagist.org/packages/albertcht/invisible-recaptcha)
+[![Total Downloads](https://poser.pugx.org/albertcht/invisible-recaptcha/downloads)](https://packagist.org/packages/albertcht/invisible-recaptcha)
 [![travis-badge](https://api.travis-ci.org/albertcht/invisible-recaptcha.svg?branch=master)](https://travis-ci.org/albertcht/invisible-recaptcha)
 
 ![invisible_recaptcha_demo](http://i.imgur.com/1dZ9XKn.png)
 
 ## Why Invisible reCAPTCHA?
+
 Invisible reCAPTCHA is an improved version of reCAPTCHA v2(no captcha).
 In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they are human. In invisible reCAPTCHA, there will be not embed a captcha box for users to click. It's totally invisible! Only the badge will show on the buttom of the page to hint users that your website is using this technology. (The badge could be hidden, but not suggested.)
 
 ## Notice
-After `version 1.8`, configs part has been refactored. Please pass your options config to `InvisibleRecaptcha` except `siteKey` and `secretKey`.
 
-Please modify your configs parameter if you are not using this package with Laravel after you upgrade to `version 1.8`.
+* The master branch doesn't support multi captchas feature, please use `multi-forms` branch if you need it. (**Most of the time you are misusing recaptcha when you try to put multiple captchas in one page.**)
+* Please modify your configs parameter if you are not using this package with Laravel after you upgrade to `version 1.8`.
 
 ## Installation
 
@@ -194,7 +196,7 @@ _submitEvent = function() {
     _submitForm();
 }
 ```
-Here's am example to use an ajax submit (using jquery selector)
+Here's an example to use an ajax submit (using jquery selector)
 ```javascript
 _submitEvent = function() {
     $.ajax({
@@ -217,6 +219,10 @@ _submitEvent = function() {
     });
 };
 ```
+## Example Repository
+Repo: https://github.com/albertcht/invisible-recaptcha-example
+
+This repo demonstrates how to use this package with ajax way.
 
 ## Showcases
 

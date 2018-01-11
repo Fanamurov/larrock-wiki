@@ -50,7 +50,7 @@ class Page extends Model implements HasMediaConversions
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
 
     use HasMediaTrait;
     use SearchableTrait;
@@ -78,6 +78,11 @@ class Page extends Model implements HasMediaConversions
     ];
 
     protected $dates = ['created_at', 'updated_at', 'date'];
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
 
     public function scopeActive($query)
     {

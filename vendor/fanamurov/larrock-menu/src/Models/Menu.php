@@ -5,6 +5,7 @@ namespace Larrock\ComponentMenu\Models;
 use Illuminate\Database\Eloquent\Model;
 use Larrock\ComponentMenu\Facades\LarrockMenu;
 use Larrock\Core\Traits\GetLink;
+use Larrock\Core\Component;
 
 /**
  * Larrock\ComponentMenu\Models\Menu
@@ -36,6 +37,11 @@ use Larrock\Core\Traits\GetLink;
  */
 class Menu extends Model
 {
+    /**
+     * @var $this Component
+     */
+    protected $config;
+    
     use GetLink;
 
     public function __construct(array $attributes = [])
@@ -44,6 +50,11 @@ class Menu extends Model
         $this->fillable(LarrockMenu::addFillableUserRows([]));
         $this->table = LarrockMenu::getConfig()->table;
         $this->config = LarrockMenu::getConfig();
+    }
+
+    public function getConfig()
+    {
+        return $this->config;
     }
 
     public function get_child()

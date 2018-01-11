@@ -21,7 +21,6 @@ class ComposerStaticInitf6121fe70b74c3bfa2e5ae85d447a514
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
         'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '1f63bb6c77c48609b17198f348ac9aae' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/helpers.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
     );
 
@@ -172,7 +171,6 @@ class ComposerStaticInitf6121fe70b74c3bfa2e5ae85d447a514
         ),
         'A' => 
         array (
-            'Artem328\\LaravelYandexKassa\\' => 28,
             'App\\' => 4,
             'AlbertCht\\InvisibleReCaptcha\\' => 29,
         ),
@@ -553,10 +551,6 @@ class ComposerStaticInitf6121fe70b74c3bfa2e5ae85d447a514
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src',
         ),
-        'Artem328\\LaravelYandexKassa\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa',
-        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -658,18 +652,6 @@ class ComposerStaticInitf6121fe70b74c3bfa2e5ae85d447a514
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
-        'Artem328\\LaravelYandexKassa\\Events\\BeforeCancelOrderResponse' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Events/BeforeCancelOrderResponse.php',
-        'Artem328\\LaravelYandexKassa\\Events\\BeforeCheckOrderResponse' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Events/BeforeCheckOrderResponse.php',
-        'Artem328\\LaravelYandexKassa\\Events\\BeforePaymentAvisoResponse' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Events/BeforePaymentAvisoResponse.php',
-        'Artem328\\LaravelYandexKassa\\Events\\BeforeResponse' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Events/BeforeResponse.php',
-        'Artem328\\LaravelYandexKassa\\Events\\YandexKassaEvent' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Events/YandexKassaEvent.php',
-        'Artem328\\LaravelYandexKassa\\Exceptions\\YandexKassaInvalidParameterException' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Exceptions/YandexKassaInvalidParameterException.php',
-        'Artem328\\LaravelYandexKassa\\Exceptions\\YandexKassaNoPaymentTypesProvidedException' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Exceptions/YandexKassaNoPaymentTypesProvidedException.php',
-        'Artem328\\LaravelYandexKassa\\Facades\\YandexKassa' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Facades/YandexKassa.php',
-        'Artem328\\LaravelYandexKassa\\Requests\\YandexKassaRequest' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/Requests/YandexKassaRequest.php',
-        'Artem328\\LaravelYandexKassa\\YandexKassa' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/YandexKassa.php',
-        'Artem328\\LaravelYandexKassa\\YandexKassaController' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/YandexKassaController.php',
-        'Artem328\\LaravelYandexKassa\\YandexKassaServiceProvider' => __DIR__ . '/..' . '/artem328/laravel-yandex-kassa/src/LaravelYandexKassa/YandexKassaServiceProvider.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
         'Barryvdh\\Debugbar\\Console\\ClearCommand' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Console/ClearCommand.php',
         'Barryvdh\\Debugbar\\Controllers\\AssetController' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Controllers/AssetController.php',
@@ -2588,6 +2570,7 @@ class ComposerStaticInitf6121fe70b74c3bfa2e5ae85d447a514
         'Larrock\\Core\\Traits\\GetFilesAndImages' => __DIR__ . '/..' . '/fanamurov/larrock-core/src/Traits/GetFilesAndImages.php',
         'Larrock\\Core\\Traits\\GetLink' => __DIR__ . '/..' . '/fanamurov/larrock-core/src/Traits/GetLink.php',
         'Larrock\\Core\\Traits\\GetSeo' => __DIR__ . '/..' . '/fanamurov/larrock-core/src/Traits/GetSeo.php',
+        'Larrock\\Core\\Traits\\ShareMethods' => __DIR__ . '/..' . '/fanamurov/larrock-core/src/Traits/ShareMethods.php',
         'League\\Flysystem\\AdapterInterface' => __DIR__ . '/..' . '/league/flysystem/src/AdapterInterface.php',
         'League\\Flysystem\\Adapter\\AbstractAdapter' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/AbstractAdapter.php',
         'League\\Flysystem\\Adapter\\AbstractFtpAdapter' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/AbstractFtpAdapter.php',

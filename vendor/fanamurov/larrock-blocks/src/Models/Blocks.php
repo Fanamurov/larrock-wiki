@@ -44,7 +44,7 @@ class Blocks extends Model implements HasMediaConversions
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
 
     use HasMediaTrait;
     use SearchableTrait;
@@ -74,6 +74,11 @@ class Blocks extends Model implements HasMediaConversions
     public function getFullUrlAttribute()
     {
         return '/blocks/'. $this->url;
+    }
+
+    public function getConfig()
+    {
+        return $this->config;
     }
 
     /**

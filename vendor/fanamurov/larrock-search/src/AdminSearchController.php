@@ -4,11 +4,15 @@ namespace Larrock\ComponentSearch;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Larrock\Core\Traits\ShareMethods;
 
 class AdminSearchController extends Controller
 {
+    use ShareMethods;
+
     public function __construct()
     {
+        $this->shareMethods();
         $this->middleware(\LarrockPages::combineAdminMiddlewares());
     }
 

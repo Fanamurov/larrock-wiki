@@ -17,7 +17,7 @@ class Reviews extends Model implements HasMediaConversions
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
 
     use SearchableTrait;
     use GetFilesAndImages;
@@ -48,6 +48,11 @@ class Reviews extends Model implements HasMediaConversions
         'user_rating',
         'answer_author_info'
     ];
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
 
     public function getUserRatingAttribute()
     {

@@ -86,7 +86,7 @@ class Category extends Model implements HasMediaConversions
     /**
      * @var $this Component
      */
-    public $config;
+    protected $config;
     
     use SearchableTrait;
     use HasMediaTrait;
@@ -127,6 +127,11 @@ class Category extends Model implements HasMediaConversions
             'category.title' => 10
         ]
     ];
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
 
     public function getGetParentSeoTitleAttribute()
     {
