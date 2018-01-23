@@ -6204,60 +6204,6 @@
         "description": "Catalog component for larrockCMS"
     },
     {
-        "name": "fanamurov/larrock-cart",
-        "version": "v0.3.12.2",
-        "version_normalized": "0.3.12.2",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Fanamurov/larrock-cart.git",
-            "reference": "38c50ee9238da02ea4e330c18acbba8cd003196a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/38c50ee9238da02ea4e330c18acbba8cd003196a",
-            "reference": "38c50ee9238da02ea4e330c18acbba8cd003196a",
-            "shasum": ""
-        },
-        "require": {
-            "fanamurov/larrock-catalog": "^0.3",
-            "fanamurov/larrock-category": "^0.3",
-            "fanamurov/larrock-core": "^0.3",
-            "fanamurov/larrock-users": "^0.3",
-            "gloudemans/shoppingcart": "^2.3"
-        },
-        "time": "2018-01-11T04:49:54+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
-                ],
-                "aliases": {
-                    "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Larrock\\ComponentCart\\": "src",
-                "Larrock\\ComponentCart\\Models\\": "src/Models",
-                "Larrock\\ComponentCart\\Requests\\": "src/Requests"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Alexandr Fanamurov",
-                "email": "fanamurov@ya.ru"
-            }
-        ],
-        "description": "Cart to catalog component for larrockCMS"
-    },
-    {
         "name": "fanamurov/larrock-discount",
         "version": "v0.3.8.2",
         "version_normalized": "0.3.8.2",
@@ -6488,5 +6434,59 @@
             "import",
             "laravel"
         ]
+    },
+    {
+        "name": "fanamurov/larrock-cart",
+        "version": "v0.3.13",
+        "version_normalized": "0.3.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Fanamurov/larrock-cart.git",
+            "reference": "2ff178cf60624763432598090f58d6c02da3730b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Fanamurov/larrock-cart/zipball/2ff178cf60624763432598090f58d6c02da3730b",
+            "reference": "2ff178cf60624763432598090f58d6c02da3730b",
+            "shasum": ""
+        },
+        "require": {
+            "fanamurov/larrock-catalog": "^0.3",
+            "fanamurov/larrock-category": "^0.3",
+            "fanamurov/larrock-core": "^0.3",
+            "fanamurov/larrock-users": "^0.3",
+            "gloudemans/shoppingcart": "^2.3"
+        },
+        "time": "2018-01-11T06:28:52+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Larrock\\ComponentCart\\LarrockComponentCartServiceProvider"
+                ],
+                "aliases": {
+                    "LarrockCart": "Larrock\\ComponentCart\\Facades\\LarrockCart"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Larrock\\ComponentCart\\": "src",
+                "Larrock\\ComponentCart\\Models\\": "src/Models",
+                "Larrock\\ComponentCart\\Requests\\": "src/Requests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Fanamurov",
+                "email": "fanamurov@ya.ru"
+            }
+        ],
+        "description": "Cart to catalog component for larrockCMS"
     }
 ]
